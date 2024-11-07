@@ -8,7 +8,6 @@
 ## II. Screenshots of Login and Sign Up
 
 ### 1.Home Login Screen=
-https://drive.google.com/uc?id=1KEeP-iUU51uIF02FEWSw2xvSjdGDQiqj
 
 ![First Screen](https://drive.google.com/uc?id=1m45dLk3OUCeEZSSBPc1AW8IEabsOaiIP)
 
