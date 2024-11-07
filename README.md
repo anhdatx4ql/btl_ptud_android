@@ -8,13 +8,14 @@
 ## II. Screenshots of Login and Sign Up
 
 ### 1.Home Login Screen=
-![First Screen](https://drive.google.com/drive/folders/1c1i_-yl8hb0mw20Q9GqyM78xEUf1GklZ)
+![First Screen](https://drive.google.com/file/d/1m45dLk3OUCeEZSSBPc1AW8IEabsOaiIP/view)
 
 ### 2. Login Screen
-![Login Screen](https://drive.google.com/drive/folders/1c1i_-yl8hb0mw20Q9GqyM78xEUf1GklZ)
+https://drive.google.com/uc?id=1c1i_-yl8hb0mw20Q9GqyM78xEUf1GklZ
+![Login Screen](https://drive.google.com/file/d/12fGPGlVJZ1lQF1l3c8On9zlBvWMsh1QV/view)
 
 ### 3. Sign Up Screen
-![Sign Up Screen](https://drive.google.com/drive/folders/1c1i_-yl8hb0mw20Q9GqyM78xEUf1GklZ)
+![Sign Up Screen](https://drive.google.com/file/d/1KEeP-iUU51uIF02FEWSw2xvSjdGDQiqj/view)
 
 ---
 
