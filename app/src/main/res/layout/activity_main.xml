@@ -1,19 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:background="@drawable/background_home"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:padding="15dp"
+                android:background="@drawable/custom_search"
+                android:layout_marginTop="26dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="340dp"
+                android:layout_marginRight="200dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/loupe"
+                android:id="@+id/btn_search"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <EditText
+            android:id="@+id/edt_searchQuiz"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="80dp"
+            android:hint="Enter Set Quiz Name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="@style/EditTextSearch"
+            />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textSize="23sp"
+            android:text="Browse by subject"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@drawable/background_menu"
+            android:layout_gravity="bottom||center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_marginLeft="75dp"
+                android:id="@+id/btn_Home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+
+                android:padding="10dp"
+                android:id="@+id/btn_addQuiz"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/add" />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+
+                android:padding="10dp"
+                android:id="@+id/btnLibrary"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/library" />
+
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/btnUser"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>
