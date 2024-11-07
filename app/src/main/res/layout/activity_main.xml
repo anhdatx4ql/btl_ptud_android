@@ -72,7 +72,7 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:background="@drawable/background_menu"
-            android:layout_gravity="bottom||center"
+            android:layout_gravity="bottom"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="50dp">
