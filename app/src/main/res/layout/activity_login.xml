@@ -120,6 +120,7 @@
 
 
            <Switch
+               android:id="@+id/swRemember"
                android:layout_marginLeft="20dp"
                android:layout_centerVertical="true"
                android:layout_width="50dp"
