@@ -158,9 +158,9 @@
                android:layout_height="50dp"
                android:layout_gravity="center"
                android:layout_marginTop="20dp"
-               android:background="@drawable/bg_btn_login"
                android:text="Login"
-               android:textSize="20sp" />
+               style="@style/ButtonSignUp"
+               />
        </LinearLayout>
 
 
