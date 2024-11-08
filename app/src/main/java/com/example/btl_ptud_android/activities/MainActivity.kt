@@ -35,10 +35,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun LibraryHome() {
-
+        binding.btnLibrary.setOnClickListener{
+            val intent = Intent(this, LibraryActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun AddQuizHome() {
-
+        binding.btnAddQuiz.setOnClickListener{
+            val intent = Intent(this, AddQuizActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

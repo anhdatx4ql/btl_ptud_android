@@ -1,5 +1,6 @@
 package com.example.btl_ptud_android.activities
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +20,11 @@ class ProfileActivity : AppCompatActivity() {
         SystemSetting()
         LogOut()
 
+        //menu
+        MainActivityHome()
+        LibraryHome()
+        AddQuizHome()
+
     }
 
     private fun LogOut() {
@@ -30,6 +36,28 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun ProfileSetting() {
+
+    }
+
+    private fun MainActivityHome() {
+        binding.btnHome.setOnClickListener {
+            val intent = Intent(this, HomeLoginActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun LibraryHome() {
+        binding.btnLibrary.setOnClickListener {
+            val intent = Intent(this, LibraryActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun AddQuizHome() {
+        binding.btnAddQuiz.setOnClickListener {
+            val intent = Intent(this, AddQuizActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
