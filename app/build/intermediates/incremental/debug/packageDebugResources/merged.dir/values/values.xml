@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">btl_ptud_android</string>
+    <string name="sign_up">Sign Up</string>
+    <style name="Base.Theme.Btl_ptud_android" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="ButtonLogOut" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/background_logout</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="ButtonLogin" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_edt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="ButtonSignUp" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_login</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="EditTextSearch" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_search</item>
+        <item name="android:textSize">16sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="Theme.Btl_ptud_android" parent="Base.Theme.Btl_ptud_android"/>
+</resources>

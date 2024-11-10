@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_logout.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/logout.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/layout_activity_home_login.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_home_login.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_custom_edt.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/custom_edt.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_background_menu.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/background_menu.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_icon_profile.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/icon_profile.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/layout_activity_profile.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_bg_btn_login.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/bg_btn_login.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_home.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/home.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_background_home.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/background_home.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_loupe.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/loupe.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_linkedin.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/linkedin.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_google_plus.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/google_plus.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_user.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/user.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_library.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/library.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_bg_hide_password.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/bg_hide_password.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_background_login.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/background_login.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_custom_search.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/custom_search.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/layout_activity_library.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_library.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_twitter.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/twitter.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/layout_activity_add_quiz.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_add_quiz.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_avatar_profile.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/avatar_profile.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/layout_activity_login.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_icon.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/icon.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_setting_app.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/setting_app.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_background_forgot.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/background_forgot.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_background_logout.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/background_logout.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_edit_profile_img.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/edit_profile_img.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_facebook.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-33:/drawable_add.png.flat",
+        "source": "com.example.btl_ptud_android.app-main-35:/drawable/add.png"
+    }
+]
