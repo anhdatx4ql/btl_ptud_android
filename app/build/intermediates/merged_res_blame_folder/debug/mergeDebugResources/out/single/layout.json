@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_login.xml",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_library.xml",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_library.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_home_login.xml",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_home_login.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_profile.xml",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_sign_up.xml",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_add_quiz.xml",
+        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_add_quiz.xml"
+    }
+]
