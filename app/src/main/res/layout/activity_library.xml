@@ -53,16 +53,10 @@
 
             </ListView>
 
-            <TextView
-                android:gravity="center"
-                android:text="Library is empty now!"
-                android:layout_marginTop="250dp"
-                android:visibility="visible"
-                android:textColor="#8A8787"
-                android:textSize="30sp"
-                android:id="@+id/txtNoData"
+            <ListView
+                android:id="@+id/listViewCategories"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"/>
+                android:layout_height="match_parent" />
 
 
         </LinearLayout>
@@ -87,7 +81,6 @@
 
             <ImageView
                 android:layout_marginRight="20dp"
-
                 android:padding="10dp"
                 android:id="@+id/btn_addQuiz"
                 android:layout_width="50dp"
@@ -96,7 +89,6 @@
 
             <ImageView
                 android:layout_marginRight="20dp"
-
                 android:padding="10dp"
                 android:id="@+id/btnLibrary"
                 android:layout_width="50dp"

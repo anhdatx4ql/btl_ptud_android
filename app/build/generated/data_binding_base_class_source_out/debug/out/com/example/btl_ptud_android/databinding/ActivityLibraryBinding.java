@@ -40,18 +40,18 @@ public final class ActivityLibraryBinding implements ViewBinding {
   public final ListView listLib;
 
   @NonNull
+  public final ListView listViewCategories;
+
+  @NonNull
   public final LinearLayout main;
 
   @NonNull
   public final TextView textView3;
 
-  @NonNull
-  public final TextView txtNoData;
-
   private ActivityLibraryBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnAdd,
       @NonNull ImageView btnAddQuiz, @NonNull ImageView btnHome, @NonNull ImageView btnLibrary,
-      @NonNull ImageView btnUser, @NonNull ListView listLib, @NonNull LinearLayout main,
-      @NonNull TextView textView3, @NonNull TextView txtNoData) {
+      @NonNull ImageView btnUser, @NonNull ListView listLib, @NonNull ListView listViewCategories,
+      @NonNull LinearLayout main, @NonNull TextView textView3) {
     this.rootView = rootView;
     this.btnAdd = btnAdd;
     this.btnAddQuiz = btnAddQuiz;
@@ -59,9 +59,9 @@ public final class ActivityLibraryBinding implements ViewBinding {
     this.btnLibrary = btnLibrary;
     this.btnUser = btnUser;
     this.listLib = listLib;
+    this.listViewCategories = listViewCategories;
     this.main = main;
     this.textView3 = textView3;
-    this.txtNoData = txtNoData;
   }
 
   @Override
@@ -127,6 +127,12 @@ public final class ActivityLibraryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.listViewCategories;
+      ListView listViewCategories = ViewBindings.findChildViewById(rootView, id);
+      if (listViewCategories == null) {
+        break missingId;
+      }
+
       LinearLayout main = (LinearLayout) rootView;
 
       id = R.id.textView3;
@@ -135,14 +141,8 @@ public final class ActivityLibraryBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txtNoData;
-      TextView txtNoData = ViewBindings.findChildViewById(rootView, id);
-      if (txtNoData == null) {
-        break missingId;
-      }
-
       return new ActivityLibraryBinding((LinearLayout) rootView, btnAdd, btnAddQuiz, btnHome,
-          btnLibrary, btnUser, listLib, main, textView3, txtNoData);
+          btnLibrary, btnUser, listLib, listViewCategories, main, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -39,19 +39,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.Btl_ptud_android" >
         <activity
+            android:name="com.example.btl_ptud_android.activities.QuestionActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.btl_ptud_android.activities.AddLibraryActivity"
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.AddQuizActivity"
-            android:exported="false" />
+            android:exported="false" /> <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
         <activity
-            android:name="com.example.btl_ptud_android.activities.LibraryActivity"
+            android:name="com.example.btl_ptud_android.activities.HomeLoginActivity"
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.btl_ptud_android.activities.HomeLoginActivity"
+            android:name="com.example.btl_ptud_android.activities.LibraryActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
