@@ -1,34 +1,34 @@
 [
     {
-        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-32:/layout/activity_library.xml",
-        "source": "com.example.btl_ptud_android.app-main-35:/layout/activity_library.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_add_library.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_add_library.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-32:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-35:\\layout\\activity_login.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-32:\\layout\\activity_home_login.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-35:\\layout\\activity_home_login.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_add_quiz.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_add_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-32:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-35:\\layout\\activity_main.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_library.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_library.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-32:\\layout\\activity_add_quiz.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-35:\\layout\\activity_add_quiz.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_home_login.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_home_login.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-32:\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-35:\\layout\\activity_profile.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-32:\\layout\\activity_sign_up.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-35:\\layout\\activity_sign_up.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_profile.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-32:\\layout\\activity_library.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-35:\\layout\\activity_library.xml"
+        "merged": "com.example.btl_ptud_android.app-mergeDebugResources-44:/layout/activity_sign_up.xml",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_sign_up.xml"
     }
 ]

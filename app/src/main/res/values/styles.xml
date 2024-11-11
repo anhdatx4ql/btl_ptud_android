@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--   ButtonSignUp-->
+    <style name="ButtonSignUp" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_login</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+<!--    ButtonLogin-->
+    <style name="ButtonLogin" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_edt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+    <style name="EditTextSearch" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_search</item>
+        <item name="android:textSize">16sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+    <style name="ButtonLogOut" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/background_logout</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+</resources>
