@@ -8,6 +8,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.btl_ptud_android.R
 import com.example.btl_ptud_android.databinding.ActivityHomeLoginBinding
+import com.google.firebase.Firebase
+import com.google.firebase.database.database
 
 class HomeLoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeLoginBinding
@@ -18,7 +20,11 @@ class HomeLoginActivity : AppCompatActivity() {
 
         LoginScreen()
         SignUpScreen()
+        // Write a message to the database
+        val database = Firebase.database
+        val myRef = database.getReference("message")
 
+        myRef.setValue("Hello, Tôi là Đạt!")
     }
 
     private fun SignUpScreen() {
