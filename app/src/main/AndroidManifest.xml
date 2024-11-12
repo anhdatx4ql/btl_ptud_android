@@ -16,6 +16,9 @@
             android:name=".activities.QuestionActivity"
             android:exported="false" />
         <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.AddLibraryActivity"
             android:exported="false" />
         <activity
