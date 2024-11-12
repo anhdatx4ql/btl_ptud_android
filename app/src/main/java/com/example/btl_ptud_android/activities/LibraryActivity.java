@@ -2,19 +2,16 @@ package com.example.btl_ptud_android.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.example.btl_ptud_android.AdapterCustom.MyCategoriesAdapter;
 import com.example.btl_ptud_android.R;
 import com.example.btl_ptud_android.databinding.ActivityLibraryBinding;
+import com.example.btl_ptud_android.models.Categories;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -81,10 +78,10 @@ public class LibraryActivity extends AppCompatActivity {
     }
 
     private void AddQuizHome() {
-        binding.btnAddQuiz.setOnClickListener(new View.OnClickListener(){
+        binding.btnAdd.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LibraryActivity.this, AddQuizActivity.class);
+                Intent intent = new Intent(LibraryActivity.this, AddLibraryActivity.class);
                 startActivity(intent);
             }
 

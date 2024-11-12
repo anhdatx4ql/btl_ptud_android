@@ -3258,6 +3258,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addQuestionButton
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3267,6 +3268,10 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id answer_1
+id answer_2
+id answer_3
+id answer_4
 id antiClockwise
 id anticipate
 id arc
@@ -3388,6 +3393,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextText
 id edit_query
 id edit_text_id
 id edt_password_login
@@ -3474,7 +3480,6 @@ id listViewCategories
 id list_item
 id list_lib
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -3553,6 +3558,7 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numberListContainer
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3591,6 +3597,8 @@ id pressed
 id profile_image
 id progress_circular
 id progress_horizontal
+id questionContainer
+id questionNumberText
 id radio
 id ratio
 id rectangles
@@ -3702,6 +3710,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_question
 id title_template
 id toggle
 id top
@@ -3860,7 +3869,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_library
-layout activity_add_quiz
+layout activity_add_questions
 layout activity_forgot_password
 layout activity_home_login
 layout activity_library
@@ -3948,7 +3957,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout quiz_item_recycle_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -5446,6 +5454,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml activity_add_library_scene
 xml backup_rules
 xml data_extraction_rules
 xml ga_ad_services_config

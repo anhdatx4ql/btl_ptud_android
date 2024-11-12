@@ -3,7 +3,7 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/numberListContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
@@ -48,7 +48,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="500dp">
+        android:layout_height="580dp">
 
         <TextView
             android:layout_marginLeft="10dp"
@@ -60,7 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"/>
 
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSubject"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
