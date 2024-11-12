@@ -33,7 +33,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
 
     private fun ResetPass() {
         binding.btnReset.setOnClickListener {
-           var email = binding.edtUsernameLogin.text.toString()
+           val email = binding.edtUsernameLogin.text.toString()
             if (email.isEmpty()){
                 Toast.makeText(this,"Vui Long Nhap Du Thong Tin",Toast.LENGTH_SHORT).show()
             }else{
