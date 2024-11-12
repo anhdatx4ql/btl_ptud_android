@@ -77,7 +77,10 @@ class LoginActivity : AppCompatActivity() {
 
     private fun ForgotPassword() {
         binding.btnForgot.setOnClickListener{
-            Toast.makeText(this,"Forgot Password",Toast.LENGTH_LONG).show()
+            val email = binding.edtUsernameLogin.text.toString()
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            intent.putExtra("email",email )
+            startActivity(intent)
         }
     }
 
