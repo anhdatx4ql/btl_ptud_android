@@ -39,7 +39,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final EditText edtUsernameLogin;
 
   @NonNull
-  public final LinearLayout main;
+  public final LinearLayout numberListContainer;
 
   @NonNull
   public final Switch swRemember;
@@ -53,15 +53,15 @@ public final class ActivityLoginBinding implements ViewBinding {
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnForgot,
       @NonNull ImageView btnHidePassword, @NonNull Button btnLogin,
       @NonNull EditText edtPasswordLogin, @NonNull EditText edtUsernameLogin,
-      @NonNull LinearLayout main, @NonNull Switch swRemember, @NonNull TextView textView,
-      @NonNull TextView textView2) {
+      @NonNull LinearLayout numberListContainer, @NonNull Switch swRemember,
+      @NonNull TextView textView, @NonNull TextView textView2) {
     this.rootView = rootView;
     this.btnForgot = btnForgot;
     this.btnHidePassword = btnHidePassword;
     this.btnLogin = btnLogin;
     this.edtPasswordLogin = edtPasswordLogin;
     this.edtUsernameLogin = edtUsernameLogin;
-    this.main = main;
+    this.numberListContainer = numberListContainer;
     this.swRemember = swRemember;
     this.textView = textView;
     this.textView2 = textView2;
@@ -124,7 +124,7 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      LinearLayout numberListContainer = (LinearLayout) rootView;
 
       id = R.id.swRemember;
       Switch swRemember = ViewBindings.findChildViewById(rootView, id);
@@ -145,7 +145,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((LinearLayout) rootView, btnForgot, btnHidePassword, btnLogin,
-          edtPasswordLogin, edtUsernameLogin, main, swRemember, textView, textView2);
+          edtPasswordLogin, edtUsernameLogin, numberListContainer, swRemember, textView, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

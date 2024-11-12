@@ -50,7 +50,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
-  public final LinearLayout main;
+  public final LinearLayout numberListContainer;
 
   @NonNull
   public final TextView textView;
@@ -62,8 +62,9 @@ public final class ActivitySignUpBinding implements ViewBinding {
       @NonNull ImageView btnHidePassword, @NonNull Button btnSignup,
       @NonNull EditText edtPasswordSignup1, @NonNull EditText edtPasswordSignup2,
       @NonNull EditText edtUsernameSignup, @NonNull ImageView imageView1,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull LinearLayout main,
-      @NonNull TextView textView, @NonNull TextView textView2) {
+      @NonNull ImageView imageView2, @NonNull ImageView imageView3,
+      @NonNull LinearLayout numberListContainer, @NonNull TextView textView,
+      @NonNull TextView textView2) {
     this.rootView = rootView;
     this.btnHaveAccount = btnHaveAccount;
     this.btnHidePassword = btnHidePassword;
@@ -74,7 +75,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
     this.imageView1 = imageView1;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
-    this.main = main;
+    this.numberListContainer = numberListContainer;
     this.textView = textView;
     this.textView2 = textView2;
   }
@@ -160,7 +161,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      LinearLayout numberListContainer = (LinearLayout) rootView;
 
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
@@ -176,7 +177,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
 
       return new ActivitySignUpBinding((LinearLayout) rootView, btnHaveAccount, btnHidePassword,
           btnSignup, edtPasswordSignup1, edtPasswordSignup2, edtUsernameSignup, imageView1,
-          imageView2, imageView3, main, textView, textView2);
+          imageView2, imageView3, numberListContainer, textView, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

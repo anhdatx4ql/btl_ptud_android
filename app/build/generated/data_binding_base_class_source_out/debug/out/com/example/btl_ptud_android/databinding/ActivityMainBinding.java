@@ -40,15 +40,15 @@ public final class ActivityMainBinding implements ViewBinding {
   public final EditText edtSearchQuiz;
 
   @NonNull
-  public final LinearLayout main;
+  public final LinearLayout numberListContainer;
 
   @NonNull
   public final RecyclerView rvSubject;
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnAddQuiz,
       @NonNull ImageView btnHome, @NonNull ImageView btnLibrary, @NonNull ImageView btnSearch,
-      @NonNull ImageView btnUser, @NonNull EditText edtSearchQuiz, @NonNull LinearLayout main,
-      @NonNull RecyclerView rvSubject) {
+      @NonNull ImageView btnUser, @NonNull EditText edtSearchQuiz,
+      @NonNull LinearLayout numberListContainer, @NonNull RecyclerView rvSubject) {
     this.rootView = rootView;
     this.btnAddQuiz = btnAddQuiz;
     this.btnHome = btnHome;
@@ -56,7 +56,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.btnSearch = btnSearch;
     this.btnUser = btnUser;
     this.edtSearchQuiz = edtSearchQuiz;
-    this.main = main;
+    this.numberListContainer = numberListContainer;
     this.rvSubject = rvSubject;
   }
 
@@ -123,7 +123,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      LinearLayout numberListContainer = (LinearLayout) rootView;
 
       id = R.id.rvSubject;
       RecyclerView rvSubject = ViewBindings.findChildViewById(rootView, id);
@@ -132,7 +132,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((LinearLayout) rootView, btnAddQuiz, btnHome, btnLibrary,
-          btnSearch, btnUser, edtSearchQuiz, main, rvSubject);
+          btnSearch, btnUser, edtSearchQuiz, numberListContainer, rvSubject);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

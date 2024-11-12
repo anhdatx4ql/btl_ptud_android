@@ -36,18 +36,18 @@ public final class ActivityHomeLoginBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
-  public final LinearLayout main;
+  public final LinearLayout numberListContainer;
 
   private ActivityHomeLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogin,
       @NonNull Button btnSignup, @NonNull ImageView imageView1, @NonNull ImageView imageView2,
-      @NonNull ImageView imageView3, @NonNull LinearLayout main) {
+      @NonNull ImageView imageView3, @NonNull LinearLayout numberListContainer) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnSignup = btnSignup;
     this.imageView1 = imageView1;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
-    this.main = main;
+    this.numberListContainer = numberListContainer;
   }
 
   @Override
@@ -107,10 +107,10 @@ public final class ActivityHomeLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      LinearLayout numberListContainer = (LinearLayout) rootView;
 
       return new ActivityHomeLoginBinding((LinearLayout) rootView, btnLogin, btnSignup, imageView1,
-          imageView2, imageView3, main);
+          imageView2, imageView3, numberListContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

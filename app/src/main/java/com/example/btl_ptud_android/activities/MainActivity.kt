@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun AddQuizHome() {
         binding.btnAddQuiz.setOnClickListener{
-            val intent = Intent(this, AddQuizActivity::class.java)
+            val intent = Intent(this, AddLibraryActivity::class.java)
             startActivity(intent)
         }
     }

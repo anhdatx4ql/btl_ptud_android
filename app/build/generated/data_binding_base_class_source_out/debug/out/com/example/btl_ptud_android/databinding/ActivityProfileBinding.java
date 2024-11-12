@@ -49,7 +49,7 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final ImageView btnUser;
 
   @NonNull
-  public final LinearLayout main;
+  public final LinearLayout numberListContainer;
 
   @NonNull
   public final CircleImageView profileImage;
@@ -57,8 +57,8 @@ public final class ActivityProfileBinding implements ViewBinding {
   private ActivityProfileBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnAddQuiz,
       @NonNull ImageView btnHome, @NonNull ImageView btnLibrary, @NonNull Button btnLogOut,
       @NonNull Button btnMode, @NonNull ImageView btnMode1, @NonNull Button btnProfileSetting,
-      @NonNull ImageView btnProfileSetting1, @NonNull ImageView btnUser, @NonNull LinearLayout main,
-      @NonNull CircleImageView profileImage) {
+      @NonNull ImageView btnProfileSetting1, @NonNull ImageView btnUser,
+      @NonNull LinearLayout numberListContainer, @NonNull CircleImageView profileImage) {
     this.rootView = rootView;
     this.btnAddQuiz = btnAddQuiz;
     this.btnHome = btnHome;
@@ -69,7 +69,7 @@ public final class ActivityProfileBinding implements ViewBinding {
     this.btnProfileSetting = btnProfileSetting;
     this.btnProfileSetting1 = btnProfileSetting1;
     this.btnUser = btnUser;
-    this.main = main;
+    this.numberListContainer = numberListContainer;
     this.profileImage = profileImage;
   }
 
@@ -154,7 +154,7 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      LinearLayout numberListContainer = (LinearLayout) rootView;
 
       id = R.id.profile_image;
       CircleImageView profileImage = ViewBindings.findChildViewById(rootView, id);
@@ -163,8 +163,8 @@ public final class ActivityProfileBinding implements ViewBinding {
       }
 
       return new ActivityProfileBinding((LinearLayout) rootView, btnAddQuiz, btnHome, btnLibrary,
-          btnLogOut, btnMode, btnMode1, btnProfileSetting, btnProfileSetting1, btnUser, main,
-          profileImage);
+          btnLogOut, btnMode, btnMode1, btnProfileSetting, btnProfileSetting1, btnUser,
+          numberListContainer, profileImage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

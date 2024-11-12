@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Số thứ tự câu hỏi -->
+    <TextView
+        android:id="@+id/questionNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <!-- Tên câu hỏi -->
+    <EditText
+        android:id="@+id/title_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên câu hỏi"
+        android:padding="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Đáp án 1 -->
+    <EditText
+        android:id="@+id/answer_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đáp án 1"
+        android:padding="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Đáp án 2 -->
+    <EditText
+        android:id="@+id/answer_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đáp án 2"
+        android:padding="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Đáp án 3 -->
+    <EditText
+        android:id="@+id/answer_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đáp án 3"
+        android:padding="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Đáp án 4 -->
+    <EditText
+        android:id="@+id/answer_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đáp án 4"
+        android:padding="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+</LinearLayout>
