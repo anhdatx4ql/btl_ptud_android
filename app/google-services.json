@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "224314889642",
+    "project_id": "baitaplonptud",
+    "storage_bucket": "baitaplonptud.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224314889642:android:d7b0410653e9feea0407d3",
+        "android_client_info": {
+          "package_name": "com.example.btl_ptud_android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGbD71eS6VGDmsEbGOZRfbO0O6Ls9f5ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

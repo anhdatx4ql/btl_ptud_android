@@ -3,6 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">btl_ptud_android</string>
+    <string name="gcm_defaultSenderId" translatable="false">224314889642</string>
+    <string name="google_api_key" translatable="false">AIzaSyAGbD71eS6VGDmsEbGOZRfbO0O6Ls9f5ZI</string>
+    <string name="google_app_id" translatable="false">1:224314889642:android:d7b0410653e9feea0407d3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAGbD71eS6VGDmsEbGOZRfbO0O6Ls9f5ZI</string>
+    <string name="google_storage_bucket" translatable="false">baitaplonptud.firebasestorage.app</string>
+    <string name="project_id" translatable="false">baitaplonptud</string>
     <string name="sign_up">Sign Up</string>
     <style name="Base.Theme.Btl_ptud_android" parent="Theme.Material3.DayNight.NoActionBar">
         
