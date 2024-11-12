@@ -62,6 +62,7 @@ id textView
 id textView2
 id textView3
 id txtNoData
+layout activity_add_library
 layout activity_add_quiz
 layout activity_home_login
 layout activity_library
@@ -72,6 +73,12 @@ layout activity_sign_up
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
 string sign_up
 style Base.Theme.Btl_ptud_android
 style ButtonLogOut
