@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.btl_ptud_android.R;
@@ -41,9 +42,13 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final LinearLayout main;
 
+  @NonNull
+  public final RecyclerView rvSubject;
+
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnAddQuiz,
       @NonNull ImageView btnHome, @NonNull ImageView btnLibrary, @NonNull ImageView btnSearch,
-      @NonNull ImageView btnUser, @NonNull EditText edtSearchQuiz, @NonNull LinearLayout main) {
+      @NonNull ImageView btnUser, @NonNull EditText edtSearchQuiz, @NonNull LinearLayout main,
+      @NonNull RecyclerView rvSubject) {
     this.rootView = rootView;
     this.btnAddQuiz = btnAddQuiz;
     this.btnHome = btnHome;
@@ -52,6 +57,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.btnUser = btnUser;
     this.edtSearchQuiz = edtSearchQuiz;
     this.main = main;
+    this.rvSubject = rvSubject;
   }
 
   @Override
@@ -119,8 +125,14 @@ public final class ActivityMainBinding implements ViewBinding {
 
       LinearLayout main = (LinearLayout) rootView;
 
+      id = R.id.rvSubject;
+      RecyclerView rvSubject = ViewBindings.findChildViewById(rootView, id);
+      if (rvSubject == null) {
+        break missingId;
+      }
+
       return new ActivityMainBinding((LinearLayout) rootView, btnAddQuiz, btnHome, btnLibrary,
-          btnSearch, btnUser, edtSearchQuiz, main);
+          btnSearch, btnUser, edtSearchQuiz, main, rvSubject);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

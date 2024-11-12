@@ -3072,6 +3072,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable edit_profile_img
+drawable f_password
 drawable facebook
 drawable google_plus
 drawable googleg_disabled_color_18
@@ -3294,6 +3295,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnLibrary
+id btnReset
 id btnUser
 id btn_Home
 id btn_add
@@ -3314,6 +3316,9 @@ id cache_measures
 id callMeasure
 id cancel_button
 id carryVelocity
+id category_count_question
+id category_count_question_text
+id category_title
 id center
 id centerCrop
 id centerInside
@@ -3437,6 +3442,7 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id id_question
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3464,6 +3470,7 @@ id line1
 id line3
 id linear
 id listMode
+id listViewCategories
 id list_item
 id list_lib
 id m3_side_sheet
@@ -3527,6 +3534,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameQuestion
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3594,6 +3602,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvSubject
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3680,6 +3689,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3708,7 +3718,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtNoData
+id txt_NameLib
 id unchecked
 id uniform
 id unlabeled
@@ -3851,11 +3861,14 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_library
 layout activity_add_quiz
+layout activity_forgot_password
 layout activity_home_login
 layout activity_library
 layout activity_login
 layout activity_main
+layout activity_play_quizz
 layout activity_profile
+layout activity_question
 layout activity_sign_up
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -3877,6 +3890,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout layout_item_library
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3934,6 +3948,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout quiz_item_recycle_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
