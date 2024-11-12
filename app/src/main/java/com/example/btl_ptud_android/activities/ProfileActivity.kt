@@ -28,7 +28,10 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun LogOut() {
-
+        binding.btnLogOut.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun SystemSetting() {
@@ -41,7 +44,7 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun MainActivityHome() {
         binding.btnHome.setOnClickListener {
-            val intent = Intent(this, HomeLoginActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
