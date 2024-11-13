@@ -20,10 +20,6 @@
         "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\layout_item_library.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-44:\\layout\\activity_add_quiz.xml",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\activity_add_quiz.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-mergeDebugResources-44:\\layout\\activity_library.xml",
         "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\activity_library.xml"
     },

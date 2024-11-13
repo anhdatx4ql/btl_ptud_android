@@ -55,6 +55,8 @@ id btn_signup
 id category_count_question
 id category_count_question_text
 id category_title
+id correctAnswerGroup
+id deleteQuestionButton
 id editTextText
 id edt_password_login
 id edt_password_signup1
@@ -75,12 +77,18 @@ id profile_image
 id progress_circular
 id questionContainer
 id questionNumberText
+id radio_correct_answer_1
+id radio_correct_answer_2
+id radio_correct_answer_3
+id radio_correct_answer_4
 id rvSubject
+id saveLibraryAndQuestions
 id start
 id swRemember
 id textView
 id textView2
 id textView3
+id textView4
 id textView5
 id title_question
 id txt_NameLib
