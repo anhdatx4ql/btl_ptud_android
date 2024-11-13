@@ -3351,6 +3351,7 @@ id contentPanel
 id contiguous
 id continuousVelocity
 id coordinator
+id correctAnswerGroup
 id cos
 id counterclockwise
 id cradle
@@ -3364,6 +3365,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteQuestionButton
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3600,6 +3602,10 @@ id progress_horizontal
 id questionContainer
 id questionNumberText
 id radio
+id radio_correct_answer_1
+id radio_correct_answer_2
+id radio_correct_answer_3
+id radio_correct_answer_4
 id ratio
 id rectangles
 id report_drawn
@@ -3611,6 +3617,7 @@ id right_side
 id rounded
 id row_index_key
 id rvSubject
+id saveLibraryAndQuestions
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3697,6 +3704,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
 id textView5
 id text_input_end_icon
 id text_input_error_icon

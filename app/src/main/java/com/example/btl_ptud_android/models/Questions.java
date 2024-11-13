@@ -4,12 +4,38 @@ public class Questions {
     private int ID; // id câu hỏi
     private int category_ID; // id danh mục
     private String title; // tiêu đề câu hỏi
-    private String answerA; // câu trả lời a
-    private String answerB; // câu trả lời b
-    private String answerC; // câu trả lời c
-    private String answerD; // câu trả lời d
-    private int answerTrue;  // đáp án đúng 1,2,3,4
+    private String answerA; // câu trả lời A
+    private String answerB; // câu trả lời B
+    private String answerC; // câu trả lời C
+    private String answerD; // câu trả lời D
+    private Answer answerTrue;  // đáp án đúng (enum)
 
+    // Enum for answers A, B, C, D
+    public enum Answer {
+        A(1), B(2), C(3), D(4);
+
+        private final int index;
+
+        Answer(int index) {
+            this.index = index;
+        }
+
+        public int getIndex() {
+            return index;
+        }
+
+        // Get enum by index
+        public static Answer fromIndex(int index) {
+            for (Answer answer : values()) {
+                if (answer.index == index) {
+                    return answer;
+                }
+            }
+            throw new IllegalArgumentException("Invalid answer index: " + index);
+        }
+    }
+
+    // Constructor
     public Questions(int ID, int category_ID, String title, String answerA, String answerB, String answerC, String answerD, int answerTrue) {
         this.ID = ID;
         this.category_ID = category_ID;
@@ -18,9 +44,11 @@ public class Questions {
         this.answerB = answerB;
         this.answerC = answerC;
         this.answerD = answerD;
-        this.answerTrue = answerTrue;
+        // Set the correct answer using the enum
+        this.answerTrue = Answer.fromIndex(answerTrue);
     }
 
+    // Getters and Setters
     public int getID() {
         return ID;
     }
@@ -77,11 +105,35 @@ public class Questions {
         this.answerD = answerD;
     }
 
-    public int getAnswerTrue() {
+    public Answer getAnswerTrue() {
         return answerTrue;
     }
 
     public void setAnswerTrue(int answerTrue) {
-        this.answerTrue = answerTrue;
+        this.answerTrue = Answer.fromIndex(answerTrue);
+    }
+
+    // Override toString for better logging
+    @Override
+    public String toString() {
+        return "Questions{" +
+                "ID=" + ID +
+                ", category_ID=" + category_ID +
+                ", title='" + title + '\'' +
+                ", answerA='" + answerA + '\'' +
+                ", answerB='" + answerB + '\'' +
+                ", answerC='" + answerC + '\'' +
+                ", answerD='" + answerD + '\'' +
+                ", answerTrue=" + answerTrue +
+                '}';
+    }
+
+    // Override equals and hashCode for proper comparison and storage in collections
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Questions that = (Questions) obj;
+        return ID == that.ID && category_ID == that.category_ID;
     }
 }

@@ -100,10 +100,6 @@
         "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\icon.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_button_rounded.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\button_rounded.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_icon_profile.png.flat",
         "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\icon_profile.png"
     },
@@ -130,10 +126,6 @@
     {
         "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_background_forgot.xml.flat",
         "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\background_forgot.xml"
-    },
-    {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\layout_activity_add_quiz.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\activity_add_quiz.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_add.png.flat",
