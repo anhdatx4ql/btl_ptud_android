@@ -12,7 +12,10 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.btl_ptud_android.R
 import com.example.btl_ptud_android.databinding.ActivityHomeLoginBinding
 import com.example.btl_ptud_android.databinding.ActivitySignUpBinding
+import com.example.btl_ptud_android.models.User
+import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.database
 
 class SignUpActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignUpBinding
@@ -33,7 +36,7 @@ class SignUpActivity : AppCompatActivity() {
 
     private fun SignUpForNewUser() {
         binding.btnSignup.setOnClickListener {
-
+            binding.prgSignup.visibility = android.view.View.VISIBLE
             val edtEmail = binding.edtUsernameSignup.text.toString()
             val passWord = binding.edtPasswordSignup1.text.toString()
             val passWord2 = binding.edtPasswordSignup2.text.toString()
@@ -44,15 +47,41 @@ class SignUpActivity : AppCompatActivity() {
                     //dang ky tai khoan
                     firebaseAuth.createUserWithEmailAndPassword(edtEmail,passWord).addOnCompleteListener {
                         if (it.isSuccessful){
-                            //dki thanh cong thi chuyen sang dang nhap
-                            val intent = Intent(this, LoginActivity::class.java)
-                            intent.putExtra("email",edtEmail)
-                            startActivity(intent)
+
+                            val uid = firebaseAuth.currentUser?.uid ?: ""
+                            val name = edtEmail.substringBefore("@")
+                            var isAdmin = false
+                            if (edtEmail.contains("@admin.haui.com")){
+                                isAdmin = true
+                            }else{
+                                isAdmin = false
+                            }
+
+                            val user = User(
+                                uId = uid,
+                                name = name,
+                                email = edtEmail,
+                                password = passWord,
+                                admin = isAdmin // Gán giá trị true/false cho isAdmin tùy theo vai trò
+                            )
+
+                            val db = Firebase.database
+                            val usersRef = db.getReference("users")
+                            usersRef.child(uid).setValue(user)
+                                .addOnSuccessListener {
+                                    //dki thanh cong thi chuyen sang dang nhap
+                                    val intent = Intent(this, LoginActivity::class.java)
+                                    intent.putExtra("email",edtEmail)
+                                    startActivity(intent)
+                                    Toast.makeText(this, "Đăng ký thành công!", Toast.LENGTH_SHORT).show()
+                                }
+                                .addOnFailureListener { e ->
+                                    Toast.makeText(this, "Lỗi khi lưu thông tin người dùng: ${e.message}", Toast.LENGTH_SHORT).show()
+                                }
                         }else{
                             //khong thanh cong -> thong bao exception
-                            if (firebaseAuth.currentUser != null){
-                                Toast.makeText(this,it.exception.toString(),Toast.LENGTH_LONG).show()
-                            }
+                            Toast.makeText(this,it.exception.toString(),Toast.LENGTH_LONG).show()
+
                         }
                     }
 

@@ -1,9 +1,9 @@
 package com.example.btl_ptud_android.models
-
-class User {
-    private val uId: String = ""
-    private val name: String = ""
-    private val email: String = ""
-    private val password: String = ""
-    private val isAdmin: Boolean = false
-}
+// data class
+data class User (
+    val uId: String = "",
+    val name: String = "",
+    val email: String = "",
+    val password: String = "",
+    val admin: Boolean = false
+)
