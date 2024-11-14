@@ -22,7 +22,7 @@ public final class ActivityLibraryBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageView btnAdd;
+  public final ImageView btnAddLibrary;
 
   @NonNull
   public final ImageView btnAddQuiz;
@@ -37,9 +37,6 @@ public final class ActivityLibraryBinding implements ViewBinding {
   public final ImageView btnUser;
 
   @NonNull
-  public final ListView listLib;
-
-  @NonNull
   public final ListView listViewCategories;
 
   @NonNull
@@ -48,20 +45,28 @@ public final class ActivityLibraryBinding implements ViewBinding {
   @NonNull
   public final TextView textView3;
 
-  private ActivityLibraryBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnAdd,
+  @NonNull
+  public final TextView textView6;
+
+  @NonNull
+  public final TextView textView7;
+
+  private ActivityLibraryBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnAddLibrary,
       @NonNull ImageView btnAddQuiz, @NonNull ImageView btnHome, @NonNull ImageView btnLibrary,
-      @NonNull ImageView btnUser, @NonNull ListView listLib, @NonNull ListView listViewCategories,
-      @NonNull LinearLayout numberListContainer, @NonNull TextView textView3) {
+      @NonNull ImageView btnUser, @NonNull ListView listViewCategories,
+      @NonNull LinearLayout numberListContainer, @NonNull TextView textView3,
+      @NonNull TextView textView6, @NonNull TextView textView7) {
     this.rootView = rootView;
-    this.btnAdd = btnAdd;
+    this.btnAddLibrary = btnAddLibrary;
     this.btnAddQuiz = btnAddQuiz;
     this.btnHome = btnHome;
     this.btnLibrary = btnLibrary;
     this.btnUser = btnUser;
-    this.listLib = listLib;
     this.listViewCategories = listViewCategories;
     this.numberListContainer = numberListContainer;
     this.textView3 = textView3;
+    this.textView6 = textView6;
+    this.textView7 = textView7;
   }
 
   @Override
@@ -91,9 +96,9 @@ public final class ActivityLibraryBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_add;
-      ImageView btnAdd = ViewBindings.findChildViewById(rootView, id);
-      if (btnAdd == null) {
+      id = R.id.btn_add_library;
+      ImageView btnAddLibrary = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddLibrary == null) {
         break missingId;
       }
 
@@ -121,12 +126,6 @@ public final class ActivityLibraryBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.list_lib;
-      ListView listLib = ViewBindings.findChildViewById(rootView, id);
-      if (listLib == null) {
-        break missingId;
-      }
-
       id = R.id.listViewCategories;
       ListView listViewCategories = ViewBindings.findChildViewById(rootView, id);
       if (listViewCategories == null) {
@@ -141,8 +140,21 @@ public final class ActivityLibraryBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLibraryBinding((LinearLayout) rootView, btnAdd, btnAddQuiz, btnHome,
-          btnLibrary, btnUser, listLib, listViewCategories, numberListContainer, textView3);
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
+      return new ActivityLibraryBinding((LinearLayout) rootView, btnAddLibrary, btnAddQuiz, btnHome,
+          btnLibrary, btnUser, listViewCategories, numberListContainer, textView3, textView6,
+          textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

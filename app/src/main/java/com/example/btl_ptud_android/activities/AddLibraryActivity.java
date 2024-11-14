@@ -1,10 +1,12 @@
 package com.example.btl_ptud_android.activities;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,15 +17,25 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.btl_ptud_android.R;
+import com.example.btl_ptud_android.models.Categories;
 import com.example.btl_ptud_android.models.Questions;
+import com.google.android.gms.tasks.Task;
+import com.google.android.gms.tasks.Tasks;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+
+import common.GuidGenerator;
 
 public class AddLibraryActivity extends AppCompatActivity {
 
@@ -32,7 +44,6 @@ public class AddLibraryActivity extends AppCompatActivity {
     private ArrayList<View> questionViews; // Danh sách chứa các view của câu hỏi
     private ArrayList<Questions> questionList; // Danh sách chứa các câu hỏi
     private int currentQuestionIndex = 0; // Chỉ số câu hỏi hiện tại (1, 2, 3...)
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +55,7 @@ public class AddLibraryActivity extends AppCompatActivity {
         numberListContainer = findViewById(R.id.numberListContainer);
         // button thêm câu hỏi
         Button addQuestionButton = findViewById(R.id.addQuestionButton);
-        Button saveButton = findViewById((R.id.saveLibraryAndQuestions)); // Nút lưu câu hỏi
+        Button saveButton = findViewById(R.id.saveLibraryAndQuestions); // Nút lưu câu hỏi
 
 
         // Khởi tạo danh sách view câu hỏi
@@ -57,7 +68,7 @@ public class AddLibraryActivity extends AppCompatActivity {
         addQuestionButton.setOnClickListener(v -> addNewQuestion());
 
         // Khi bấm vào nút "Lưu câu hỏi"
-        saveButton.setOnClickListener(v -> saveQuestionsToFirebase());
+        saveButton.setOnClickListener(v -> saveLibraryAndQuestionsToFirebase());
     }
 
     private void addNewQuestion() {
@@ -85,9 +96,9 @@ public class AddLibraryActivity extends AppCompatActivity {
 
         // Tạo một đối tượng question mới và thêm vào questionList
         Questions newQuestion = new Questions(
-                currentQuestionIndex + 1,
-                1,
-                "", "", "", "", "", 1
+                GuidGenerator.generateGUID(),
+                "",
+                "", "", "", "", "", 1, currentQuestionIndex + 1
         );
         questionList.add(newQuestion);
 
@@ -107,6 +118,36 @@ public class AddLibraryActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
                 Questions question = questionList.get(questionList.indexOf(newQuestion));
                 question.setAnswerA(charSequence.toString());
+            }
+            @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+            @Override public void afterTextChanged(Editable s) {}
+        });
+
+        answerBEditText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                Questions question = questionList.get(questionList.indexOf(newQuestion));
+                question.setAnswerB(charSequence.toString());
+            }
+            @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+            @Override public void afterTextChanged(Editable s) {}
+        });
+
+        answerCEditText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                Questions question = questionList.get(questionList.indexOf(newQuestion));
+                question.setAnswerC(charSequence.toString());
+            }
+            @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+            @Override public void afterTextChanged(Editable s) {}
+        });
+
+        answerDEditText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                Questions question = questionList.get(questionList.indexOf(newQuestion));
+                question.setAnswerD(charSequence.toString());
             }
             @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
             @Override public void afterTextChanged(Editable s) {}
@@ -175,29 +216,31 @@ public class AddLibraryActivity extends AppCompatActivity {
             return;
         }
 
+        // Xóa câu hỏi khỏi danh sách và giao diện
         questionList.remove(questionIndex);
         questionContainer.removeView(questionViews.get(questionIndex));
         questionViews.remove(questionIndex);
         numberListContainer.removeViewAt(questionIndex);
 
+        // Cập nhật số thứ tự câu hỏi
         updateQuestionNumbers();
 
-        // Cập nhật currentQuestionIndex để không vượt quá giới hạn của danh sách
-        if (questionIndex < questionViews.size()) {
-            currentQuestionIndex = questionIndex;
-        } else {
-            currentQuestionIndex = questionViews.size() - 1;
+        // Tính toán chỉ số câu hỏi cần focus sau khi xóa
+        int focusQuestionIndex = questionIndex - 1;
+        if (focusQuestionIndex < 0 && !questionViews.isEmpty()) {
+            focusQuestionIndex = 0; // Nếu đã xóa câu đầu tiên, focus vào câu đầu mới
         }
-        // Kiểm tra nếu không còn câu hỏi nào, đặt lại currentQuestionIndex về 0
+
+        // Kiểm tra nếu không còn câu hỏi nào thì reset currentQuestionIndex về 0
         if (questionList.isEmpty()) {
             currentQuestionIndex = 0;
         } else {
-            // Nếu vẫn còn câu hỏi, cập nhật currentQuestionIndex
+            // Cập nhật currentQuestionIndex để đảm bảo không vượt quá giới hạn
             currentQuestionIndex = questionList.size();
-        }
-
-        if (currentQuestionIndex >= 0) {
-            showQuestion(currentQuestionIndex);
+            // Hiển thị câu hỏi cần focus
+            if (focusQuestionIndex >= 0) {
+                showQuestion(focusQuestionIndex);
+            }
         }
     }
 
@@ -221,25 +264,134 @@ public class AddLibraryActivity extends AppCompatActivity {
         currentQuestionIndex = questionViews.size();
     }
 
-    // Hàm lưu danh sách câu hỏi vào Firebase
-    private void saveQuestionsToFirebase() {
-        // Lấy reference đến Firebase Database
-//        FirebaseDatabase database = FirebaseDatabase.getInstance();
-//        DatabaseReference questionsRef = database.getReference("questions");
+    // Hàm lưu danh sách câu hỏi vào Firebase với xác nhận từ người dùng
+    private void saveLibraryAndQuestionsToFirebase() {
+        // Lấy tên đề tài
+        EditText titleLibrary = findViewById(R.id.titleLibrary);
+        String libraryTitle = titleLibrary.getText().toString().trim();
 
-        // Lưu tất cả câu hỏi vào Firebase dưới dạng một mảng
+        if (libraryTitle.isEmpty()) {
+            Toast toast = Toast.makeText(this, "Bạn phải nhập tên đề tài!", Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.CENTER, 0, 0); // Hiển thị ở giữa màn hình
+            toast.show();
+            return;
+        }
+
+        // Xử lý hiển thị câu cảnh báo
+        new AlertDialog.Builder(this)
+                .setTitle("Cảnh báo")
+                .setMessage("Một số câu hỏi không có tiêu đề. Những câu hỏi này sẽ không được lưu. Bạn có muốn tiếp tục không?")
+                .setPositiveButton("Có", (dialog, which) -> {
+                    String libraryID = GuidGenerator.generateGUID();
+                    // Continue to save questions first
+                    saveQuestionsListToFirebaseAsync(libraryID)
+                            .thenRun(() -> {
+                                // Sau khi tất cả câu hỏi đã được lưu, tiếp tục lưu thư viện vào Firebase
+                                saveCategoryToFirebase(libraryTitle, libraryID);
+                            })
+                            .exceptionally(ex -> {
+                                // Nếu có lỗi khi lưu câu hỏi
+                                Log.e("saveError", "Lỗi khi lưu câu hỏi: " + ex.getMessage());
+                                return null;
+                            });
+                })
+                .setNegativeButton("Không", (dialog, which) -> {
+                    // Hủy bỏ lưu dữ liệu
+                    Toast.makeText(this, "Lưu câu hỏi bị hủy bỏ", Toast.LENGTH_SHORT).show();
+                })
+                .setCancelable(false)
+                .show();
+    }
+
+    // Cập nhật hàm lưu câu hỏi để loại bỏ những câu hỏi không có tiêu đề
+    private CompletableFuture<Integer> saveQuestionsListToFirebaseAsync(String libraryID) {
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference questionsRef = database.getReference("questions");
+
+        int totalQuestions = questionList.size();
+        final int[] successCount = {0}; // Bộ đếm thành công
+        final int[] failureCount = {0}; // Bộ đếm thất bại
+
+        List<Task<Void>> tasks = new ArrayList<>();
+        Log.i("saveQuestionsListToFirebaseAsync", "run");
+
+        // Tạo một task cho mỗi câu hỏi
         for (Questions question : questionList) {
-//            String questionId = "question" + question.getID();  // Đặt id câu hỏi là "question" + ID
-//            questionsRef.child(questionId).setValue(question)
-//                    .addOnSuccessListener(aVoid -> {
-//                        // Nếu lưu thành công
-//                        Toast.makeText(AddLibraryActivity.this, "Câu hỏi đã được lưu!", Toast.LENGTH_SHORT).show();
-//                    })
-//                    .addOnFailureListener(e -> {
-//                        // Nếu có lỗi
-//                        Toast.makeText(AddLibraryActivity.this, "Lỗi lưu câu hỏi: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-//                    });
-            Log.i("info_question", question.toString());
+            // Kiểm tra nếu câu hỏi không có tiêu đề
+            if (question.getTitle().isEmpty()) {
+                // Bỏ qua câu hỏi này nếu không có tiêu đề
+                continue; // Bỏ qua câu hỏi này
+            }
+
+            String questionId = question.getID();
+            question.setCategory_ID(libraryID);  // Gán ID danh mục cho câu hỏi
+
+            // Tạo Task cho hành động setValue
+            Task<Void> task = questionsRef.child(questionId).setValue(question)
+                    .addOnSuccessListener(aVoid -> {
+                        successCount[0]++;
+                    })
+                    .addOnFailureListener(e -> {
+                        failureCount[0]++;
+                        Log.e("info_question", "Lỗi lưu câu hỏi: " + e.getMessage());
+                    });
+
+            // Thêm task vào danh sách
+            tasks.add(task);
+        }
+
+        // Chờ cho tất cả tasks hoàn thành và trả về số câu hỏi thành công
+        CompletableFuture<Integer> allTasksComplete = new CompletableFuture<>();
+        Tasks.whenAllComplete(tasks)
+                .addOnCompleteListener(task -> {
+                    // Khi tất cả các task đã hoàn tất, hoàn thành CompletableFuture và trả về số câu hỏi thành công
+                    allTasksComplete.complete(successCount[0]);
+                    if (successCount[0] + failureCount[0] == totalQuestions) {
+                        showCompletionMessage(successCount[0], failureCount[0]);
+                    }
+                });
+
+        return allTasksComplete; // Trả về CompletableFuture để có thể đợi kết quả
+    }
+
+    private void saveCategoryToFirebase(String libraryTitle, String libraryID) {
+        // Lấy FirebaseDatabase instance
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+
+        // Tạo reference đến bảng categories
+        DatabaseReference categoriesRef = database.getReference("categories");
+
+        // Tạo đối tượng thư viện với libraryTitle
+        Categories newCategory = new Categories(libraryID, libraryTitle, questionList.size());
+
+        // Lưu thư viện vào bảng categories
+        categoriesRef.child(libraryID).setValue(newCategory)
+                .addOnSuccessListener(aVoid -> {
+                    // Lưu thành công, quay lại màn hình LibraryActivity
+                    Toast.makeText(this, "Lưu dữ liệu thành công!", Toast.LENGTH_SHORT).show();
+
+                    Intent intent = new Intent(AddLibraryActivity.this, LibraryActivity.class);
+                    startActivity(intent);
+                    finish(); // Kết thúc AddLibraryActivity để ngăn người dùng quay lại nó
+                })
+                .addOnFailureListener(e -> {
+                    // Nếu có lỗi, hiển thị thông báo
+                    Toast toast = Toast.makeText(this, "Lỗi lưu tên đề tài!", Toast.LENGTH_SHORT);
+                    toast.setGravity(Gravity.CENTER, 0, 0); // Hiển thị ở giữa màn hình
+                    toast.show();
+                });
+    }
+
+    // Hàm hiển thị thông báo khi lưu hoàn tất
+    private void showCompletionMessage(int successCount, int failureCount) {
+        if (failureCount == 0) {
+            Toast toast = Toast.makeText(this, "Tất cả câu hỏi đã được lưu thành công!", Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.CENTER, 0, 0); // Hiển thị ở giữa màn hình
+            toast.show();
+        } else {
+            Toast toast = Toast.makeText(this, "Đã lưu thành công " + successCount + " câu hỏi. Có " + failureCount + " câu hỏi gặp lỗi.", Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.CENTER, 0, 0); // Hiển thị ở giữa màn hình
+            toast.show();
         }
     }
 }
