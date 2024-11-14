@@ -1,13 +1,14 @@
 package com.example.btl_ptud_android.models;
 
 public class Questions {
-    private int ID; // id câu hỏi
-    private int category_ID; // id danh mục
+    private String ID; // id câu hỏi
+    private String category_ID; // id danh mục
     private String title; // tiêu đề câu hỏi
     private String answerA; // câu trả lời A
     private String answerB; // câu trả lời B
     private String answerC; // câu trả lời C
     private String answerD; // câu trả lời D
+    private int sort_order;
     private Answer answerTrue;  // đáp án đúng (enum)
 
     // Enum for answers A, B, C, D
@@ -36,7 +37,7 @@ public class Questions {
     }
 
     // Constructor
-    public Questions(int ID, int category_ID, String title, String answerA, String answerB, String answerC, String answerD, int answerTrue) {
+    public Questions(String ID, String category_ID, String title, String answerA, String answerB, String answerC, String answerD, int answerTrue, int sort_order) {
         this.ID = ID;
         this.category_ID = category_ID;
         this.title = title;
@@ -44,24 +45,25 @@ public class Questions {
         this.answerB = answerB;
         this.answerC = answerC;
         this.answerD = answerD;
+        this.sort_order = sort_order;
         // Set the correct answer using the enum
         this.answerTrue = Answer.fromIndex(answerTrue);
     }
 
     // Getters and Setters
-    public int getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(int ID) {
+    public void setID(String ID) {
         this.ID = ID;
     }
 
-    public int getCategory_ID() {
+    public String getCategory_ID() {
         return category_ID;
     }
 
-    public void setCategory_ID(int category_ID) {
+    public void setCategory_ID(String category_ID) {
         this.category_ID = category_ID;
     }
 
@@ -111,6 +113,14 @@ public class Questions {
 
     public void setAnswerTrue(int answerTrue) {
         this.answerTrue = Answer.fromIndex(answerTrue);
+    }
+
+    public int getSort_order() {
+        return sort_order;
+    }
+
+    public void setSort_order(int sort_order) {
+        this.sort_order = sort_order;
     }
 
     // Override toString for better logging

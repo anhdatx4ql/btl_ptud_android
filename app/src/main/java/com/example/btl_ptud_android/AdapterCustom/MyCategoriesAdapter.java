@@ -32,21 +32,18 @@ public class MyCategoriesAdapter extends ArrayAdapter<Categories> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        LayoutInflater myInflater = context.getLayoutInflater();
+        if (convertView == null) {
+            convertView = LayoutInflater.from(context).inflate(R.layout.layout_list_library, parent, false);
+        }
 
-        // đặt ID layout lên để tạo đối tượng view
-        convertView = myInflater.inflate(IdLayout, null);
+        Categories category = myList.get(position);
 
-        // lấy 1 phần tử trong mảng
-        Categories myCategory = myList.get(position);
+        TextView titleTextView = convertView.findViewById(R.id.categoryTitle);
+        TextView questionCountTextView = convertView.findViewById(R.id.categoryQuestionCount);
 
-        // khai báo, tham chiếu ID và hiển thị lên view
-        TextView titleCategory = convertView.findViewById(R.id.category_title);
-        TextView countQuestion = convertView.findViewById(R.id.category_count_question_text);
+        titleTextView.setText(category.getTitle());
+        questionCountTextView.setText(category.getCountQuestion() + "");
 
-        // set giá trị cho model
-        titleCategory.setText(myCategory.getTitle());
-        countQuestion.setText(myCategory.getCountQuestion() + "");
         return convertView;
     }
 }

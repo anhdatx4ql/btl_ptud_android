@@ -2,6 +2,7 @@ package com.example.btl_ptud_android.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -12,6 +13,11 @@ import com.example.btl_ptud_android.AdapterCustom.MyCategoriesAdapter;
 import com.example.btl_ptud_android.R;
 import com.example.btl_ptud_android.databinding.ActivityLibraryBinding;
 import com.example.btl_ptud_android.models.Categories;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,9 +28,9 @@ public class LibraryActivity extends AppCompatActivity {
 
     // danh sách title
     List<Categories> lstCategory = Arrays.asList(
-            new Categories(123, "Bộ đề 1", 1, 30),
-            new Categories(124, "Bộ đề 2", 1, 30),
-            new Categories(125, "Bộ đề 3", 1, 30)
+            new Categories("123", "Bộ đề 1",  30),
+            new Categories("124", "Bộ đề 2",  30),
+            new Categories("125", "Bộ đề 3",  30)
     );
 
     // khai báo listview
@@ -45,12 +51,10 @@ public class LibraryActivity extends AppCompatActivity {
         // binding dữ liệu
         lv = findViewById(R.id.listViewCategories);
 
-        myCategories = new ArrayList<>(); // khởi tạo mảng rỗng
+        myCategories = new ArrayList<>();
 
-        // pvdat gán dữ liệu vào mảng
-        for (Categories category : lstCategory) {
-            myCategories.add(new Categories(category.getID(), category.getTitle(), category.getUserID(), category.getCountQuestion()));
-        }
+        // Lấy dữ liệu từ Firebase
+        getCategoriesFromFirebase();
 
         myCategoriesAdapter = new MyCategoriesAdapter(LibraryActivity.this, R.layout.layout_item_library, myCategories);
         lv.setAdapter(myCategoriesAdapter);
@@ -78,7 +82,7 @@ public class LibraryActivity extends AppCompatActivity {
     }
 
     private void AddQuizHome() {
-        binding.btnAdd.setOnClickListener(new View.OnClickListener(){
+        binding.btnAddLibrary.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(LibraryActivity.this, AddLibraryActivity.class);
@@ -94,6 +98,38 @@ public class LibraryActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LibraryActivity.this, ProfileActivity.class);
                 startActivity(intent);
+            }
+        });
+    }
+
+    // Lấy danh sách Categories từ Firebase và đếm số câu hỏi trong mỗi category
+    private void getCategoriesFromFirebase() {
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference categoriesRef = database.getReference("categories");
+        DatabaseReference questionsRef = database.getReference("questions");
+
+        categoriesRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                myCategories.clear(); // Xóa danh sách cũ
+
+                for (DataSnapshot categorySnapshot : dataSnapshot.getChildren()) {
+                    String categoryId = categorySnapshot.child("id").getValue(String.class);
+                    String categoryTitle = categorySnapshot.child("title").getValue(String.class);
+                    Integer questionCount = categorySnapshot.child("countQuestion").getValue(Integer.class);
+
+                    // Thêm category vào danh sách sau khi đếm xong số lượng câu hỏi
+                    Categories category = new Categories(categoryId, categoryTitle, questionCount);
+                    myCategories.add(category);
+
+                    // Cập nhật adapter
+                    myCategoriesAdapter.notifyDataSetChanged();
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.e("Firebase", "Lỗi khi lấy categories: " + databaseError.getMessage());
             }
         });
     }
