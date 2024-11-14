@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/numberListContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LibraryActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Library" />
+
+        <ImageView
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="-45dp"
+            android:id="@+id/btn_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/baseline_add_24" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:visibility="gone"
+                android:id="@+id/list_lib"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+            <ListView
+                android:id="@+id/listViewCategories"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:backgroundTint="@color/white"
+            android:background="@drawable/background_menu"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_marginLeft="75dp"
+                android:id="@+id/btn_Home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:id="@+id/btn_addQuiz"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/add" />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:id="@+id/btnLibrary"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/library" />
+
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/btnUser"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</LinearLayout>
