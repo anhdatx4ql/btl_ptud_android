@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -39,7 +40,10 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final EditText edtUsernameLogin;
 
   @NonNull
-  public final LinearLayout numberListContainer;
+  public final LinearLayout main;
+
+  @NonNull
+  public final ProgressBar prgLogin;
 
   @NonNull
   public final Switch swRemember;
@@ -53,7 +57,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnForgot,
       @NonNull ImageView btnHidePassword, @NonNull Button btnLogin,
       @NonNull EditText edtPasswordLogin, @NonNull EditText edtUsernameLogin,
-      @NonNull LinearLayout numberListContainer, @NonNull Switch swRemember,
+      @NonNull LinearLayout main, @NonNull ProgressBar prgLogin, @NonNull Switch swRemember,
       @NonNull TextView textView, @NonNull TextView textView2) {
     this.rootView = rootView;
     this.btnForgot = btnForgot;
@@ -61,7 +65,8 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.btnLogin = btnLogin;
     this.edtPasswordLogin = edtPasswordLogin;
     this.edtUsernameLogin = edtUsernameLogin;
-    this.numberListContainer = numberListContainer;
+    this.main = main;
+    this.prgLogin = prgLogin;
     this.swRemember = swRemember;
     this.textView = textView;
     this.textView2 = textView2;
@@ -124,7 +129,13 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout numberListContainer = (LinearLayout) rootView;
+      LinearLayout main = (LinearLayout) rootView;
+
+      id = R.id.prgLogin;
+      ProgressBar prgLogin = ViewBindings.findChildViewById(rootView, id);
+      if (prgLogin == null) {
+        break missingId;
+      }
 
       id = R.id.swRemember;
       Switch swRemember = ViewBindings.findChildViewById(rootView, id);
@@ -145,7 +156,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((LinearLayout) rootView, btnForgot, btnHidePassword, btnLogin,
-          edtPasswordLogin, edtUsernameLogin, numberListContainer, swRemember, textView, textView2);
+          edtPasswordLogin, edtUsernameLogin, main, prgLogin, swRemember, textView, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

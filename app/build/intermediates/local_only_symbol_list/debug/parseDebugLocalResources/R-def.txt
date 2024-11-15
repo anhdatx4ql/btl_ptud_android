@@ -70,8 +70,11 @@ id imageView1
 id imageView2
 id imageView3
 id listViewCategories
+id main
 id nameQuestion
 id numberListContainer
+id prgLogin
+id prg_signup
 id profile_image
 id progress_circular
 id questionContainer
@@ -97,6 +100,7 @@ layout activity_add_library
 layout activity_add_questions
 layout activity_forgot_password
 layout activity_home_login
+layout activity_home_user
 layout activity_library
 layout activity_login
 layout activity_main
@@ -104,6 +108,7 @@ layout activity_play_quizz
 layout activity_profile
 layout activity_question
 layout activity_sign_up
+layout activity_user_profile
 layout layout_item_library
 layout layout_list_library
 mipmap ic_launcher
