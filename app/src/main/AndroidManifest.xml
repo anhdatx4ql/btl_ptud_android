@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Btl_ptud_android"
         tools:targetApi="31">
         <activity
+            android:name=".activities.PlayQuizActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.UserProfileActivity"
             android:exported="false" />
         <activity
@@ -26,11 +29,10 @@
             android:exported="false" />
         <activity
             android:name=".activities.AddLibraryActivity"
-            android:exported="false" />
- <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
+            android:exported="false" /> <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
         <activity
             android:name=".activities.HomeLoginActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,9 +44,7 @@
             android:exported="false" />
         <activity
             android:name=".activities.LibraryActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".activities.SignUpActivity"
             android:exported="false" />

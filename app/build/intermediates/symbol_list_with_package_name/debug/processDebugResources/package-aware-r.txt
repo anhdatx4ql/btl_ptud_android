@@ -3034,6 +3034,7 @@ drawable background_home
 drawable background_login
 drawable background_logout
 drawable background_menu
+drawable background_question
 drawable baseline_add_24
 drawable bg_btn_login
 drawable bg_hide_password
@@ -3299,7 +3300,12 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAnswerA
+id btnAnswerB
+id btnAnswerC
+id btnAnswerD
 id btnLibrary
+id btnNext
 id btnReset
 id btnUser
 id btn_Home
@@ -3604,6 +3610,7 @@ id progress_circular
 id progress_horizontal
 id questionContainer
 id questionNumberText
+id questionProgress
 id radio
 id radio_correct_answer_1
 id radio_correct_answer_2
@@ -3741,7 +3748,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txt_NameLib
+id txtCountQuestion
+id txtIsCorrect
+id txtIsNotCorrect
+id txtNumberQuestion
+id txtQuestionTitle
+id txtTitle
 id unchecked
 id uniform
 id unlabeled
@@ -3890,7 +3902,7 @@ layout activity_home_user
 layout activity_library
 layout activity_login
 layout activity_main
-layout activity_play_quizz
+layout activity_play_quiz
 layout activity_profile
 layout activity_question
 layout activity_sign_up
@@ -3974,6 +3986,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout quiz_recycle_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
