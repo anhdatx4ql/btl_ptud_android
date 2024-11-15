@@ -3033,6 +3033,7 @@ int drawable background_home 0x7f07007d
 int drawable background_login 0x7f07007e
 int drawable background_logout 0x7f07007f
 int drawable background_menu 0x7f070080
+int drawable background_question 0x7f070119
 int drawable baseline_add_24 0x7f070081
 int drawable bg_btn_login 0x7f070082
 int drawable bg_hide_password 0x7f070083
@@ -3298,7 +3299,12 @@ int id browser_actions_menu_item_icon 0x7f08006d
 int id browser_actions_menu_item_text 0x7f08006e
 int id browser_actions_menu_items 0x7f08006f
 int id browser_actions_menu_view 0x7f080070
+int id btnAnswerA 0x7f080247
+int id btnAnswerB 0x7f080248
+int id btnAnswerC 0x7f080249
+int id btnAnswerD 0x7f08024a
 int id btnLibrary 0x7f080071
+int id btnNext 0x7f08024b
 int id btnReset 0x7f080072
 int id btnUser 0x7f080073
 int id btn_Home 0x7f080074
@@ -3603,6 +3609,7 @@ int id progress_circular 0x7f08019e
 int id progress_horizontal 0x7f08019f
 int id questionContainer 0x7f0801a0
 int id questionNumberText 0x7f0801a1
+int id questionProgress 0x7f08024c
 int id radio 0x7f0801a2
 int id radio_correct_answer_1 0x7f0801a3
 int id radio_correct_answer_2 0x7f0801a4
@@ -3740,7 +3747,12 @@ int id transition_position 0x7f080227
 int id transition_scene_layoutid_cache 0x7f080228
 int id transition_transform 0x7f080229
 int id triangle 0x7f08022a
-int id txt_NameLib 0x7f08022b
+int id txtCountQuestion 0x7f080245
+int id txtIsCorrect 0x7f08024f
+int id txtIsNotCorrect 0x7f080250
+int id txtNumberQuestion 0x7f08024d
+int id txtQuestionTitle 0x7f08024e
+int id txtTitle 0x7f080246
 int id unchecked 0x7f08022c
 int id uniform 0x7f08022d
 int id unlabeled 0x7f08022e
@@ -3889,7 +3901,7 @@ int layout activity_home_user 0x7f0b0020
 int layout activity_library 0x7f0b0021
 int layout activity_login 0x7f0b0022
 int layout activity_main 0x7f0b0023
-int layout activity_play_quizz 0x7f0b0024
+int layout activity_play_quiz 0x7f0b007d
 int layout activity_profile 0x7f0b0025
 int layout activity_question 0x7f0b0026
 int layout activity_sign_up 0x7f0b0027
@@ -3973,6 +3985,7 @@ int layout notification_template_custom_big 0x7f0b0074
 int layout notification_template_icon_group 0x7f0b0075
 int layout notification_template_part_chronometer 0x7f0b0076
 int layout notification_template_part_time 0x7f0b0077
+int layout quiz_recycle_row 0x7f0b007c
 int layout select_dialog_item_material 0x7f0b0078
 int layout select_dialog_multichoice_material 0x7f0b0079
 int layout select_dialog_singlechoice_material 0x7f0b007a
