@@ -3482,6 +3482,7 @@ id listMode
 id listViewCategories
 id list_item
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3596,6 +3597,8 @@ id pin
 id position
 id postLayout
 id pressed
+id prgLogin
+id prg_signup
 id profile_image
 id progress_circular
 id progress_horizontal
@@ -3883,6 +3886,7 @@ layout activity_add_library
 layout activity_add_questions
 layout activity_forgot_password
 layout activity_home_login
+layout activity_home_user
 layout activity_library
 layout activity_login
 layout activity_main
@@ -3890,6 +3894,7 @@ layout activity_play_quizz
 layout activity_profile
 layout activity_question
 layout activity_sign_up
+layout activity_user_profile
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
