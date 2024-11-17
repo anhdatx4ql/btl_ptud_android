@@ -1460,8 +1460,10 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_green
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2126,6 +2128,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -3042,6 +3045,7 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_finish
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -3304,6 +3308,7 @@ id btnAnswerA
 id btnAnswerB
 id btnAnswerC
 id btnAnswerD
+id btnFinish
 id btnLibrary
 id btnNext
 id btnReset
@@ -3632,6 +3637,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id score_progress
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3753,7 +3759,9 @@ id txtIsCorrect
 id txtIsNotCorrect
 id txtNumberQuestion
 id txtQuestionTitle
+id txtSoCauDung
 id txtTitle
+id txtTotalScore
 id unchecked
 id uniform
 id unlabeled
@@ -3987,6 +3995,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout quiz_recycle_row
+layout score_dialog
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -4481,6 +4490,7 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style ButtonFinish
 style ButtonLogOut
 style ButtonLogin
 style ButtonSignUp
