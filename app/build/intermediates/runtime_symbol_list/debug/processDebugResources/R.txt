@@ -1459,8 +1459,10 @@ int color error_color_material_dark 0x7f050069
 int color error_color_material_light 0x7f05006a
 int color foreground_material_dark 0x7f05006b
 int color foreground_material_light 0x7f05006c
+int color green 0x7f050316
 int color highlighted_text_material_dark 0x7f05006d
 int color highlighted_text_material_light 0x7f05006e
+int color light_green 0x7f050318
 int color m3_appbar_overlay_color 0x7f05006f
 int color m3_assist_chip_icon_tint_color 0x7f050070
 int color m3_assist_chip_stroke_color 0x7f050071
@@ -2125,6 +2127,7 @@ int color primary_text_default_material_dark 0x7f050303
 int color primary_text_default_material_light 0x7f050304
 int color primary_text_disabled_material_dark 0x7f050305
 int color primary_text_disabled_material_light 0x7f050306
+int color red 0x7f050317
 int color ripple_material_dark 0x7f050307
 int color ripple_material_light 0x7f050308
 int color secondary_text_default_material_dark 0x7f050309
@@ -3041,6 +3044,7 @@ int drawable btn_checkbox_checked_mtrl 0x7f070084
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f070085
 int drawable btn_checkbox_unchecked_mtrl 0x7f070086
 int drawable btn_checkbox_unchecked_to_checked_mtrl_animation 0x7f070087
+int drawable btn_finish 0x7f07011a
 int drawable btn_radio_off_mtrl 0x7f070088
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f070089
 int drawable btn_radio_on_mtrl 0x7f07008a
@@ -3303,6 +3307,7 @@ int id btnAnswerA 0x7f080247
 int id btnAnswerB 0x7f080248
 int id btnAnswerC 0x7f080249
 int id btnAnswerD 0x7f08024a
+int id btnFinish 0x7f080251
 int id btnLibrary 0x7f080071
 int id btnNext 0x7f08024b
 int id btnReset 0x7f080072
@@ -3631,6 +3636,7 @@ int id save_non_transition_alpha 0x7f0801b3
 int id save_overlay_view 0x7f0801b4
 int id sawtooth 0x7f0801b5
 int id scale 0x7f0801b6
+int id score_progress 0x7f080252
 int id screen 0x7f0801b7
 int id scroll 0x7f0801b8
 int id scrollIndicatorDown 0x7f0801b9
@@ -3752,7 +3758,9 @@ int id txtIsCorrect 0x7f08024f
 int id txtIsNotCorrect 0x7f080250
 int id txtNumberQuestion 0x7f08024d
 int id txtQuestionTitle 0x7f08024e
+int id txtSoCauDung 0x7f080253
 int id txtTitle 0x7f080246
+int id txtTotalScore 0x7f080254
 int id unchecked 0x7f08022c
 int id uniform 0x7f08022d
 int id unlabeled 0x7f08022e
@@ -3986,6 +3994,7 @@ int layout notification_template_icon_group 0x7f0b0075
 int layout notification_template_part_chronometer 0x7f0b0076
 int layout notification_template_part_time 0x7f0b0077
 int layout quiz_recycle_row 0x7f0b007c
+int layout score_dialog 0x7f0b007e
 int layout select_dialog_item_material 0x7f0b0078
 int layout select_dialog_multichoice_material 0x7f0b0079
 int layout select_dialog_singlechoice_material 0x7f0b007a
@@ -4480,6 +4489,7 @@ int style Base_Widget_MaterialComponents_Snackbar 0x7f11011c
 int style Base_Widget_MaterialComponents_TextInputEditText 0x7f11011d
 int style Base_Widget_MaterialComponents_TextInputLayout 0x7f11011e
 int style Base_Widget_MaterialComponents_TextView 0x7f11011f
+int style ButtonFinish 0x7f11046e
 int style ButtonLogOut 0x7f110120
 int style ButtonLogin 0x7f110121
 int style ButtonSignUp 0x7f110122

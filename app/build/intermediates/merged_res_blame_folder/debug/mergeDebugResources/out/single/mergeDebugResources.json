@@ -44,6 +44,10 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\icon_profile.png"
     },
     {
+        "merged": "com.example.btl_ptud_android.app-debug-45:/layout_score_dialog.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/score_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_user.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\user.png"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\layout_activity_home_user.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\activity_home_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\layout_score_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\score_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -168,6 +176,10 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\twitter.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_btn_finish.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\btn_finish.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\layout_quiz_recycle_row.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\quiz_recycle_row.xml"
     },
@@ -218,10 +230,6 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_library.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\library.png"
-    },
-    {
-        "merged": "com.example.btl_ptud_android.app-debug-45:/layout_activity_play_quiz.xml.flat",
-        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_play_quiz.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_background_question.xml.flat",
