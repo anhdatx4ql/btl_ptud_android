@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -54,11 +55,15 @@ public final class ActivityProfileBinding implements ViewBinding {
   @NonNull
   public final CircleImageView profileImage;
 
+  @NonNull
+  public final TextView txtName;
+
   private ActivityProfileBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnAddQuiz,
       @NonNull ImageView btnHome, @NonNull ImageView btnLibrary, @NonNull Button btnLogOut,
       @NonNull Button btnMode, @NonNull ImageView btnMode1, @NonNull Button btnProfileSetting,
       @NonNull ImageView btnProfileSetting1, @NonNull ImageView btnUser,
-      @NonNull LinearLayout numberListContainer, @NonNull CircleImageView profileImage) {
+      @NonNull LinearLayout numberListContainer, @NonNull CircleImageView profileImage,
+      @NonNull TextView txtName) {
     this.rootView = rootView;
     this.btnAddQuiz = btnAddQuiz;
     this.btnHome = btnHome;
@@ -71,6 +76,7 @@ public final class ActivityProfileBinding implements ViewBinding {
     this.btnUser = btnUser;
     this.numberListContainer = numberListContainer;
     this.profileImage = profileImage;
+    this.txtName = txtName;
   }
 
   @Override
@@ -162,9 +168,15 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txtName;
+      TextView txtName = ViewBindings.findChildViewById(rootView, id);
+      if (txtName == null) {
+        break missingId;
+      }
+
       return new ActivityProfileBinding((LinearLayout) rootView, btnAddQuiz, btnHome, btnLibrary,
           btnLogOut, btnMode, btnMode1, btnProfileSetting, btnProfileSetting1, btnUser,
-          numberListContainer, profileImage);
+          numberListContainer, profileImage, txtName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
