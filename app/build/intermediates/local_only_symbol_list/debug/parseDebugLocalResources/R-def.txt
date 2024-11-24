@@ -86,6 +86,7 @@ id nameQuestion
 id numberListContainer
 id prgLogin
 id prg_signup
+id prgbar
 id profile_image
 id progress_circular
 id questionContainer
