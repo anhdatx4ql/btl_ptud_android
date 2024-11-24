@@ -84,10 +84,6 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\drawable\\home.png"
     },
     {
-        "merged": "com.example.btl_ptud_android.app-debug-45:/layout_activity_profile.xml.flat",
-        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\xml\\data_extraction_rules.xml"
     },
@@ -146,6 +142,10 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\layout_activity_sign_up.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-47:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.btl_ptud_android.app-debug-45:/layout_activity_home_login.xml.flat",
+        "source": "com.example.btl_ptud_android.app-main-47:/layout/activity_home_login.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-45:\\drawable_ic_launcher_background.xml.flat",
