@@ -3756,6 +3756,7 @@ int id triangle 0x7f08022a
 int id txtCountQuestion 0x7f080245
 int id txtIsCorrect 0x7f08024f
 int id txtIsNotCorrect 0x7f080250
+int id txtName 0x7f080255
 int id txtNumberQuestion 0x7f08024d
 int id txtQuestionTitle 0x7f08024e
 int id txtSoCauDung 0x7f080253

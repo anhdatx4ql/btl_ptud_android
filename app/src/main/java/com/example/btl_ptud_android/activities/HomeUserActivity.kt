@@ -2,6 +2,7 @@ package com.example.btl_ptud_android.activities
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -13,6 +14,7 @@ import com.example.btl_ptud_android.R
 import com.example.btl_ptud_android.databinding.ActivityHomeUserBinding
 import com.example.btl_ptud_android.interfaces.rvCateInterface
 import com.example.btl_ptud_android.models.Categories
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -24,6 +26,8 @@ class HomeUserActivity : AppCompatActivity() {
     // tao mang de luu dl tu firebase
     private lateinit var categoryArrayList: ArrayList<Categories>
     private lateinit var firebaseRef: DatabaseReference
+    private lateinit var firebaseRef2: DatabaseReference
+    private lateinit var userName: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,8 +38,11 @@ class HomeUserActivity : AppCompatActivity() {
 
         // tao instant
         firebaseRef = FirebaseDatabase.getInstance().getReference("categories")
+        firebaseRef2 = FirebaseDatabase.getInstance().getReference("users") // lay ve ten ng dung
         categoryArrayList = arrayListOf<Categories>()
 
+        getUser()
+        userName = ""
 
         //lay du lieu categories tu firebase
         GetDataFromFirebase()
@@ -45,6 +52,33 @@ class HomeUserActivity : AppCompatActivity() {
             layoutManager = LinearLayoutManager(this.context)
         }
     }
+
+    private fun getUser() {
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        if (currentUser != null) {
+            val uid = currentUser.uid
+            val databaseRef = FirebaseDatabase.getInstance().getReference("users")
+
+            databaseRef.child(uid).get().addOnSuccessListener { dataSnapshot ->
+                if (dataSnapshot.exists()) {
+                    val name = dataSnapshot.child("name").getValue(String::class.java)
+                    val email = dataSnapshot.child("email").getValue(String::class.java)
+                    val role = dataSnapshot.child("role").getValue(String::class.java)
+
+                    userName = name.toString()
+                    Log.d("UserInfo", "Name: $name, Email: $email, Role: $role")
+                } else {
+                    Log.d("UserInfo", "User data not found")
+                }
+            }.addOnFailureListener { exception ->
+                Log.e("UserInfo", "Error: ${exception.message}")
+            }
+        } else {
+            Log.d("Auth", "No user logged in")
+        }
+
+    }
+
     private fun GetDataFromFirebase() {
         firebaseRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
@@ -89,6 +123,7 @@ class HomeUserActivity : AppCompatActivity() {
     private fun ProfileUser() {
         binding.btnUser.setOnClickListener{
             val intent = Intent(this, UserProfileActivity::class.java)
+            intent.putExtra("name",userName)
             startActivity(intent)
         }
     }

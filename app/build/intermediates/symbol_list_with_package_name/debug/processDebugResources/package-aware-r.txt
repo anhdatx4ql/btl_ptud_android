@@ -3757,6 +3757,7 @@ id triangle
 id txtCountQuestion
 id txtIsCorrect
 id txtIsNotCorrect
+id txtName
 id txtNumberQuestion
 id txtQuestionTitle
 id txtSoCauDung

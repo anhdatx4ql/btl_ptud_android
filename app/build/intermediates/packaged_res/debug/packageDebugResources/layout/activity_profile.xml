@@ -27,6 +27,7 @@
             tools:layout_editor_absoluteX="18dp"
             tools:ignore="MissingConstraints" />
         <TextView
+            android:id="@+id/txtName"
             android:textSize="30sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"

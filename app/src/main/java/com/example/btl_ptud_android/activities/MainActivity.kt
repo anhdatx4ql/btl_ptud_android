@@ -2,6 +2,7 @@ package com.example.btl_ptud_android.activities
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -14,6 +15,7 @@ import com.example.btl_ptud_android.R
 import com.example.btl_ptud_android.databinding.ActivityMainBinding
 import com.example.btl_ptud_android.interfaces.rvCateInterface
 import com.example.btl_ptud_android.models.Categories
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
@@ -25,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     // tao mang de luu dl tu firebase
     private lateinit var categoryArrayList: ArrayList<Categories>
     private lateinit var firebaseRef: DatabaseReference
+    private lateinit var userName: String
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -35,6 +38,10 @@ class MainActivity : AppCompatActivity() {
         LibraryHome()
         AddQuizHome()
         SearchButton()
+
+        //lay ten nguoi dung
+        userName = ""
+        getUser()
         // tao instant
         firebaseRef = FirebaseDatabase.getInstance().getReference("categories")
         categoryArrayList = arrayListOf<Categories>()
@@ -48,6 +55,32 @@ class MainActivity : AppCompatActivity() {
             layoutManager = LinearLayoutManager(this.context)
         }
 
+
+    }
+
+    private fun getUser() {
+            val currentUser = FirebaseAuth.getInstance().currentUser
+            if (currentUser != null) {
+                val uid = currentUser.uid
+                val databaseRef = FirebaseDatabase.getInstance().getReference("users")
+
+                databaseRef.child(uid).get().addOnSuccessListener { dataSnapshot ->
+                    if (dataSnapshot.exists()) {
+                        val name = dataSnapshot.child("name").getValue(String::class.java)
+                        val email = dataSnapshot.child("email").getValue(String::class.java)
+                        val role = dataSnapshot.child("role").getValue(String::class.java)
+
+                        userName = name.toString()
+                        Log.d("UserInfo", "Name: $name, Email: $email, Role: $role")
+                    } else {
+                        Log.d("UserInfo", "User data not found")
+                    }
+                }.addOnFailureListener { exception ->
+                    Log.e("UserInfo", "Error: ${exception.message}")
+                }
+            } else {
+                Log.d("Auth", "No user logged in")
+            }
 
     }
 
@@ -99,6 +132,7 @@ class MainActivity : AppCompatActivity() {
     private fun ProfileHome() {
         binding.btnUser.setOnClickListener{
             val intent = Intent(this, ProfileActivity::class.java)
+            intent.putExtra("name",userName)
             startActivity(intent)
         }
     }
