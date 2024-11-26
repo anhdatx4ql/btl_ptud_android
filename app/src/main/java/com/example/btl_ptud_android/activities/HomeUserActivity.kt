@@ -34,7 +34,9 @@ class HomeUserActivity : AppCompatActivity() {
         binding = ActivityHomeUserBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //nav button
         ProfileUser()
+        SearchButton()
 
         // tao instant
         firebaseRef = FirebaseDatabase.getInstance().getReference("categories")
@@ -50,6 +52,50 @@ class HomeUserActivity : AppCompatActivity() {
         //hien thi ra recycleView
         binding.rvSubject.apply {
             layoutManager = LinearLayoutManager(this.context)
+        }
+    }
+
+    private fun SearchButton() {
+
+        binding.btnSearch.setOnClickListener {
+            val nameSearch = binding.edtSearchQuiz.text.toString()
+
+            firebaseRef.addValueEventListener(object : ValueEventListener {
+                override fun onDataChange(snapshot: DataSnapshot) {
+                    categoryArrayList.clear()
+                    if (snapshot.exists()){
+                        for (categorySnap in snapshot.children){
+                            if (categorySnap.child("title").value.toString().contains(nameSearch)){
+                                val id = categorySnap.child("id").value.toString()
+                                val title = categorySnap.child("title").value.toString()
+                                val countQuestion = categorySnap.child("countQuestion").value.toString().toInt()
+                                val model = Categories(id,title,countQuestion)
+                                categoryArrayList.add(model)
+                            }
+                        }
+                    }
+                    //tao adapter va phuong thuc onclick
+                    val adapter = HomeQuizAdapter(categoryArrayList,object : rvCateInterface {
+                        override fun onClickCateItem(position: Int) {
+
+                            //tao intent truyen du lieu
+                            val intent = Intent(this@HomeUserActivity,PlayQuizActivity::class.java)
+                            intent.putExtra("category_id",categoryArrayList[position].id.toString())
+                            startActivity(intent)
+                        }
+                    } )
+
+                    //gan dl vao adapter
+                    binding.rvSubject.adapter = adapter
+
+
+                }
+
+                override fun onCancelled(error: DatabaseError) {
+                    Toast.makeText(this@HomeUserActivity,error.message, Toast.LENGTH_SHORT).show()
+                }
+
+            })
         }
     }
 
