@@ -38,7 +38,8 @@
             android:hint="Enter Set Quiz Name"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            style="@style/EditTextSearch"
+            android:background="@drawable/custom_search"
+            android:textAlignment="center"
             />
 
 
