@@ -175,11 +175,11 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Admin\.gradle\c
 	android:fullBackupContent
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:11:9-43
 	tools:targetApi
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:9:9-38
 	android:allowBackup
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
