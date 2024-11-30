@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
+import android.util.Log
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -18,8 +19,8 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.database
 
 class SignUpActivity : AppCompatActivity() {
-    private lateinit var binding: ActivitySignUpBinding
-    private lateinit var firebaseAuth: FirebaseAuth
+    lateinit var binding: ActivitySignUpBinding
+    lateinit var firebaseAuth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySignUpBinding.inflate(layoutInflater)
@@ -34,7 +35,7 @@ class SignUpActivity : AppCompatActivity() {
         ShowPassWord()
     }
 
-    private fun SignUpForNewUser() {
+    fun SignUpForNewUser() {
         binding.btnSignup.setOnClickListener {
             binding.prgSignup.visibility = android.view.View.VISIBLE
             val edtEmail = binding.edtUsernameSignup.text.toString()
@@ -77,11 +78,12 @@ class SignUpActivity : AppCompatActivity() {
                                 }
                                 .addOnFailureListener { e ->
                                     Toast.makeText(this, "Lỗi khi lưu thông tin người dùng: ${e.message}", Toast.LENGTH_SHORT).show()
+                                    Log.e("Firebase1", "Error saving user data: ${e.message}")
                                 }
                         }else{
                             //khong thanh cong -> thong bao exception
-                            Toast.makeText(this,it.exception.toString(),Toast.LENGTH_LONG).show()
-
+                            Toast.makeText(this, it.exception?.localizedMessage ?: "Unknown error", Toast.LENGTH_LONG).show()
+//
                         }
                     }
 
