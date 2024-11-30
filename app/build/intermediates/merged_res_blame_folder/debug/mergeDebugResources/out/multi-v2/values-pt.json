@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.btl_ptud_android.app-mergeDebugResources-43:/values-pt/values-pt.xml",
+            "outputFile": "com.example.btl_ptud_android.app-mergeDebugResources-44:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\fe834840916dee902f81209d3a6763d7\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\8642a06defa2528265f02603c86484ca\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\b13a589f8c13fd579115d3c30c07dc4b\\transformed\\credentials-1.2.0-rc01\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\697b67ccc3ca1128e06d4a0783db5000\\transformed\\credentials-1.2.0-rc01\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\c1ac7f259364f7b2905ea5d4182da74c\\transformed\\core-1.15.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\da32e53303d22b8d96462efab753e2f6\\transformed\\core-1.15.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\a1399ed1555d4c7f2ea454634e2d97cd\\transformed\\appcompat-1.7.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-4\\664b13a1c6f6adaf67ad8ddcdf4809bb\\transformed\\appcompat-1.7.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

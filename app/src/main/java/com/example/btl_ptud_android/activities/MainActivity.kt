@@ -25,7 +25,7 @@ import com.google.firebase.database.ValueEventListener
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     // tao mang de luu dl tu firebase
-    private lateinit var categoryArrayList: ArrayList<Categories>
+    lateinit var categoryArrayList: ArrayList<Categories>
     private lateinit var firebaseRef: DatabaseReference
     private lateinit var userName: String
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun GetDataFromFirebase() {
+    fun GetDataFromFirebase() {
         firebaseRef.addValueEventListener(object : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 categoryArrayList.clear()
