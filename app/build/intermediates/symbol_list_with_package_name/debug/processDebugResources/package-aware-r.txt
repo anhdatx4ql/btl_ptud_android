@@ -1461,8 +1461,10 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_green
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2127,6 +2129,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -3035,6 +3038,7 @@ drawable background_home
 drawable background_login
 drawable background_logout
 drawable background_menu
+drawable background_question
 drawable baseline_add_24
 drawable bg_btn_login
 drawable bg_hide_password
@@ -3042,6 +3046,7 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_finish
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -3300,14 +3305,26 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+<<<<<<< HEAD
 id btnDeleteQuestion
+=======
+id btnAnswerA
+id btnAnswerB
+id btnAnswerC
+id btnAnswerD
+id btnFinish
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 id btnLibrary
+id btnNext
 id btnReset
 id btnUpdateQuestion
 id btnUser
+id btn_Back
 id btn_Home
 id btn_addQuiz
 id btn_add_library
+id btn_cancel
+id btn_change
 id btn_forgot
 id btn_have_account
 id btn_hide_password
@@ -3403,11 +3420,17 @@ id edge
 id editTextText
 id edit_query
 id edit_text_id
+<<<<<<< HEAD
 id edtOption1
 id edtOption2
 id edtOption3
 id edtOption4
 id edtTitle
+=======
+id edt_new_password
+id edt_new_password2
+id edt_old_password
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 id edt_password_login
 id edt_password_signup1
 id edt_password_signup2
@@ -3605,10 +3628,18 @@ id pin
 id position
 id postLayout
 id pressed
+id prgLogin
+id prg_signup
+id prgbar
 id profile_image
 id progress_circular
 id progress_horizontal
 id questionContainer
+<<<<<<< HEAD
+=======
+id questionNumberText
+id questionProgress
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 id radio
 id radio_correct_answer_1
 id radio_correct_answer_2
@@ -3630,6 +3661,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id score_progress
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3746,11 +3778,23 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+<<<<<<< HEAD
 id txtCategoryTitle
 id txtCorrectAnswer
 id txtQuestionCount
 id txtQuestionTitle
 id txt_NameLib
+=======
+id txtCountQuestion
+id txtIsCorrect
+id txtIsNotCorrect
+id txtName
+id txtNumberQuestion
+id txtQuestionTitle
+id txtSoCauDung
+id txtTitle
+id txtTotalScore
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 id unchecked
 id uniform
 id unlabeled
@@ -3893,16 +3937,19 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_library
 layout activity_add_questions
+layout activity_change_password
 layout activity_forgot_password
 layout activity_home_login
+layout activity_home_user
 layout activity_library
 layout activity_login
 layout activity_main
-layout activity_play_quizz
+layout activity_play_quiz
 layout activity_profile
 layout activity_question
 layout activity_question_detail
 layout activity_sign_up
+layout activity_user_profile
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3983,6 +4030,8 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout quiz_recycle_row
+layout score_dialog
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -4477,6 +4526,7 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style ButtonFinish
 style ButtonLogOut
 style ButtonLogin
 style ButtonSignUp
@@ -4939,6 +4989,8 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText
 style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

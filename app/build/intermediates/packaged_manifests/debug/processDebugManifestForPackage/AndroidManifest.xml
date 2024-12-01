@@ -18,6 +18,7 @@
     <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
 
     <permission
         android:name="com.example.btl_ptud_android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -32,14 +33,27 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Btl_ptud_android" >
         <activity
+<<<<<<< HEAD
             android:name="com.example.btl_ptud_android.activities.QuestionDetailActivity"
+=======
+            android:name="com.example.btl_ptud_android.activities.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.btl_ptud_android.activities.PlayQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.btl_ptud_android.activities.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.btl_ptud_android.activities.HomeUserActivity"
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.QuestionActivity"
@@ -49,16 +63,14 @@
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.AddLibraryActivity"
+<<<<<<< HEAD
             android:exported="false" />
         <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
+=======
+            android:exported="false" /> <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
         <activity
             android:name="com.example.btl_ptud_android.activities.HomeLoginActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.btl_ptud_android.activities.ProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.btl_ptud_android.activities.LibraryActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -66,6 +78,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.btl_ptud_android.activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.btl_ptud_android.activities.LibraryActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.SignUpActivity"
             android:exported="false" />
@@ -202,6 +220,31 @@
             android:exported="true"
             android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
             android:visibleToInstantApps="true" />
+
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+            android:exported="true"
+            android:theme="@style/WhiteBackgroundTheme" >
+            <intent-filter android:priority="-100" >
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+            android:exported="true"
+            android:theme="@style/WhiteBackgroundTheme" >
+            <intent-filter android:priority="-100" >
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+            android:exported="true"
+            android:theme="@style/WhiteBackgroundDialogTheme" >
+            <intent-filter android:priority="-100" >
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <uses-library
             android:name="android.ext.adservices"
