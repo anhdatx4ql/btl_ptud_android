@@ -27,7 +27,6 @@
             tools:layout_editor_absoluteX="18dp"
             tools:ignore="MissingConstraints" />
         <TextView
-            android:id="@+id/txtName"
             android:textSize="30sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
@@ -80,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:textColor="@color/black"
-            android:text="Change Password" />
+            android:text="System Setting" />
 
         <ImageView
             android:scaleType="fitCenter"
