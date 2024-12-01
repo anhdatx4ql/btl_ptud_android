@@ -109,7 +109,14 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun SystemSetting() {
+        binding.btnMode.setOnClickListener {
+            val intent = Intent(this, ChangePasswordActivity::class.java)
+            startActivity(intent)
+        }
+    }
 
+    private fun updatePassword() {
+        TODO("Not yet implemented")
     }
 
     private fun ProfileSetting() {

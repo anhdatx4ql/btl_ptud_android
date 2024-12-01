@@ -3312,9 +3312,12 @@ int id btnLibrary 0x7f080076
 int id btnNext 0x7f080077
 int id btnReset 0x7f080078
 int id btnUser 0x7f080079
+int id btn_Back 0x7f08025b
 int id btn_Home 0x7f08007a
 int id btn_addQuiz 0x7f08007b
 int id btn_add_library 0x7f08007c
+int id btn_cancel 0x7f080256
+int id btn_change 0x7f080257
 int id btn_forgot 0x7f08007d
 int id btn_have_account 0x7f08007e
 int id btn_hide_password 0x7f08007f
@@ -3409,6 +3412,9 @@ int id east 0x7f0800d7
 int id edge 0x7f0800d8
 int id edit_query 0x7f0800d9
 int id edit_text_id 0x7f0800da
+int id edt_new_password 0x7f080258
+int id edt_new_password2 0x7f080259
+int id edt_old_password 0x7f08025a
 int id edt_password_login 0x7f0800db
 int id edt_password_signup1 0x7f0800dc
 int id edt_password_signup2 0x7f0800dd
@@ -3905,6 +3911,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_add_library 0x7f0b001c
 int layout activity_add_questions 0x7f0b001d
+int layout activity_change_password 0x7f0b007e
 int layout activity_forgot_password 0x7f0b001e
 int layout activity_home_login 0x7f0b001f
 int layout activity_home_user 0x7f0b0020
