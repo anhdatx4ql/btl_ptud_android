@@ -16,6 +16,15 @@
             android:text="Xóa" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/questionNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
     <!-- Tên câu hỏi -->
     <EditText
         android:id="@+id/title_question"

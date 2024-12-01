@@ -12,7 +12,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="370dp">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:layout_marginTop="130dp"
@@ -38,6 +38,12 @@
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:id="@+id/prgbar"
+            android:layout_width="100dp"
+            android:layout_height="70dp"/>
     </LinearLayout>
 
     <LinearLayout

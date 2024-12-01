@@ -11,35 +11,6 @@ public class Questions {
     private int sort_order;
     private String answerTrue;  // đáp án đúng (enum)
 
-    // Enum for answers A, B, C, D
-    public enum Answer {
-        A(1), B(2), C(3), D(4);
-
-        private final int index;
-
-        Answer(int index) {
-            this.index = index;
-        }
-
-        public int getIndex() {
-            return index;
-        }
-
-        // Get enum by index
-        public static Answer fromIndex(int index) {
-            for (Answer answer : values()) {
-                if (answer.index == index) {
-                    return answer;
-                }
-            }
-            throw new IllegalArgumentException("Invalid answer index: " + index);
-        }
-    }
-
-    // Constructor không đối số (Firebase yêu cầu)
-    public Questions() {
-    }
-
     // Constructor
     public Questions(String ID, String category_ID, String title, String answerA, String answerB, String answerC, String answerD, String answerTrue, int sort_order) {
         this.ID = ID;

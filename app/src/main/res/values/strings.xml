@@ -2,9 +2,9 @@
     <string name="app_name">btl_ptud_android</string>
     <string name="sign_up">Sign Up</string>
     <string-array name="correct_answers">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
 </resources>
