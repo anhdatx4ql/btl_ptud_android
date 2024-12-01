@@ -6,27 +6,14 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/icon"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/icon"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Btl_ptud_android"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
             android:name=".activities.QuestionDetailActivity"
-=======
-            android:name=".activities.ChangePasswordActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.PlayQuizActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.UserProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.HomeUserActivity"
->>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
             android:exported="false" />
         <activity
             android:name=".activities.QuestionActivity"
@@ -34,18 +21,18 @@
         <activity
             android:name=".activities.ForgotPasswordActivity"
             android:exported="false" />
-<<<<<<< HEAD
          <activity
          android:name=".activities.AddLibraryActivity"
          android:exported="false" />
         <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
-=======
-        <activity
-            android:name=".activities.AddLibraryActivity"
-            android:exported="false" /> <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
->>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
         <activity
             android:name=".activities.HomeLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LibraryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,12 +40,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activities.ProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.LibraryActivity"
-            android:exported="false" />
         <activity
             android:name=".activities.SignUpActivity"
             android:exported="false" />
