@@ -1,10 +1,4 @@
 <resources>
     <string name="app_name">btl_ptud_android</string>
     <string name="sign_up">Sign Up</string>
-    <string-array name="correct_answers">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-    </string-array>
 </resources>

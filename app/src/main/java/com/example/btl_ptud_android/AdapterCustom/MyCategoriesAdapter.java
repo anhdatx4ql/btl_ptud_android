@@ -1,14 +1,10 @@
 package com.example.btl_ptud_android.AdapterCustom;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -16,49 +12,38 @@ import androidx.annotation.Nullable;
 
 import com.example.btl_ptud_android.R;
 import com.example.btl_ptud_android.models.Categories;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MyCategoriesAdapter extends ArrayAdapter<Categories> {
-    private Context context;
-    private int resource;
-    private ArrayList<Categories> categoriesList;
+    Activity context;
+    int IdLayout;
+    List<Categories> myList;
     // tạo constructor để main_activity gọi đến
 
-    public MyCategoriesAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Categories> objects) {
-        super(context, resource, objects);
+    public MyCategoriesAdapter(Activity context, int idLayout, List<Categories> myList) {
+        super(context, idLayout, myList);
         this.context = context;
-        this.resource = resource;
-        this.categoriesList = objects;
+        this.IdLayout = idLayout;
+        this.myList = myList;
     }
 
     // gọi hàm getView để sắp xếp và trả về dữ liệu
-    @SuppressLint("SetTextI18n")
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         if (convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(resource, parent, false);
+            convertView = LayoutInflater.from(context).inflate(R.layout.layout_list_library, parent, false);
         }
 
-        // Lấy category hiện tại
-        Categories category = categoriesList.get(position);
+        Categories category = myList.get(position);
 
-        // Ánh xạ các TextView
-        TextView txtTitle = convertView.findViewById(R.id.txtCategoryTitle);
-        TextView txtCount = convertView.findViewById(R.id.txtQuestionCount);
+        TextView titleTextView = convertView.findViewById(R.id.categoryTitle);
+        TextView questionCountTextView = convertView.findViewById(R.id.categoryQuestionCount);
 
-        // Hiển thị dữ liệu
-        txtTitle.setText(category.getTitle());
-        txtCount.setText(category.getCountQuestion() + "");
+        titleTextView.setText(category.getTitle());
+        questionCountTextView.setText(category.getCountQuestion() + "");
 
         return convertView;
     }
-
 }

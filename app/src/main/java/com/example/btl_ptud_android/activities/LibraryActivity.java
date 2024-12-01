@@ -27,7 +27,11 @@ public class LibraryActivity extends AppCompatActivity {
     ActivityLibraryBinding binding;
 
     // danh sách title
-    List<Categories> lstCategory = new ArrayList<>();
+    List<Categories> lstCategory = Arrays.asList(
+            new Categories("123", "Bộ đề 1",  30),
+            new Categories("124", "Bộ đề 2",  30),
+            new Categories("125", "Bộ đề 3",  30)
+    );
 
     // khai báo listview
     ArrayList<Categories> myCategories;
@@ -55,22 +59,16 @@ public class LibraryActivity extends AppCompatActivity {
         myCategoriesAdapter = new MyCategoriesAdapter(LibraryActivity.this, R.layout.layout_item_library, myCategories);
         lv.setAdapter(myCategoriesAdapter);
 
+        // xử lý sự kiện click
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Lấy danh mục từ danh sách
+                Intent myIntent = new Intent(LibraryActivity.this, QuestionActivity.class);
                 Categories item = myCategories.get(position);
-
-                // Hiển thị title hoặc thực hiện hành động khác
-                Log.i("CategoryTitle", "Category: " + item.getTitle());
-                // Chuyển đến Activity khác (ví dụ: để hiển thị câu hỏi thuộc danh mục này)
-                Intent intent = new Intent(LibraryActivity.this, QuestionActivity.class);
-                intent.putExtra("category_id", item.getID());
-                intent.putExtra("category_title", item.getTitle());
-                startActivity(intent);
+                myIntent.putExtra("category_id", item.getID());
+                startActivity(myIntent);
             }
         });
-
     }
 
     private void MainActivityHome() {
@@ -108,27 +106,25 @@ public class LibraryActivity extends AppCompatActivity {
     private void getCategoriesFromFirebase() {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference categoriesRef = database.getReference("categories");
+        DatabaseReference questionsRef = database.getReference("questions");
 
         categoriesRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                myCategories.clear(); // Xóa danh sách cũ để tránh trùng lặp
+                myCategories.clear(); // Xóa danh sách cũ
 
                 for (DataSnapshot categorySnapshot : dataSnapshot.getChildren()) {
-                    // Lấy thông tin từ Firebase
                     String categoryId = categorySnapshot.child("id").getValue(String.class);
                     String categoryTitle = categorySnapshot.child("title").getValue(String.class);
                     Integer questionCount = categorySnapshot.child("countQuestion").getValue(Integer.class);
 
-                    // Kiểm tra dữ liệu không null trước khi thêm vào danh sách
-                    if (categoryId != null && categoryTitle != null && questionCount != null) {
-                        Categories category = new Categories(categoryId, categoryTitle, questionCount);
-                        myCategories.add(category);
-                    }
-                }
+                    // Thêm category vào danh sách sau khi đếm xong số lượng câu hỏi
+                    Categories category = new Categories(categoryId, categoryTitle, questionCount);
+                    myCategories.add(category);
 
-                // Cập nhật Adapter sau khi thêm dữ liệu
-                myCategoriesAdapter.notifyDataSetChanged();
+                    // Cập nhật adapter
+                    myCategoriesAdapter.notifyDataSetChanged();
+                }
             }
 
             @Override

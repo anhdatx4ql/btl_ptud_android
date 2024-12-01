@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -38,9 +39,13 @@ public final class ActivityHomeLoginBinding implements ViewBinding {
   @NonNull
   public final LinearLayout numberListContainer;
 
+  @NonNull
+  public final ProgressBar prgbar;
+
   private ActivityHomeLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogin,
       @NonNull Button btnSignup, @NonNull ImageView imageView1, @NonNull ImageView imageView2,
-      @NonNull ImageView imageView3, @NonNull LinearLayout numberListContainer) {
+      @NonNull ImageView imageView3, @NonNull LinearLayout numberListContainer,
+      @NonNull ProgressBar prgbar) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnSignup = btnSignup;
@@ -48,6 +53,7 @@ public final class ActivityHomeLoginBinding implements ViewBinding {
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
     this.numberListContainer = numberListContainer;
+    this.prgbar = prgbar;
   }
 
   @Override
@@ -109,8 +115,14 @@ public final class ActivityHomeLoginBinding implements ViewBinding {
 
       LinearLayout numberListContainer = (LinearLayout) rootView;
 
+      id = R.id.prgbar;
+      ProgressBar prgbar = ViewBindings.findChildViewById(rootView, id);
+      if (prgbar == null) {
+        break missingId;
+      }
+
       return new ActivityHomeLoginBinding((LinearLayout) rootView, btnLogin, btnSignup, imageView1,
-          imageView2, imageView3, numberListContainer);
+          imageView2, imageView3, numberListContainer, prgbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

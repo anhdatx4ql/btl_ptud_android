@@ -26,4 +26,11 @@
         <item name="android:textSize">20sp</item>
         <item name="backgroundTint">@null</item>
     </style>
+
+<!--    btn finish-->
+    <style name="ButtonFinish" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_finish</item>
+        <item name="android:textSize">18sp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
 </resources>

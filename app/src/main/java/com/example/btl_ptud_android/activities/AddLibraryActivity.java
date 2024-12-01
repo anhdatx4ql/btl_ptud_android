@@ -32,7 +32,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -45,8 +44,6 @@ public class AddLibraryActivity extends AppCompatActivity {
     private ArrayList<View> questionViews; // Danh sách chứa các view của câu hỏi
     private ArrayList<Questions> questionList; // Danh sách chứa các câu hỏi
     private int currentQuestionIndex = 0; // Chỉ số câu hỏi hiện tại (1, 2, 3...)
-    private int totalQuestions = 0;
-    private final int[] successCount = {0};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +81,10 @@ public class AddLibraryActivity extends AppCompatActivity {
         // Tạo layout câu hỏi mới
         View newQuestionView = getLayoutInflater().inflate(R.layout.activity_add_questions, null);
 
+        // Cập nhật số thứ tự câu hỏi
+        TextView questionNumberText = newQuestionView.findViewById(R.id.questionNumberText);
+        questionNumberText.setText(String.valueOf(currentQuestionIndex + 1));
+
         // Lấy các EditText trong layout của câu hỏi
         EditText titleEditText = newQuestionView.findViewById(R.id.title_question);
         EditText answerAEditText = newQuestionView.findViewById(R.id.answer_1);
@@ -97,7 +98,7 @@ public class AddLibraryActivity extends AppCompatActivity {
         Questions newQuestion = new Questions(
                 GuidGenerator.generateGUID(),
                 "",
-                "", "", "", "", "", "A", currentQuestionIndex + 1
+                "", "", "", "", "", 1, currentQuestionIndex + 1
         );
         questionList.add(newQuestion);
 
@@ -156,11 +157,11 @@ public class AddLibraryActivity extends AppCompatActivity {
 
         // Cập nhật đáp án đúng khi thay đổi
         correctAnswerGroup.setOnCheckedChangeListener((group, checkedId) -> {
-            String correctAnswer = "A";
-            if (checkedId == R.id.radio_correct_answer_1) correctAnswer = "A";
-            else if (checkedId == R.id.radio_correct_answer_2) correctAnswer = "B";
-            else if (checkedId == R.id.radio_correct_answer_3) correctAnswer = "C";
-            else if (checkedId == R.id.radio_correct_answer_4) correctAnswer = "D";
+            int correctAnswer = 1;
+            if (checkedId == R.id.radio_correct_answer_1) correctAnswer = 1;
+            else if (checkedId == R.id.radio_correct_answer_2) correctAnswer = 2;
+            else if (checkedId == R.id.radio_correct_answer_3) correctAnswer = 3;
+            else if (checkedId == R.id.radio_correct_answer_4) correctAnswer = 4;
 
             Questions question = questionList.get(questionList.indexOf(newQuestion));
             question.setAnswerTrue(correctAnswer);
@@ -247,6 +248,8 @@ public class AddLibraryActivity extends AppCompatActivity {
     private void updateQuestionNumbers() {
         for (int i = 0; i < questionViews.size(); i++) {
             // Cập nhật lại số thứ tự câu hỏi trên TextView trong layout của câu hỏi
+            TextView questionNumberText = questionViews.get(i).findViewById(R.id.questionNumberText);
+            questionNumberText.setText(String.valueOf(i + 1));
 
             // Cập nhật lại số thứ tự trên Button và thiết lập sự kiện onClick
             Button questionNumberButton = (Button) numberListContainer.getChildAt(i);
@@ -305,7 +308,8 @@ public class AddLibraryActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference questionsRef = database.getReference("questions");
 
-        totalQuestions = questionList.size();
+        int totalQuestions = questionList.size();
+        final int[] successCount = {0}; // Bộ đếm thành công
         final int[] failureCount = {0}; // Bộ đếm thất bại
 
         List<Task<Void>> tasks = new ArrayList<>();
@@ -358,7 +362,7 @@ public class AddLibraryActivity extends AppCompatActivity {
         DatabaseReference categoriesRef = database.getReference("categories");
 
         // Tạo đối tượng thư viện với libraryTitle
-        Categories newCategory = new Categories(libraryID, libraryTitle, successCount[0]);
+        Categories newCategory = new Categories(libraryID, libraryTitle, questionList.size());
 
         // Lưu thư viện vào bảng categories
         categoriesRef.child(libraryID).setValue(newCategory)

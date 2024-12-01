@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="correct_answers">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-    </string-array>
     <color name="black">#FF000000</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#78AF3C</color>
+    <color name="red">#BF1D1D</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">btl_ptud_android</string>
     <string name="gcm_defaultSenderId" translatable="false">224314889642</string>
@@ -19,6 +16,11 @@
     <style name="Base.Theme.Btl_ptud_android" parent="Theme.Material3.DayNight.NoActionBar">
         
         
+    </style>
+    <style name="ButtonFinish" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_finish</item>
+        <item name="android:textSize">18sp</item>
+        <item name="backgroundTint">@null</item>
     </style>
     <style name="ButtonLogOut" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/background_logout</item>
