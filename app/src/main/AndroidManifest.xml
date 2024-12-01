@@ -52,6 +52,9 @@
         <activity
             android:name=".activities.MainActivity"
             android:exported="false" />
+        <activity
+            android:name=".activities.QuestionDetailActivity"
+            android:exported="false" />
         <activity android:name=".activities.HomeLoginActivity"
             android:exported="true"
             >

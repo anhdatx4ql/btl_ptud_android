@@ -1,270 +1,262 @@
 [
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_question.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_question.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_linkedin.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\linkedin.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_question.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_question.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_menu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_menu.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\facebook.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_home.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\home.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_question.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_question.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_item_question.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\item_question.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_question_detail.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_question_detail.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_logout.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_logout.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_icon_profile.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\icon_profile.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_layout_item_library.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\layout_item_library.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_facebook.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_add.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\add.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_avatar_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\avatar_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_quiz_recycle_row.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\quiz_recycle_row.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_login.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_login.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_icon.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\icon.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_layout_item_library.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\layout_item_library.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\baseline_add_24.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_library.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_library.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_library.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\library.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_forgot.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_forgot.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_forgot.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_forgot.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_add.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\add.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_home.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_home.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_f_password.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\f_password.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_google_plus.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\google_plus.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_custom_search.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\custom_search.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_linkedin.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\linkedin.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_score_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\score_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_bg_hide_password.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\bg_hide_password.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_add_questions.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_add_questions.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_f_password.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\f_password.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_home.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\home.png"
     },
     {
-        "merged": "com.example.btl_ptud_android.app-debug-46:/layout_activity_library.xml.flat",
-        "source": "com.example.btl_ptud_android.app-main-48:/layout/activity_library.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_logout.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\logout.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_quiz_recycle_row.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\quiz_recycle_row.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_layout_list_library.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\layout_list_library.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_login.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_login.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_google_plus.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\google_plus.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_bg_btn_login.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\bg_btn_login.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_user.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\user.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_change_password.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_change_password.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_home.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_home.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_user_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_play_quiz.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_play_quiz.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_home_user.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_home_user.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_library.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_library.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_play_quiz.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_play_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_user.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\user.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_question_detail.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_question_detail.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_icon_profile.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\icon_profile.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_library.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\library.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_home_user.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_home_user.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_question.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_question.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_custom_edt.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\custom_edt.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_loupe.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\loupe.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_bg_hide_password.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\bg_hide_password.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_custom_edt.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\custom_edt.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_baseline_add_24.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\baseline_add_24.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_add_library.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_add_library.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_add_library.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_add_library.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_bg_btn_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\bg_btn_login.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_setting_app.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\setting_app.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_icon.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\icon.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_twitter.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\twitter.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_setting_app.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\setting_app.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_layout_list_library.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\layout_list_library.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_menu.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_menu.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_background_logout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\background_logout.xml"
     },
     {
-        "merged": "com.example.btl_ptud_android.app-debug-46:/layout_activity_add_questions.xml.flat",
-        "source": "com.example.btl_ptud_android.app-main-48:/layout/activity_add_questions.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\logout.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_home_login.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_home_login.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_item_question.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\item_question.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_score_dialog.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\score_dialog.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_user_profile.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_user_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_avatar_profile.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\avatar_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_loupe.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\loupe.png"
-    },
-    {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_forgot_password.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_btn_finish.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\btn_finish.xml"
     },
     {
         "merged": "com.example.btl_ptud_android.app-debug-46:/layout_activity_question.xml.flat",
         "source": "com.example.btl_ptud_android.app-main-48:/layout/activity_question.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_btn_finish.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\btn_finish.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_home_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_home_login.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\layout_activity_add_questions.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\layout\\activity_add_questions.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_edit_profile_img.png.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\edit_profile_img.png"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_custom_search.xml.flat",
-        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\custom_search.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_edit_profile_img.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\edit_profile_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\drawable_twitter.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\drawable\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-debug-46:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.example.btl_ptud_android.app-main-48:\\mipmap-anydpi\\ic_launcher.xml"
     }
 ]

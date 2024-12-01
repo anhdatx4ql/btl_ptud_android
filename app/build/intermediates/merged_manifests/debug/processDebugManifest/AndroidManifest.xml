@@ -62,13 +62,7 @@
             android:exported="false" /> <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
         <activity
             android:name="com.example.btl_ptud_android.activities.LibraryActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.ProfileActivity"
             android:exported="false" />
@@ -84,6 +78,18 @@
         <activity
             android:name="com.example.btl_ptud_android.activities.MainActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.btl_ptud_android.activities.QuestionDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.btl_ptud_android.activities.HomeLoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
