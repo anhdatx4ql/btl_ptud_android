@@ -116,8 +116,8 @@
 62-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:35:13-37
 63        <activity
 63-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:36:9-44:20
-64            android:name="com.example.btl_ptud_android.activities.HomeLoginActivity"
-64-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:37:13-57
+64            android:name="com.example.btl_ptud_android.activities.LibraryActivity"
+64-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:37:13-55
 65            android:exported="true" >
 65-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:38:13-36
 66            <intent-filter>
@@ -137,12 +137,9 @@
 73-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:46:13-55
 74            android:exported="false" />
 74-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:47:13-37
-75        <activity
-75-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:48:9-50:40
-76            android:name="com.example.btl_ptud_android.activities.LibraryActivity"
-76-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:49:13-55
-77            android:exported="false" />
-77-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:50:13-37
+75        <!-- <activity -->
+76        <!-- android:name=".activities.LibraryActivity" -->
+77        <!-- android:exported="false" /> -->
 78        <activity
 78-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:51:9-53:40
 79            android:name="com.example.btl_ptud_android.activities.SignUpActivity"

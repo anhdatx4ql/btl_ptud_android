@@ -11,6 +11,10 @@ public class Questions {
     private int sort_order;
     private String answerTrue;  // đáp án đúng (enum)
 
+    // Constructor không đối số (Firebase yêu cầu)
+    public Questions() {
+    }
+
     // Constructor
     public Questions(String ID, String category_ID, String title, String answerA, String answerB, String answerC, String answerD, String answerTrue, int sort_order) {
         this.ID = ID;

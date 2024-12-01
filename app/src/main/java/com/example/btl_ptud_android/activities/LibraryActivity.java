@@ -27,11 +27,7 @@ public class LibraryActivity extends AppCompatActivity {
     ActivityLibraryBinding binding;
 
     // danh sách title
-    List<Categories> lstCategory = Arrays.asList(
-            new Categories("123", "Bộ đề 1",  30),
-            new Categories("124", "Bộ đề 2",  30),
-            new Categories("125", "Bộ đề 3",  30)
-    );
+    List<Categories> lstCategory = new ArrayList<>();
 
     // khai báo listview
     ArrayList<Categories> myCategories;
@@ -63,10 +59,16 @@ public class LibraryActivity extends AppCompatActivity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent myIntent = new Intent(LibraryActivity.this, QuestionActivity.class);
+                // Lấy danh mục từ danh sách
                 Categories item = myCategories.get(position);
-                myIntent.putExtra("category_id", item.getID());
-                startActivity(myIntent);
+
+                // Hiển thị title hoặc thực hiện hành động khác
+                Log.i("CategoryTitle", "Category: " + item.getTitle());
+                // Chuyển đến Activity khác (ví dụ: để hiển thị câu hỏi thuộc danh mục này)
+                Intent intent = new Intent(LibraryActivity.this, QuestionActivity.class);
+                intent.putExtra("category_id", item.getID());
+                intent.putExtra("category_title", item.getTitle());
+                startActivity(intent);
             }
         });
     }
@@ -111,20 +113,23 @@ public class LibraryActivity extends AppCompatActivity {
         categoriesRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                myCategories.clear(); // Xóa danh sách cũ
+                myCategories.clear(); // Xóa danh sách cũ để tránh trùng lặp
 
                 for (DataSnapshot categorySnapshot : dataSnapshot.getChildren()) {
+                    // Lấy thông tin từ Firebase
                     String categoryId = categorySnapshot.child("id").getValue(String.class);
                     String categoryTitle = categorySnapshot.child("title").getValue(String.class);
                     Integer questionCount = categorySnapshot.child("countQuestion").getValue(Integer.class);
 
-                    // Thêm category vào danh sách sau khi đếm xong số lượng câu hỏi
-                    Categories category = new Categories(categoryId, categoryTitle, questionCount);
-                    myCategories.add(category);
-
-                    // Cập nhật adapter
-                    myCategoriesAdapter.notifyDataSetChanged();
+                    // Kiểm tra dữ liệu không null trước khi thêm vào danh sách
+                    if (categoryId != null && categoryTitle != null && questionCount != null) {
+                        Categories category = new Categories(categoryId, categoryTitle, questionCount);
+                        myCategories.add(category);
+                    }
                 }
+
+                // Cập nhật Adapter sau khi thêm dữ liệu
+                myCategoriesAdapter.notifyDataSetChanged();
             }
 
             @Override

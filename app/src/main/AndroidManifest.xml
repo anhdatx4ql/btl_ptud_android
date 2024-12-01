@@ -34,7 +34,7 @@
             android:name=".activities.AddLibraryActivity"
             android:exported="false" /> <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
         <activity
-            android:name=".activities.HomeLoginActivity"
+            android:name=".activities.LibraryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,9 +45,9 @@
         <activity
             android:name=".activities.ProfileActivity"
             android:exported="false" />
-        <activity
-            android:name=".activities.LibraryActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".activities.LibraryActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".activities.SignUpActivity"
             android:exported="false" />

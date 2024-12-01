@@ -69,11 +69,14 @@ id btn_profile_setting
 id btn_profile_setting1
 id btn_search
 id btn_signup
+id button
+id button2
 id categoryQuestionCount
 id categoryTitle
 id category_count_question
 id correctAnswerGroup
 id deleteQuestionButton
+id editTextText
 id edtOption1
 id edtOption2
 id edtOption3
@@ -88,14 +91,12 @@ id edt_password_signup2
 id edt_searchQuiz
 id edt_username_login
 id edt_username_signup
-id id_question
 id imageView1
 id imageView2
 id imageView3
 id listViewCategories
 id listViewQuestions
 id main
-id nameQuestion
 id numberListContainer
 id prgLogin
 id prg_signup
@@ -103,7 +104,6 @@ id prgbar
 id profile_image
 id progress_circular
 id questionContainer
-id questionNumberText
 id questionProgress
 id radio_correct_answer_1
 id radio_correct_answer_2
@@ -118,7 +118,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id titleLibrary

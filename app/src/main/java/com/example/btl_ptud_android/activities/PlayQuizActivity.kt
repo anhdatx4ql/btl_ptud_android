@@ -50,7 +50,7 @@ class PlayQuizActivity : AppCompatActivity() {
         // Kiểm tra câu trả lời của người dùng
         binding.txtIsCorrect.visibility = View.GONE
         binding.txtIsNotCorrect.visibility = View.GONE
-        val isCorrect = question.answerTrue.name == selectedAnswer
+        val isCorrect = true; //question.answerTrue.name == selectedAnswer
 
         // Cập nhật giao diện theo kết quả
         if (isCorrect) {
@@ -248,7 +248,7 @@ class PlayQuizActivity : AppCompatActivity() {
                         if (category_ID == categoryId) {
                             val model = Questions(
                                 category_ID, id, title, answerA,
-                                answerB, answerC, answerD, answerTrue, sort_order
+                                answerB, answerC, answerD, "A", sort_order
                             )
                             questionsList.add(model)
                         }

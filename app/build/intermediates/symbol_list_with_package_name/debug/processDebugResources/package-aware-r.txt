@@ -3333,6 +3333,8 @@ id btn_profile_setting
 id btn_profile_setting1
 id btn_search
 id btn_signup
+id button
+id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3412,6 +3414,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextText
 id edit_query
 id edit_text_id
 id edtOption1
@@ -3474,7 +3477,6 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
-id id_question
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3566,7 +3568,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nameQuestion
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3628,7 +3629,6 @@ id profile_image
 id progress_circular
 id progress_horizontal
 id questionContainer
-id questionNumberText
 id questionProgress
 id radio
 id radio_correct_answer_1
@@ -3736,7 +3736,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id text_input_end_icon
