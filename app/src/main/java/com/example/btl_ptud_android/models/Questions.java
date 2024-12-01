@@ -9,35 +9,10 @@ public class Questions {
     private String answerC; // câu trả lời C
     private String answerD; // câu trả lời D
     private int sort_order;
-    private Answer answerTrue;  // đáp án đúng (enum)
-
-    // Enum for answers A, B, C, D
-    public enum Answer {
-        A(1), B(2), C(3), D(4);
-
-        private final int index;
-
-        Answer(int index) {
-            this.index = index;
-        }
-
-        public int getIndex() {
-            return index;
-        }
-
-        // Get enum by index
-        public static Answer fromIndex(int index) {
-            for (Answer answer : values()) {
-                if (answer.index == index) {
-                    return answer;
-                }
-            }
-            throw new IllegalArgumentException("Invalid answer index: " + index);
-        }
-    }
+    private String answerTrue;  // đáp án đúng (enum)
 
     // Constructor
-    public Questions(String ID, String category_ID, String title, String answerA, String answerB, String answerC, String answerD, int answerTrue, int sort_order) {
+    public Questions(String ID, String category_ID, String title, String answerA, String answerB, String answerC, String answerD, String answerTrue, int sort_order) {
         this.ID = ID;
         this.category_ID = category_ID;
         this.title = title;
@@ -47,7 +22,7 @@ public class Questions {
         this.answerD = answerD;
         this.sort_order = sort_order;
         // Set the correct answer using the enum
-        this.answerTrue = Answer.fromIndex(answerTrue);
+        this.answerTrue = answerTrue;
     }
 
     // Getters and Setters
@@ -107,12 +82,12 @@ public class Questions {
         this.answerD = answerD;
     }
 
-    public Answer getAnswerTrue() {
+    public String getAnswerTrue() {
         return answerTrue;
     }
 
-    public void setAnswerTrue(int answerTrue) {
-        this.answerTrue = Answer.fromIndex(answerTrue);
+    public void setAnswerTrue(String answerTrue) {
+        this.answerTrue = answerTrue;
     }
 
     public int getSort_order() {
