@@ -40,6 +40,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Btl_ptud_android" >
         <activity
+            android:name="com.example.btl_ptud_android.activities.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.btl_ptud_android.activities.PlayQuizActivity"
             android:exported="false" />
         <activity

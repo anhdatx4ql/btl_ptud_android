@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:1-62:12
 MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\Admin\.gradle\caches\transforms-4\25a38d148e482c282d597df70ba68525\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Admin\.gradle\caches\transforms-4\bd562187debb45cce18c26dc7209169d\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Admin\.gradle\caches\transforms-4\c09b51174c3ca0ac86cb8df24ac14c66\transformed\firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
@@ -100,8 +100,8 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Admin\.gradle\c
 	xmlns:android
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:5:5-57:19
-INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:5:5-57:19
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:5:5-60:19
+INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:5:5-60:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Admin\.gradle\caches\transforms-4\bd562187debb45cce18c26dc7209169d\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Admin\.gradle\caches\transforms-4\bd562187debb45cce18c26dc7209169d\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Admin\.gradle\caches\transforms-4\c09b51174c3ca0ac86cb8df24ac14c66\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
@@ -194,88 +194,94 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Admin\.gradle\c
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:13:9-54
 	android:dataExtractionRules
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.btl_ptud_android.activities.PlayQuizActivity
+activity#com.example.btl_ptud_android.activities.ChangePasswordActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:16:13-56
-activity#com.example.btl_ptud_android.activities.UserProfileActivity
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:16:13-62
+activity#com.example.btl_ptud_android.activities.PlayQuizActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:19:13-59
-activity#com.example.btl_ptud_android.activities.HomeUserActivity
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:19:13-56
+activity#com.example.btl_ptud_android.activities.UserProfileActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:22:13-56
-activity#com.example.btl_ptud_android.activities.QuestionActivity
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:22:13-59
+activity#com.example.btl_ptud_android.activities.HomeUserActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:25:13-56
-activity#com.example.btl_ptud_android.activities.ForgotPasswordActivity
+activity#com.example.btl_ptud_android.activities.QuestionActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:28:13-62
-activity#com.example.btl_ptud_android.activities.AddLibraryActivity
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:28:13-56
+activity#com.example.btl_ptud_android.activities.ForgotPasswordActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:31:13-62
+activity#com.example.btl_ptud_android.activities.AddLibraryActivity
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:34:13-58
 activity#com.example.btl_ptud_android.activities.HomeLoginActivity
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:33:9-41:20
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:36:9-44:20
 	android:exported
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:34:13-57
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:37:13-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:42:27-74
 activity#com.example.btl_ptud_android.activities.ProfileActivity
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:42:9-44:40
-	android:exported
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:44:13-37
-	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:43:13-55
-activity#com.example.btl_ptud_android.activities.LibraryActivity
-ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:45:9-47:49
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:46:13-55
-activity#com.example.btl_ptud_android.activities.SignUpActivity
+activity#com.example.btl_ptud_android.activities.LibraryActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:49:13-54
-activity#com.example.btl_ptud_android.activities.LoginActivity
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:49:13-55
+activity#com.example.btl_ptud_android.activities.SignUpActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:52:13-53
-activity#com.example.btl_ptud_android.activities.MainActivity
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:52:13-54
+activity#com.example.btl_ptud_android.activities.LoginActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:54:9-56:40
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:55:13-52
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:55:13-53
+activity#com.example.btl_ptud_android.activities.MainActivity
+ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:58:13-52
 uses-sdk
 INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml

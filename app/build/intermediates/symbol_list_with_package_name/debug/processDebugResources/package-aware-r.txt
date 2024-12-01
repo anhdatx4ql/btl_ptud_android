@@ -3313,9 +3313,12 @@ id btnLibrary
 id btnNext
 id btnReset
 id btnUser
+id btn_Back
 id btn_Home
 id btn_addQuiz
 id btn_add_library
+id btn_cancel
+id btn_change
 id btn_forgot
 id btn_have_account
 id btn_hide_password
@@ -3410,6 +3413,9 @@ id east
 id edge
 id edit_query
 id edit_text_id
+id edt_new_password
+id edt_new_password2
+id edt_old_password
 id edt_password_login
 id edt_password_signup1
 id edt_password_signup2
@@ -3906,6 +3912,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_library
 layout activity_add_questions
+layout activity_change_password
 layout activity_forgot_password
 layout activity_home_login
 layout activity_home_user

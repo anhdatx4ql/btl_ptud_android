@@ -34,9 +34,16 @@ class UserProfileActivity : AppCompatActivity() {
         user = FirebaseAuth.getInstance()
 
         EditProfile()
-
+        ChangePassword()
         HomeUser()
         LogOut()
+    }
+
+    private fun ChangePassword() {
+        binding.btnMode.setOnClickListener {
+            val intent = Intent(this, ChangePasswordActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun EditProfile() {

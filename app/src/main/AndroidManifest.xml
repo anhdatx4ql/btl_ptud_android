@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Btl_ptud_android"
         tools:targetApi="31">
         <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.PlayQuizActivity"
             android:exported="false" />
         <activity
@@ -44,7 +47,7 @@
             android:exported="false" />
         <activity
             android:name=".activities.LibraryActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".activities.SignUpActivity"
             android:exported="false" />
