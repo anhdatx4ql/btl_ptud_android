@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array correct_answers
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1460,10 +1461,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
-color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color light_green
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2128,7 +2127,6 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -3037,7 +3035,6 @@ drawable background_home
 drawable background_login
 drawable background_logout
 drawable background_menu
-drawable background_question
 drawable baseline_add_24
 drawable bg_btn_login
 drawable bg_hide_password
@@ -3045,7 +3042,6 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
-drawable btn_finish
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -3304,14 +3300,10 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnAnswerA
-id btnAnswerB
-id btnAnswerC
-id btnAnswerD
-id btnFinish
+id btnDeleteQuestion
 id btnLibrary
-id btnNext
 id btnReset
+id btnUpdateQuestion
 id btnUser
 id btn_Home
 id btn_addQuiz
@@ -3327,6 +3319,8 @@ id btn_profile_setting
 id btn_profile_setting1
 id btn_search
 id btn_signup
+id button
+id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3335,8 +3329,6 @@ id carryVelocity
 id categoryQuestionCount
 id categoryTitle
 id category_count_question
-id category_count_question_text
-id category_title
 id center
 id centerCrop
 id centerInside
@@ -3408,8 +3400,14 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextText
 id edit_query
 id edit_text_id
+id edtOption1
+id edtOption2
+id edtOption3
+id edtOption4
+id edtTitle
 id edt_password_login
 id edt_password_signup1
 id edt_password_signup2
@@ -3462,7 +3460,6 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
-id id_question
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3491,6 +3488,7 @@ id line3
 id linear
 id listMode
 id listViewCategories
+id listViewQuestions
 id list_item
 id m3_side_sheet
 id main
@@ -3553,7 +3551,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nameQuestion
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3608,14 +3605,10 @@ id pin
 id position
 id postLayout
 id pressed
-id prgLogin
-id prg_signup
 id profile_image
 id progress_circular
 id progress_horizontal
 id questionContainer
-id questionNumberText
-id questionProgress
 id radio
 id radio_correct_answer_1
 id radio_correct_answer_2
@@ -3637,7 +3630,6 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
-id score_progress
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3676,6 +3668,7 @@ id spacer
 id special_effects_controller_view_tag
 id spline
 id split_action_bar
+id spnCorrectAnswer
 id spread
 id spread_inside
 id spring
@@ -3721,7 +3714,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id text_input_end_icon
@@ -3754,14 +3746,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtCountQuestion
-id txtIsCorrect
-id txtIsNotCorrect
-id txtNumberQuestion
+id txtCategoryTitle
+id txtCorrectAnswer
+id txtQuestionCount
 id txtQuestionTitle
-id txtSoCauDung
-id txtTitle
-id txtTotalScore
+id txt_NameLib
 id unchecked
 id uniform
 id unlabeled
@@ -3906,15 +3895,14 @@ layout activity_add_library
 layout activity_add_questions
 layout activity_forgot_password
 layout activity_home_login
-layout activity_home_user
 layout activity_library
 layout activity_login
 layout activity_main
-layout activity_play_quiz
+layout activity_play_quizz
 layout activity_profile
 layout activity_question
+layout activity_question_detail
 layout activity_sign_up
-layout activity_user_profile
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3935,6 +3923,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_question
 layout layout_item_library
 layout layout_list_library
 layout m3_alert_dialog
@@ -3994,8 +3983,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout quiz_recycle_row
-layout score_dialog
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -4490,7 +4477,6 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
-style ButtonFinish
 style ButtonLogOut
 style ButtonLogin
 style ButtonSignUp
