@@ -6,23 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_margin="10dp"
     tools:context=".activities.QuestionActivity">
 
     <EditText
+        android:padding="10dp"
+        android:background="@drawable/custom_edt"
         android:id="@+id/editTextText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
         android:text="Name" />
 
     <LinearLayout
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="36dp"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="311dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
             android:text="Title câu hỏi"
             android:textSize="16sp"
@@ -36,25 +40,31 @@
             android:gravity="center" />
     </LinearLayout>
     <ListView
+        android:layout_marginTop="10dp"
         android:id="@+id/listViewQuestions"
         android:layout_width="match_parent"
-        android:layout_height="586dp" />
+        android:layout_height="520dp" />
 
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal">
 
         <Button
+            android:backgroundTint="#8BC34A"
             android:id="@+id/button2"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="5dp"
             android:text="Cập nhật" />
 
         <Button
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#D91D11"
             android:id="@+id/button"
-            android:layout_width="195dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Xóa" />
