@@ -1,4 +1,4 @@
-#Fri Nov 15 01:11:31 ICT 2024
+#Sun Dec 01 20:56:26 ICT 2024
 base.0=C\:\\Users\\ADMIN\\AndroidStudioProjects\\btl_ptud_android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\ADMIN\\AndroidStudioProjects\\btl_ptud_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\ADMIN\\AndroidStudioProjects\\btl_ptud_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex

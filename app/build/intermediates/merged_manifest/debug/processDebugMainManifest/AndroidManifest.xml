@@ -39,6 +39,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Btl_ptud_android" >
         <activity
+            android:name="com.example.btl_ptud_android.activities.QuestionDetailActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.btl_ptud_android.activities.QuestionActivity"
             android:exported="false" />
         <activity
@@ -46,9 +49,6 @@
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.AddLibraryActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.btl_ptud_android.activities.AddQuizActivity"
             android:exported="false" />
         <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
         <activity

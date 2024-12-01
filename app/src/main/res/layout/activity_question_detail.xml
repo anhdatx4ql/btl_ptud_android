@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.QuestionDetailActivity">
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 1"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 3"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 4"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spnCorrectAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/correct_answers"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnUpdateQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDeleteQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa" />
+
+</LinearLayout>

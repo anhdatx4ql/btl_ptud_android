@@ -71,28 +71,28 @@
 40-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:13:9-54
 41        <activity
 41-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:15:9-17:40
-42            android:name="com.example.btl_ptud_android.activities.QuestionActivity"
-42-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:16:13-56
+42            android:name="com.example.btl_ptud_android.activities.QuestionDetailActivity"
+42-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:16:13-62
 43            android:exported="false" />
 43-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:17:13-37
 44        <activity
 44-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:18:9-20:40
-45            android:name="com.example.btl_ptud_android.activities.ForgotPasswordActivity"
-45-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:19:13-62
+45            android:name="com.example.btl_ptud_android.activities.QuestionActivity"
+45-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:19:13-56
 46            android:exported="false" />
 46-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:20:13-37
 47        <activity
 47-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:21:9-23:40
-48            android:name="com.example.btl_ptud_android.activities.AddLibraryActivity"
-48-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:22:13-58
+48            android:name="com.example.btl_ptud_android.activities.ForgotPasswordActivity"
+48-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:22:13-62
 49            android:exported="false" />
 49-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:23:13-37
 50        <activity
-50-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:24:9-26:40
-51            android:name="com.example.btl_ptud_android.activities.AddQuizActivity"
-51-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:25:13-55
+50-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:24:10-26:37
+51            android:name="com.example.btl_ptud_android.activities.AddLibraryActivity"
+51-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:25:10-55
 52            android:exported="false" />
-52-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:26:13-37
+52-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:26:10-34
 53        <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
 54        <activity
 54-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:28:9-30:40
