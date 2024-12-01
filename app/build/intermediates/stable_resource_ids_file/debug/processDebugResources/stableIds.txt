@@ -1,3 +1,325 @@
+<<<<<<< HEAD
+com.example.btl_ptud_android:styleable/Motion = 0x7f120065
+com.example.btl_ptud_android:id/button = 0x7f08024b
+com.example.btl_ptud_android:style/Widget.Material3.CollapsingToolbar.Large = 0x7f110381
+com.example.btl_ptud_android:style/Widget.MaterialComponents.CircularProgressIndicator.Medium = 0x7f110419
+com.example.btl_ptud_android:style/Widget.Material3.MaterialTimePicker.Display.TextInputEditText = 0x7f1103bf
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.SearchView.FullScreen.Container.Shape = 0x7f110166
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Light = 0x7f110269
+com.example.btl_ptud_android:styleable/FloatingActionButton = 0x7f120034
+com.example.btl_ptud_android:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface = 0x7f11038a
+com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text = 0x7f110150
+com.example.btl_ptud_android:style/ShapeAppearanceOverlay.Material3.Corner.Left = 0x7f110188
+com.example.btl_ptud_android:style/ThemeOverlay.AppCompat.Dialog.Alert = 0x7f110283
+com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Badge = 0x7f1101fc
+com.example.btl_ptud_android:string/mtrl_picker_navigate_to_current_year_description = 0x7f100099
+com.example.btl_ptud_android:id/list_item = 0x7f080126
+com.example.btl_ptud_android:style/Widget.Material3.FloatingActionButton.Secondary = 0x7f110395
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.DayTextView = 0x7f1103a6
+com.example.btl_ptud_android:style/Base.V14.Widget.MaterialComponents.AutoCompleteTextView = 0x7f1100a1
+com.example.btl_ptud_android:integer/m3_sys_motion_duration_short3 = 0x7f09001e
+com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f110042
+com.example.btl_ptud_android:style/TextAppearance.M3.Sys.Typescale.DisplaySmall = 0x7f1101dd
+com.example.btl_ptud_android:id/hideable = 0x7f080100
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush = 0x7f11040a
+com.example.btl_ptud_android:id/dependency_ordering = 0x7f0800b7
+com.example.btl_ptud_android:color/m3_sys_color_on_secondary_fixed_variant = 0x7f050200
+com.example.btl_ptud_android:style/Widget.Material3.Button.TextButton.Snackbar = 0x7f110365
+com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Headline5 = 0x7f110206
+com.example.btl_ptud_android:id/action_image = 0x7f08003e
+com.example.btl_ptud_android:styleable/Spinner = 0x7f120084
+com.example.btl_ptud_android:style/Widget.Material3.BottomAppBar = 0x7f11034d
+com.example.btl_ptud_android:string/m3_sys_motion_easing_emphasized_path_data = 0x7f10005c
+com.example.btl_ptud_android:color/material_personalized_color_on_error = 0x7f050290
+com.example.btl_ptud_android:style/Widget.AppCompat.DropDownItem.Spinner = 0x7f110305
+com.example.btl_ptud_android:style/Widget.AppCompat.Button.Colored = 0x7f1102fd
+com.example.btl_ptud_android:style/Widget.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f1103e2
+com.example.btl_ptud_android:style/Widget.Material3.ExtendedFloatingActionButton.Primary = 0x7f11038c
+com.example.btl_ptud_android:styleable/MockView = 0x7f120064
+com.example.btl_ptud_android:color/material_dynamic_neutral_variant95 = 0x7f050249
+com.example.btl_ptud_android:style/ShapeAppearanceOverlay.Material3.SearchBar = 0x7f11018d
+com.example.btl_ptud_android:styleable/ViewBackgroundHelper = 0x7f120098
+com.example.btl_ptud_android:style/Base.Widget.AppCompat.PopupWindow = 0x7f1100ed
+com.example.btl_ptud_android:style/Theme.Material3.Light.BottomSheetDialog = 0x7f110245
+com.example.btl_ptud_android:style/Widget.AppCompat.PopupMenu.Overflow = 0x7f110324
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.PopupMenu = 0x7f11031a
+com.example.btl_ptud_android:style/Widget.AppCompat.SeekBar.Discrete = 0x7f11032e
+com.example.btl_ptud_android:id/easeOut = 0x7f0800d0
+com.example.btl_ptud_android:id/correctAnswerTextView = 0x7f080247
+com.example.btl_ptud_android:style/Theme.Material3.Light.Dialog = 0x7f110246
+com.example.btl_ptud_android:dimen/m3_comp_fab_primary_icon_size = 0x7f06011c
+com.example.btl_ptud_android:style/Base.Theme.MaterialComponents.Light.DarkActionBar = 0x7f110071
+com.example.btl_ptud_android:string/mtrl_picker_toggle_to_text_input_mode = 0x7f1000ac
+com.example.btl_ptud_android:styleable/KeyTimeCycle = 0x7f120047
+com.example.btl_ptud_android:style/Animation.Material3.SideSheetDialog.Right = 0x7f110009
+com.example.btl_ptud_android:id/recyclerViewQuestions = 0x7f080243
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.FloatingActionButton.Tertiary = 0x7f1102ac
+com.example.btl_ptud_android:id/txt_NameLib = 0x7f080228
+com.example.btl_ptud_android:macro/m3_comp_time_picker_clock_dial_color = 0x7f0c014c
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Button.TextButton.Snackbar = 0x7f11040d
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.ListView.DropDown = 0x7f110319
+com.example.btl_ptud_android:id/edt_username_signup = 0x7f0800da
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.ActionBar.Solid = 0x7f110309
+com.example.btl_ptud_android:styleable/ConstraintLayout_ReactiveGuide = 0x7f120029
+com.example.btl_ptud_android:styleable/CardView = 0x7f12001a
+com.example.btl_ptud_android:style/Theme.MaterialComponents = 0x7f11024c
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.MaterialAlertDialog.Centered = 0x7f1102b2
+com.example.btl_ptud_android:style/Base.Widget.AppCompat.SearchView.ActionBar = 0x7f1100f4
+com.example.btl_ptud_android:style/Theme.AppCompat.DayNight.DarkActionBar = 0x7f110213
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.AutoCompleteTextView = 0x7f110316
+com.example.btl_ptud_android:id/gone = 0x7f0800f8
+com.example.btl_ptud_android:style/Widget.AppCompat.ActionButton = 0x7f1102f3
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.Snackbar = 0x7f1102bd
+com.example.btl_ptud_android:id/title_template = 0x7f080218
+com.example.btl_ptud_android:id/open_search_bar_text_view = 0x7f08017a
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.DynamicColors.DayNight = 0x7f1102a3
+com.example.btl_ptud_android:styleable/MenuGroup = 0x7f120061
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f1101bc
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f1102c3
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Subhead = 0x7f1101b0
+com.example.btl_ptud_android:id/navigation_bar_item_large_label_view = 0x7f080168
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.ExtendedFloatingActionButton.Primary = 0x7f1102a5
+com.example.btl_ptud_android:color/material_personalized_color_outline_variant = 0x7f05029c
+com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.YearNavigationButton = 0x7f11043c
+com.example.btl_ptud_android:id/action_bar_root = 0x7f080037
+com.example.btl_ptud_android:macro/m3_comp_time_picker_time_selector_selected_focus_state_layer_color = 0x7f0c0161
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.Badge.Shape = 0x7f11015b
+com.example.btl_ptud_android:style/ButtonLogOut = 0x7f110120
+com.example.btl_ptud_android:styleable/DrawerLayout = 0x7f120031
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.Button.TextButton = 0x7f110296
+com.example.btl_ptud_android:drawable/$avd_hide_password__0 = 0x7f070000
+com.example.btl_ptud_android:styleable/ClockFaceView = 0x7f120021
+com.example.btl_ptud_android:style/Theme.AppCompat.CompactMenu = 0x7f110211
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Dialog.Alert.Bridge = 0x7f110262
+com.example.btl_ptud_android:style/Theme.Material3.DayNight.BottomSheetDialog = 0x7f110237
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.MaterialCalendar = 0x7f1102e1
+com.example.btl_ptud_android:string/status_bar_notification_info_overflow = 0x7f1000c5
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Snackbar.TextView = 0x7f11044d
+com.example.btl_ptud_android:style/Base.ThemeOverlay.Material3.AutoCompleteTextView = 0x7f110080
+com.example.btl_ptud_android:styleable/ColorStateListItem = 0x7f120025
+com.example.btl_ptud_android:styleable/SwitchCompat = 0x7f120089
+com.example.btl_ptud_android:drawable/$ic_launcher_foreground__0 = 0x7f070006
+com.example.btl_ptud_android:style/Base.Widget.Material3.ExtendedFloatingActionButton.Icon = 0x7f110108
+com.example.btl_ptud_android:style/Theme.AppCompat.DayNight.Dialog = 0x7f110214
+com.example.btl_ptud_android:macro/m3_comp_time_picker_period_selector_unselected_focus_state_layer_color = 0x7f0c015a
+com.example.btl_ptud_android:id/search_badge = 0x7f0801ba
+com.example.btl_ptud_android:macro/m3_comp_primary_navigation_tab_with_label_text_active_label_text_color = 0x7f0c00d1
+com.example.btl_ptud_android:style/Widget.Material3.Button.OutlinedButton.Icon = 0x7f11035f
+com.example.btl_ptud_android:id/mtrl_child_content_container = 0x7f080155
+com.example.btl_ptud_android:style/Base.V21.Theme.MaterialComponents.Light = 0x7f1100a8
+com.example.btl_ptud_android:id/animateToStart = 0x7f080051
+com.example.btl_ptud_android:style/Widget.Material3.Chip.Suggestion = 0x7f110375
+com.example.btl_ptud_android:macro/m3_comp_checkbox_selected_error_container_color = 0x7f0c0009
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Spinner = 0x7f1102e0
+com.example.btl_ptud_android:macro/m3_comp_date_picker_modal_header_headline_type = 0x7f0c0016
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.ExtendedFloatingActionButton.Surface = 0x7f1102a7
+com.example.btl_ptud_android:string/searchview_navigation_content_description = 0x7f1000c1
+com.example.btl_ptud_android:layout/design_navigation_item = 0x7f0b0031
+com.example.btl_ptud_android:style/Widget.Material3.Button = 0x7f110356
+com.example.btl_ptud_android:style/TextAppearance.Material3.TitleSmall = 0x7f1101fb
+com.example.btl_ptud_android:style/Platform.MaterialComponents = 0x7f11013d
+com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Subtitle2 = 0x7f11020a
+com.example.btl_ptud_android:style/ThemeOverlay.AppCompat.ActionBar = 0x7f11027d
+com.example.btl_ptud_android:macro/m3_comp_filled_text_field_input_text_type = 0x7f0c0050
+com.example.btl_ptud_android:macro/m3_comp_navigation_rail_active_focus_state_layer_color = 0x7f0c0093
+com.example.btl_ptud_android:style/Widget.MaterialComponents.AppBarLayout.Surface = 0x7f1103f6
+com.example.btl_ptud_android:style/Base.Theme.Material3.Dark.BottomSheetDialog = 0x7f11005b
+com.example.btl_ptud_android:style/Base.V14.ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f11009d
+com.example.btl_ptud_android:layout/mtrl_calendar_days_of_week = 0x7f0b0059
+com.example.btl_ptud_android:style/ThemeOverlay.AppCompat.Light = 0x7f110284
+com.example.btl_ptud_android:macro/m3_comp_navigation_rail_active_label_text_color = 0x7f0c0097
+com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Widget.Button.Colored = 0x7f11003b
+com.example.btl_ptud_android:style/TextAppearance.Design.Placeholder = 0x7f1101d3
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.ListPopupWindow = 0x7f110318
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f110450
+com.example.btl_ptud_android:attr/errorIconTintMode = 0x7f0301ba
+com.example.btl_ptud_android:dimen/material_emphasis_disabled_background = 0x7f060236
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.Button = 0x7f1101be
+com.example.btl_ptud_android:style/Base.V21.ThemeOverlay.Material3.SideSheetDialog = 0x7f1100ac
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f1102cd
+com.example.btl_ptud_android:id/horizontal_only = 0x7f080105
+com.example.btl_ptud_android:macro/m3_comp_text_button_label_text_color = 0x7f0c0144
+com.example.btl_ptud_android:drawable/notification_bg_low_pressed = 0x7f07010a
+com.example.btl_ptud_android:style/Base.Widget.AppCompat.RatingBar = 0x7f1100f0
+com.example.btl_ptud_android:styleable/StateSet = 0x7f120088
+com.example.btl_ptud_android:macro/m3_comp_navigation_bar_active_indicator_color = 0x7f0c0066
+com.example.btl_ptud_android:macro/m3_comp_menu_list_item_selected_container_color = 0x7f0c005e
+com.example.btl_ptud_android:id/contiguous = 0x7f0800a4
+com.example.btl_ptud_android:style/Widget.Material3.ExtendedFloatingActionButton.Surface = 0x7f11038e
+com.example.btl_ptud_android:style/Widget.Material3.FloatingActionButton.Small.Surface = 0x7f110398
+com.example.btl_ptud_android:style/Widget.Material3.TextInputLayout.FilledBox = 0x7f1103e3
+com.example.btl_ptud_android:style/ShapeAppearanceOverlay.MaterialComponents.Chip = 0x7f110191
+com.example.btl_ptud_android:dimen/m3_comp_navigation_drawer_focus_state_layer_opacity = 0x7f060141
+com.example.btl_ptud_android:macro/m3_comp_radio_button_disabled_selected_icon_color = 0x7f0c00d6
+com.example.btl_ptud_android:styleable/ThemeEnforcement = 0x7f120091
+com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Title = 0x7f110151
+com.example.btl_ptud_android:style/Base.V14.Theme.Material3.Light.SideSheetDialog = 0x7f110091
+com.example.btl_ptud_android:styleable/AppCompatTheme = 0x7f120012
+com.example.btl_ptud_android:color/material_personalized_color_on_surface_inverse = 0x7f050297
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.DayNight.SideSheetDialog = 0x7f11029e
+com.example.btl_ptud_android:style/Base.Theme.AppCompat.Dialog.MinWidth = 0x7f110050
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Title.Inverse = 0x7f1101b3
+com.example.btl_ptud_android:styleable/ActionBarLayout = 0x7f120001
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Small.Inverse = 0x7f1101af
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Toolbar.Surface = 0x7f11046b
+com.example.btl_ptud_android:dimen/m3_comp_input_chip_with_leading_icon_leading_icon_size = 0x7f060136
+com.example.btl_ptud_android:macro/m3_comp_outlined_text_field_focus_input_text_color = 0x7f0c00b9
+com.example.btl_ptud_android:style/Widget.Design.BottomNavigationView = 0x7f11033a
+com.example.btl_ptud_android:styleable/MaterialAlertDialog = 0x7f12004f
+com.example.btl_ptud_android:style/Platform.V21.AppCompat.Light = 0x7f110145
+com.example.btl_ptud_android:styleable/LinearLayoutCompat = 0x7f12004a
+com.example.btl_ptud_android:styleable/KeyFrame = 0x7f120043
+com.example.btl_ptud_android:dimen/m3_large_fab_size = 0x7f0601bc
+com.example.btl_ptud_android:id/month_grid = 0x7f080144
+com.example.btl_ptud_android:style/Widget.Support.CoordinatorLayout = 0x7f11046d
+com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Headline1 = 0x7f110202
+com.example.btl_ptud_android:color/m3_textfield_label_color = 0x7f050215
+com.example.btl_ptud_android:style/Widget.Material3.SearchView = 0x7f1103ce
+com.example.btl_ptud_android:style/Widget.Material3.Button.IconButton = 0x7f11035a
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f1102d1
+com.example.btl_ptud_android:styleable/MaterialCalendarItem = 0x7f120055
+com.example.btl_ptud_android:integer/mtrl_card_anim_delay_ms = 0x7f090034
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.FloatingActionButton.Primary = 0x7f1102a9
+com.example.btl_ptud_android:drawable/$mtrl_switch_thumb_unchecked_pressed__0 = 0x7f070028
+com.example.btl_ptud_android:id/linear = 0x7f080123
+com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Large.Inverse = 0x7f110022
+com.example.btl_ptud_android:style/Widget.Material3.Search.ActionButton.Overflow = 0x7f1103ca
+com.example.btl_ptud_android:style/Widget.Material3.Button.ElevatedButton.Icon = 0x7f110358
+com.example.btl_ptud_android:style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert.Framework = 0x7f110087
+com.example.btl_ptud_android:style/Widget.Material3.Search.Toolbar.Button.Navigation = 0x7f1103cb
+com.example.btl_ptud_android:style/ShapeAppearance.MaterialComponents.Badge = 0x7f110180
+com.example.btl_ptud_android:drawable/notification_oversize_large_icon_bg = 0x7f07010e
+com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Small = 0x7f11002b
+com.example.btl_ptud_android:dimen/material_clock_period_toggle_vertical_gap = 0x7f06022f
+com.example.btl_ptud_android:drawable/notification_template_icon_low_bg = 0x7f070110
+com.example.btl_ptud_android:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f1102f4
+com.example.btl_ptud_android:style/Widget.Material3.TabLayout = 0x7f1103dc
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.Button = 0x7f110291
+com.example.btl_ptud_android:style/Platform.ThemeOverlay.AppCompat = 0x7f110141
+com.example.btl_ptud_android:style/Widget.Material3.MaterialTimePicker.Button = 0x7f1103ba
+com.example.btl_ptud_android:style/Base.Animation.AppCompat.Dialog = 0x7f11000d
+com.example.btl_ptud_android:id/SHIFT = 0x7f080007
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.ActionButton.CloseMode = 0x7f110312
+com.example.btl_ptud_android:style/Widget.Design.BottomSheet.Modal = 0x7f11033b
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Toolbar.Primary = 0x7f110469
+com.example.btl_ptud_android:style/ThemeOverlay.AppCompat.Dark = 0x7f11027e
+com.example.btl_ptud_android:macro/m3_comp_date_picker_modal_weekdays_label_text_color = 0x7f0c001d
+com.example.btl_ptud_android:style/Base.Widget.AppCompat.Light.ActionBar.Solid = 0x7f1100df
+com.example.btl_ptud_android:id/default_activity_button = 0x7f0800b4
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f110276
+com.example.btl_ptud_android:style/Widget.Design.NavigationView = 0x7f11033e
+com.example.btl_ptud_android:color/mtrl_navigation_bar_colored_ripple_color = 0x7f0502e2
+com.example.btl_ptud_android:id/elastic = 0x7f0800db
+com.example.btl_ptud_android:id/topPanel = 0x7f08021b
+com.example.btl_ptud_android:string/character_counter_overflowed_content_description = 0x7f10002e
+com.example.btl_ptud_android:style/Widget.MaterialComponents.CheckedTextView = 0x7f110411
+com.example.btl_ptud_android:style/Widget.MaterialComponents.CollapsingToolbar = 0x7f11041b
+com.example.btl_ptud_android:macro/m3_comp_time_picker_time_selector_container_shape = 0x7f0c015e
+com.example.btl_ptud_android:style/Theme.MaterialComponents.DayNight.Dialog.Alert = 0x7f110256
+com.example.btl_ptud_android:style/ShapeAppearance.Material3.MediumComponent = 0x7f11017b
+com.example.btl_ptud_android:style/Widget.Material3.SearchBar.Outlined = 0x7f1103cd
+com.example.btl_ptud_android:id/scrollable = 0x7f0801b9
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputEditText.FilledBox = 0x7f110451
+com.example.btl_ptud_android:styleable/AppCompatSeekBar = 0x7f12000f
+com.example.btl_ptud_android:style/Theme.Material3.DynamicColors.Dark.NoActionBar = 0x7f11023f
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.Dialog.Alert = 0x7f11026f
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.Chip = 0x7f110299
+com.example.btl_ptud_android:style/TextAppearance.Material3.SearchView = 0x7f1101f7
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.Light = 0x7f1102d8
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.ActionBar.TabBar = 0x7f11030b
+com.example.btl_ptud_android:id/button2 = 0x7f08024c
+com.example.btl_ptud_android:macro/m3_comp_outlined_text_field_input_text_color = 0x7f0c00c0
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f110464
+com.example.btl_ptud_android:style/Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu = 0x7f1103e9
+com.example.btl_ptud_android:color/material_grey_600 = 0x7f050275
+com.example.btl_ptud_android:string/common_google_play_services_update_button = 0x7f10003b
+com.example.btl_ptud_android:dimen/mtrl_btn_padding_right = 0x7f060269
+com.example.btl_ptud_android:styleable/MaterialDivider = 0x7f120059
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.ActionBar = 0x7f1102c7
+com.example.btl_ptud_android:style/Theme.MaterialComponents.BottomSheetDialog = 0x7f11024d
+com.example.btl_ptud_android:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Spinner = 0x7f110134
+com.example.btl_ptud_android:dimen/m3_extended_fab_icon_padding = 0x7f0601b3
+com.example.btl_ptud_android:style/Theme.Material3.DayNight.DialogWhenLarge = 0x7f11023b
+com.example.btl_ptud_android:id/txtQuestionCount = 0x7f080246
+com.example.btl_ptud_android:style/Theme.Material3.Dark.BottomSheetDialog = 0x7f11022f
+com.example.btl_ptud_android:macro/m3_comp_time_picker_period_selector_unselected_pressed_state_layer_color = 0x7f0c015d
+com.example.btl_ptud_android:dimen/m3_alert_dialog_elevation = 0x7f0600a2
+com.example.btl_ptud_android:layout/notification_template_custom_big = 0x7f0b0072
+com.example.btl_ptud_android:style/Animation.Design.BottomSheetDialog = 0x7f110005
+com.example.btl_ptud_android:style/Widget.Material3.Button.ElevatedButton = 0x7f110357
+com.example.btl_ptud_android:style/Widget.Material3.CircularProgressIndicator = 0x7f110378
+com.example.btl_ptud_android:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth = 0x7f11025b
+com.example.btl_ptud_android:string/material_motion_easing_accelerated = 0x7f10006b
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.HeaderLayout = 0x7f1103aa
+com.example.btl_ptud_android:dimen/mtrl_badge_long_text_horizontal_padding = 0x7f06024e
+com.example.btl_ptud_android:style/Widget.Material3.Button.TonalButton = 0x7f110366
+com.example.btl_ptud_android:id/btn_mode = 0x7f08007c
+com.example.btl_ptud_android:style/Widget.AppCompat.ListView = 0x7f110320
+com.example.btl_ptud_android:string/common_google_play_services_install_button = 0x7f100034
+com.example.btl_ptud_android:macro/m3_comp_search_view_header_leading_icon_color = 0x7f0c00f6
+com.example.btl_ptud_android:style/TextAppearance.Material3.DisplaySmall = 0x7f1101ee
+com.example.btl_ptud_android:dimen/m3_card_elevated_dragged_z = 0x7f0600e9
+com.example.btl_ptud_android:id/textinput_helper_text = 0x7f08020f
+com.example.btl_ptud_android:style/Widget.Material3.FloatingActionButton.Tertiary = 0x7f11039b
+com.example.btl_ptud_android:style/Widget.Material3.CardView.Filled = 0x7f11036a
+com.example.btl_ptud_android:style/Widget.Design.CollapsingToolbar = 0x7f11033c
+com.example.btl_ptud_android:style/Widget.Material3.ChipGroup = 0x7f110377
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.Dialog.Alert = 0x7f1102a0
+com.example.btl_ptud_android:string/material_motion_easing_standard = 0x7f10006f
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Dialog.MinWidth.Bridge = 0x7f110267
+com.example.btl_ptud_android:style/Theme.Design.Light = 0x7f110229
+com.example.btl_ptud_android:style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge = 0x7f11025f
+com.example.btl_ptud_android:id/blocking = 0x7f080066
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Sys.Shape.Corner.Large = 0x7f11016f
+com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_focus_label_text_color = 0x7f0c006d
+com.example.btl_ptud_android:macro/m3_comp_extended_fab_primary_icon_color = 0x7f0c002e
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.HeaderDivider = 0x7f1103a9
+com.example.btl_ptud_android:macro/m3_comp_switch_unselected_pressed_state_layer_color = 0x7f0c013d
+com.example.btl_ptud_android:styleable/ExtendedFloatingActionButton_Behavior_Layout = 0x7f120033
+com.example.btl_ptud_android:dimen/m3_comp_primary_navigation_tab_with_icon_icon_size = 0x7f060163
+com.example.btl_ptud_android:id/exitUntilCollapsed = 0x7f0800e2
+com.example.btl_ptud_android:style/Widget.Material3.LinearProgressIndicator.Legacy = 0x7f11039e
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.FloatingActionButton.Surface = 0x7f1102ab
+com.example.btl_ptud_android:style/Widget.Material3.Chip.Filter.Elevated = 0x7f110370
+com.example.btl_ptud_android:style/Widget.MaterialComponents.PopupMenu.Overflow = 0x7f110447
+com.example.btl_ptud_android:dimen/design_bottom_navigation_item_max_width = 0x7f060067
+com.example.btl_ptud_android:style/Base.V28.Theme.AppCompat = 0x7f1100b9
+com.example.btl_ptud_android:style/Widget.Material3.Button.UnelevatedButton = 0x7f110368
+com.example.btl_ptud_android:styleable/Chip = 0x7f12001d
+com.example.btl_ptud_android:style/Theme.AppCompat.Light.Dialog = 0x7f110220
+com.example.btl_ptud_android:style/Base.V21.ThemeOverlay.Material3.BottomSheetDialog = 0x7f1100ab
+com.example.btl_ptud_android:styleable/OnClick = 0x7f120070
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.ActionBar.Solid.Inverse = 0x7f11030a
+com.example.btl_ptud_android:dimen/m3_large_text_vertical_offset_adjustment = 0x7f0601bd
+com.example.btl_ptud_android:style/Widget.Material3.Button.IconButton.Filled = 0x7f11035b
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f1102d9
+com.example.btl_ptud_android:styleable/AnimatedStateListDrawableCompat = 0x7f120007
+com.example.btl_ptud_android:macro/m3_comp_outlined_button_hover_outline_color = 0x7f0c00a5
+com.example.btl_ptud_android:styleable/MaterialButton = 0x7f120052
+com.example.btl_ptud_android:dimen/m3_btn_text_btn_icon_padding_right = 0x7f0600e1
+com.example.btl_ptud_android:style/Widget.Material3.BottomAppBar.Legacy = 0x7f11034f
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Medium.Inverse = 0x7f1101aa
+com.example.btl_ptud_android:id/edtOption4 = 0x7f080253
+com.example.btl_ptud_android:styleable/MaterialCalendar = 0x7f120054
+com.example.btl_ptud_android:id/screen = 0x7f0801b4
+com.example.btl_ptud_android:style/Base.Widget.MaterialComponents.PopupMenu.Overflow = 0x7f11011a
+com.example.btl_ptud_android:style/Widget.Material3.Slider = 0x7f1103d5
+com.example.btl_ptud_android:macro/m3_comp_badge_large_label_text_type = 0x7f0c0004
+com.example.btl_ptud_android:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Secondary = 0x7f110389
+com.example.btl_ptud_android:string/m3_ref_typeface_brand_medium = 0x7f100055
+com.example.btl_ptud_android:string/common_google_play_services_enable_button = 0x7f100031
+com.example.btl_ptud_android:integer/show_password_duration = 0x7f090043
+com.example.btl_ptud_android:style/Widget.Material3.SideSheet.Modal.Detached = 0x7f1103d4
+com.example.btl_ptud_android:styleable/KeyFramesAcceleration = 0x7f120044
+com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_headline_color = 0x7f0c0084
+com.example.btl_ptud_android:style/Widget.AppCompat.RatingBar.Small = 0x7f11032a
+com.example.btl_ptud_android:string/searchview_clear_text_content_description = 0x7f1000c0
+com.example.btl_ptud_android:id/navigation_bar_item_small_label_view = 0x7f080169
+com.example.btl_ptud_android:style/Theme.AppCompat.Dialog.MinWidth = 0x7f11021b
+com.example.btl_ptud_android:style/Widget.AppCompat.SearchView.ActionBar = 0x7f11032c
+com.example.btl_ptud_android:drawable/twitter = 0x7f070117
+com.example.btl_ptud_android:drawable/test_level_drawable = 0x7f070114
+=======
 com.example.btl_ptud_android:styleable/MockView = 0x7f120064
 com.example.btl_ptud_android:style/Widget.Material3.FloatingActionButton.Secondary = 0x7f110398
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f1101bd
@@ -289,6 +611,7 @@ com.example.btl_ptud_android:drawable/twitter = 0x7f070119
 com.example.btl_ptud_android:style/Widget.Material3.TabLayout = 0x7f1103df
 com.example.btl_ptud_android:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f1102f7
 com.example.btl_ptud_android:drawable/test_level_drawable = 0x7f070116
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:styleable/ShapeableImageView = 0x7f12007e
 com.example.btl_ptud_android:styleable/PropertySet = 0x7f120074
 com.example.btl_ptud_android:style/Widget.MaterialComponents.ActionBar.PrimarySurface = 0x7f1103f3
@@ -296,6 +619,27 @@ com.example.btl_ptud_android:macro/m3_comp_filter_chip_container_shape = 0x7f0c0
 com.example.btl_ptud_android:color/material_dynamic_neutral_variant90 = 0x7f05024a
 com.example.btl_ptud_android:style/TextAppearance.M3.Sys.Typescale.DisplayMedium = 0x7f1101dd
 com.example.btl_ptud_android:macro/m3_comp_dialog_container_shape = 0x7f0c0023
+<<<<<<< HEAD
+com.example.btl_ptud_android:layout/activity_question = 0x7f0b0025
+com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Headline6 = 0x7f110207
+com.example.btl_ptud_android:style/TextAppearance.Material3.LabelSmall = 0x7f1101f4
+com.example.btl_ptud_android:style/Widget.MaterialComponents.ActionBar.Solid = 0x7f1103f1
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f1102da
+com.example.btl_ptud_android:dimen/mtrl_calendar_header_content_padding_fullscreen = 0x7f060281
+com.example.btl_ptud_android:style/TextAppearance.M3.Sys.Typescale.BodyLarge = 0x7f1101d8
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.TimePicker.Display = 0x7f1102e9
+com.example.btl_ptud_android:macro/m3_comp_filled_button_container_color = 0x7f0c0043
+com.example.btl_ptud_android:macro/m3_comp_extended_fab_secondary_container_color = 0x7f0c0030
+com.example.btl_ptud_android:id/material_clock_period_pm_button = 0x7f080132
+com.example.btl_ptud_android:id/action_divider = 0x7f08003d
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.Dialog.MinWidth.Bridge = 0x7f110275
+com.example.btl_ptud_android:macro/m3_comp_navigation_rail_container_color = 0x7f0c0099
+com.example.btl_ptud_android:style/Widget.Material3.Button.TextButton.Dialog.Icon = 0x7f110363
+com.example.btl_ptud_android:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0 = 0x7f0a0000
+com.example.btl_ptud_android:style/Widget.Material3.Button.OutlinedButton = 0x7f11035e
+com.example.btl_ptud_android:dimen/m3_extended_fab_min_height = 0x7f0601b4
+com.example.btl_ptud_android:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1103f8
+=======
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f1102db
 com.example.btl_ptud_android:dimen/mtrl_calendar_header_content_padding_fullscreen = 0x7f060281
 com.example.btl_ptud_android:styleable/StateListDrawableItem = 0x7f120087
@@ -313,10 +657,22 @@ com.example.btl_ptud_android:style/Widget.Material3.Button.OutlinedButton = 0x7f
 com.example.btl_ptud_android:style/Widget.Material3.Button.TextButton.Dialog.Icon = 0x7f110366
 com.example.btl_ptud_android:dimen/m3_extended_fab_min_height = 0x7f0601b4
 com.example.btl_ptud_android:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1103fb
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:integer/mtrl_btn_anim_delay_ms = 0x7f09002f
 com.example.btl_ptud_android:style/Widget.Material3.Toolbar.Surface = 0x7f1103f0
 com.example.btl_ptud_android:macro/m3_comp_snackbar_container_shape = 0x7f0c0114
 com.example.btl_ptud_android:string/search_menu_title = 0x7f1000be
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/TextAppearance.Design.Counter.Overflow = 0x7f1101cf
+com.example.btl_ptud_android:style/TextAppearance.M3.Sys.Typescale.HeadlineSmall = 0x7f1101e0
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.ExtendedFloatingActionButton.Secondary = 0x7f1102a6
+com.example.btl_ptud_android:layout/activity_question_detail = 0x7f0b007b
+com.example.btl_ptud_android:id/password_toggle = 0x7f080191
+com.example.btl_ptud_android:id/accelerate = 0x7f08000f
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.Year = 0x7f1103b3
+com.example.btl_ptud_android:macro/m3_comp_text_button_focus_state_layer_color = 0x7f0c0142
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.Sheet.Side.Docked.Container.Shape = 0x7f110167
+=======
 com.example.btl_ptud_android:style/TextAppearance.Design.Counter.Overflow = 0x7f1101d0
 com.example.btl_ptud_android:style/TextAppearance.M3.Sys.Typescale.HeadlineSmall = 0x7f1101e1
 com.example.btl_ptud_android:style/ThemeOverlay.Material3.ExtendedFloatingActionButton.Secondary = 0x7f1102a7
@@ -336,6 +692,7 @@ com.example.btl_ptud_android:macro/m3_comp_extended_fab_secondary_container_colo
 com.example.btl_ptud_android:id/action_divider = 0x7f08003d
 com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.Dialog.MinWidth.Bridge = 0x7f110276
 com.example.btl_ptud_android:macro/m3_comp_navigation_rail_container_color = 0x7f0c0099
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:string/mtrl_chip_close_icon_content_description = 0x7f100086
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_hover_state_layer_color = 0x7f0c0071
 com.example.btl_ptud_android:style/Widget.AppCompat.RatingBar.Indicator = 0x7f11032c
@@ -371,6 +728,42 @@ com.example.btl_ptud_android:drawable/abc_seekbar_tick_mark_material = 0x7f07006
 com.example.btl_ptud_android:style/Widget.Material3.SearchView.Prefix = 0x7f1103d2
 com.example.btl_ptud_android:style/Widget.Material3.TextInputLayout.OutlinedBox = 0x7f1103ea
 com.example.btl_ptud_android:style/Base.Widget.Material3.CollapsingToolbar = 0x7f110103
+<<<<<<< HEAD
+com.example.btl_ptud_android:styleable/CollapsingToolbarLayout_Layout = 0x7f120024
+com.example.btl_ptud_android:styleable/BottomSheetBehavior_Layout = 0x7f120017
+com.example.btl_ptud_android:style/Widget.Material3.NavigationView = 0x7f1103c5
+com.example.btl_ptud_android:id/mtrl_calendar_year_selector_frame = 0x7f080153
+com.example.btl_ptud_android:macro/m3_comp_filled_text_field_error_active_indicator_color = 0x7f0c004d
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Body2 = 0x7f11019a
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_surface_container_low = 0x7f0501a7
+com.example.btl_ptud_android:id/notification_main_column = 0x7f080174
+com.example.btl_ptud_android:id/action_bar_container = 0x7f080036
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.ActionBar.Primary = 0x7f1102c8
+com.example.btl_ptud_android:style/Base.V7.Theme.AppCompat.Light.Dialog = 0x7f1100be
+com.example.btl_ptud_android:dimen/abc_button_inset_horizontal_material = 0x7f060012
+com.example.btl_ptud_android:styleable/KeyCycle = 0x7f120042
+com.example.btl_ptud_android:macro/m3_comp_fab_primary_large_container_shape = 0x7f0c0039
+com.example.btl_ptud_android:style/Theme.Material3.DynamicColors.DayNight = 0x7f110240
+com.example.btl_ptud_android:dimen/abc_action_button_min_width_material = 0x7f06000e
+com.example.btl_ptud_android:macro/m3_comp_top_app_bar_medium_headline_color = 0x7f0c016d
+com.example.btl_ptud_android:macro/m3_comp_fab_primary_container_color = 0x7f0c0036
+com.example.btl_ptud_android:styleable/StateListDrawableItem = 0x7f120087
+com.example.btl_ptud_android:styleable/State = 0x7f120085
+com.example.btl_ptud_android:layout/mtrl_navigation_rail_item = 0x7f0b0063
+com.example.btl_ptud_android:string/mtrl_picker_announce_current_selection = 0x7f10008c
+com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Medium.Inverse = 0x7f110026
+com.example.btl_ptud_android:style/Base.Theme.Btl_ptud_android = 0x7f110059
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Subhead.Inverse = 0x7f1101b1
+com.example.btl_ptud_android:dimen/m3_comp_badge_size = 0x7f060102
+com.example.btl_ptud_android:styleable/ActionMode = 0x7f120004
+com.example.btl_ptud_android:style/Widget.MaterialComponents.BottomNavigationView.Colored = 0x7f110400
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Chip.Entry = 0x7f110414
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense = 0x7f11045a
+com.example.btl_ptud_android:raw/firebase_common_keep = 0x7f0f0000
+com.example.btl_ptud_android:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year = 0x7f110196
+com.example.btl_ptud_android:style/Platform.V25.AppCompat.Light = 0x7f110147
+com.example.btl_ptud_android:style/ShapeAppearanceOverlay.MaterialComponents.ExtendedFloatingActionButton = 0x7f110192
+=======
 com.example.btl_ptud_android:string/mtrl_picker_announce_current_selection = 0x7f10008c
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Subhead.Inverse = 0x7f1101b2
 com.example.btl_ptud_android:dimen/m3_comp_badge_size = 0x7f060102
@@ -402,6 +795,7 @@ com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputLayout.Out
 com.example.btl_ptud_android:raw/firebase_common_keep = 0x7f0f0000
 com.example.btl_ptud_android:style/Platform.V25.AppCompat.Light = 0x7f110148
 com.example.btl_ptud_android:style/ShapeAppearanceOverlay.MaterialComponents.ExtendedFloatingActionButton = 0x7f110193
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:styleable/MaterialToolbar = 0x7f120060
 com.example.btl_ptud_android:styleable/MaterialTextView = 0x7f12005e
 com.example.btl_ptud_android:style/CardView.Dark = 0x7f110125
@@ -412,9 +806,22 @@ com.example.btl_ptud_android:style/ShapeAppearance.Material3.LargeComponent = 0x
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Sys.Shape.Corner.ExtraSmall = 0x7f11016e
 com.example.btl_ptud_android:style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f110118
 com.example.btl_ptud_android:style/Base.Theme.Material3.Light.Dialog = 0x7f110062
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.Day = 0x7f1103a1
+com.example.btl_ptud_android:style/Widget.AppCompat.Spinner.DropDown.ActionBar = 0x7f110331
+com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.DayOfWeekLabel = 0x7f11042a
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.DayOfWeekLabel = 0x7f1103a5
+com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Body1 = 0x7f1101fd
+com.example.btl_ptud_android:style/Base.Widget.Material3.BottomNavigationView = 0x7f110100
+com.example.btl_ptud_android:macro/m3_comp_switch_unselected_pressed_track_outline_color = 0x7f0c013f
+com.example.btl_ptud_android:id/toggle = 0x7f080219
+com.example.btl_ptud_android:style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow = 0x7f110159
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.PopupMenu.Large = 0x7f1101c4
+=======
 com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.Day = 0x7f1103a4
 com.example.btl_ptud_android:style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow = 0x7f11015a
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.PopupMenu.Large = 0x7f1101c5
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_snackbar_supporting_text_color = 0x7f0c0115
 com.example.btl_ptud_android:styleable/CustomAttribute = 0x7f12002f
 com.example.btl_ptud_android:style/Base.Widget.MaterialComponents.PopupMenu = 0x7f110117
@@ -422,15 +829,27 @@ com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.Search.DropDown =
 com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f11014d
 com.example.btl_ptud_android:styleable/PopupWindowBackgroundState = 0x7f120073
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_hover_label_text_color = 0x7f0c0070
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem = 0x7f11014a
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.Button.TonalButton = 0x7f110298
+=======
 com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem = 0x7f11014b
 com.example.btl_ptud_android:style/ThemeOverlay.Material3.Button.TonalButton = 0x7f110299
 com.example.btl_ptud_android:drawable/bg_hide_password = 0x7f070084
 com.example.btl_ptud_android:macro/m3_comp_time_picker_period_selector_selected_focus_state_layer_color = 0x7f0c0156
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_active_focus_label_text_color = 0x7f0c0079
-com.example.btl_ptud_android:dimen/abc_switch_padding = 0x7f06003e
+com.example.btl_ptud_android:macro/m3_comp_time_picker_period_selector_selected_focus_state_layer_color = 0x7f0c0156
+com.example.btl_ptud_android:drawable/bg_hide_password = 0x7f070083
 com.example.btl_ptud_android:dimen/abc_action_bar_default_height_material = 0x7f060002
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/material_personalized_color_surface = 0x7f0502a6
+com.example.btl_ptud_android:style/Widget.Material3.MaterialButtonToggleGroup = 0x7f11039f
+com.example.btl_ptud_android:dimen/abc_switch_padding = 0x7f06003e
+=======
 com.example.btl_ptud_android:color/material_personalized_color_surface = 0x7f0502a8
 com.example.btl_ptud_android:style/Widget.Material3.MaterialButtonToggleGroup = 0x7f1103a2
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f110116
 com.example.btl_ptud_android:string/abc_toolbar_collapse_description = 0x7f10001a
 com.example.btl_ptud_android:interpolator/mtrl_linear = 0x7f0a0010
@@ -449,6 +868,22 @@ com.example.btl_ptud_android:macro/m3_comp_switch_selected_focus_handle_color = 
 com.example.btl_ptud_android:dimen/m3_comp_text_button_hover_state_layer_opacity = 0x7f06019f
 com.example.btl_ptud_android:dimen/material_clock_period_toggle_width = 0x7f060230
 com.example.btl_ptud_android:style/Base.V14.ThemeOverlay.Material3.SideSheetDialog = 0x7f11009c
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f1102db
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f110452
+com.example.btl_ptud_android:styleable/Insets = 0x7f120040
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f110271
+com.example.btl_ptud_android:macro/m3_comp_date_picker_modal_date_today_container_outline_color = 0x7f0c0012
+com.example.btl_ptud_android:color/material_personalized_color_on_tertiary_container = 0x7f05029a
+com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents.Light.Bridge = 0x7f110097
+com.example.btl_ptud_android:dimen/mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = 0x7f060293
+com.example.btl_ptud_android:style/Widget.AppCompat.Light.ActionButton = 0x7f110311
+com.example.btl_ptud_android:drawable/abc_ic_go_search_api_material = 0x7f070042
+com.example.btl_ptud_android:styleable/Constraint = 0x7f120027
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.SearchBar.Avatar.Shape = 0x7f110164
+com.example.btl_ptud_android:style/Widget.Material3.MaterialTimePicker.Clock = 0x7f1103bb
+com.example.btl_ptud_android:style/Widget.MaterialComponents.AppBarLayout.PrimarySurface = 0x7f1103f5
+=======
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f1102dc
 com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f110455
 com.example.btl_ptud_android:style/Widget.AppCompat.Light.ActionButton = 0x7f110314
@@ -463,6 +898,7 @@ com.example.btl_ptud_android:styleable/Constraint = 0x7f120027
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.SearchBar.Avatar.Shape = 0x7f110165
 com.example.btl_ptud_android:style/Widget.Material3.MaterialTimePicker.Clock = 0x7f1103be
 com.example.btl_ptud_android:style/Widget.MaterialComponents.AppBarLayout.PrimarySurface = 0x7f1103f8
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.ActionMode = 0x7f1100cb
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse = 0x7f1101bc
 com.example.btl_ptud_android:dimen/m3_comp_assist_chip_flat_container_elevation = 0x7f0600fe
@@ -484,8 +920,14 @@ com.example.btl_ptud_android:layout/design_navigation_item_subheader = 0x7f0b003
 com.example.btl_ptud_android:dimen/m3_comp_navigation_drawer_hover_state_layer_opacity = 0x7f060142
 com.example.btl_ptud_android:id/SHOW_PROGRESS = 0x7f08000a
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_standard_accelerate_control_x1 = 0x7f060210
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Widget.Material3.NavigationRailView.ActiveIndicator = 0x7f1103c3
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_light_error = 0x7f0501ae
+com.example.btl_ptud_android:macro/m3_comp_switch_unselected_pressed_handle_color = 0x7f0c013b
+=======
 com.example.btl_ptud_android:style/Widget.Material3.NavigationRailView.ActiveIndicator = 0x7f1103c6
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_light_error = 0x7f0501b0
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.Widget.MaterialComponents.AutoCompleteTextView = 0x7f110112
 com.example.btl_ptud_android:style/ShapeAppearanceOverlay.Material3.Button = 0x7f110186
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f1101bb
@@ -531,6 +973,7 @@ com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.NoActionBar.Br
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.Spinner.Underlined = 0x7f1100f8
 com.example.btl_ptud_android:style/TextAppearance.Material3.SearchBar = 0x7f1101f7
 com.example.btl_ptud_android:style/Base.Widget.Material3.Chip = 0x7f110102
+com.example.btl_ptud_android:array/correct_answers = 0x7f140000
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.ListView = 0x7f1100e8
 com.example.btl_ptud_android:style/Platform.V25.AppCompat = 0x7f110147
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.DatePicker.Modal.Date.Container.Shape = 0x7f11015e
@@ -554,15 +997,33 @@ com.example.btl_ptud_android:style/Base.Widget.AppCompat.ImageButton = 0x7f1100d
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.DropDownItem.Spinner = 0x7f1100db
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.CompoundButton.Switch = 0x7f1100d8
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.CompoundButton.CheckBox = 0x7f1100d6
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/MaterialAlertDialog.Material3.Title.Icon = 0x7f11012b
+com.example.btl_ptud_android:dimen/m3_comp_radio_button_selected_hover_state_layer_opacity = 0x7f06016a
+com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents.Bridge = 0x7f110093
+com.example.btl_ptud_android:color/m3_slider_active_track_color = 0x7f050160
+com.example.btl_ptud_android:layout/mtrl_calendar_month = 0x7f0b005b
+=======
 com.example.btl_ptud_android:style/MaterialAlertDialog.Material3.Title.Icon = 0x7f11012c
 com.example.btl_ptud_android:dimen/m3_comp_radio_button_selected_hover_state_layer_opacity = 0x7f06016a
 com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents.Bridge = 0x7f110093
 com.example.btl_ptud_android:color/m3_slider_active_track_color = 0x7f050162
 com.example.btl_ptud_android:layout/mtrl_calendar_month = 0x7f0b005d
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:string/abc_action_bar_up_description = 0x7f100001
 com.example.btl_ptud_android:styleable/AnimatedStateListDrawableTransition = 0x7f120009
 com.example.btl_ptud_android:string/material_hour_suffix = 0x7f100068
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f1100c7
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Inverse = 0x7f1101a2
+com.example.btl_ptud_android:style/Theme.Material3.Light.NoActionBar = 0x7f11024a
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TimePicker.ImageButton.ShapeAppearance = 0x7f110467
+com.example.btl_ptud_android:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f110334
+com.example.btl_ptud_android:style/Widget.Design.AppBarLayout = 0x7f110339
+com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f110426
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Display3 = 0x7f11019f
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Button.TextButton.Dialog = 0x7f110409
+=======
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Inverse = 0x7f1101a3
 com.example.btl_ptud_android:style/Theme.Material3.Light.NoActionBar = 0x7f11024b
 com.example.btl_ptud_android:style/Widget.MaterialComponents.TimePicker.ImageButton.ShapeAppearance = 0x7f11046a
@@ -572,11 +1033,28 @@ com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.Da
 com.example.btl_ptud_android:macro/m3_comp_switch_unselected_pressed_state_layer_color = 0x7f0c013d
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Display3 = 0x7f1101a0
 com.example.btl_ptud_android:style/Widget.MaterialComponents.Button.TextButton.Dialog = 0x7f11040c
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.V26.Theme.AppCompat.Light = 0x7f1100b7
 com.example.btl_ptud_android:macro/m3_comp_slider_handle_color = 0x7f0c010f
 com.example.btl_ptud_android:dimen/m3_navigation_rail_item_padding_bottom = 0x7f0601d2
 com.example.btl_ptud_android:macro/m3_comp_badge_color = 0x7f0c0002
 com.example.btl_ptud_android:dimen/m3_comp_fab_primary_container_elevation = 0x7f060117
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_text_button_ripple_color_selector = 0x7f050211
+com.example.btl_ptud_android:dimen/mtrl_textinput_end_icon_margin_start = 0x7f060304
+com.example.btl_ptud_android:style/Base.V24.Theme.Material3.Dark.Dialog = 0x7f1100b3
+com.example.btl_ptud_android:styleable/FragmentContainerView = 0x7f12003b
+com.example.btl_ptud_android:style/Base.ThemeOverlay.Material3.SideSheetDialog = 0x7f110083
+com.example.btl_ptud_android:style/TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f11020f
+com.example.btl_ptud_android:id/line1 = 0x7f080121
+com.example.btl_ptud_android:color/material_personalized_color_on_surface = 0x7f050296
+com.example.btl_ptud_android:attr/perpendicularPath_percent = 0x7f03038b
+com.example.btl_ptud_android:style/Widget.MaterialComponents.CompoundButton.Switch = 0x7f11041e
+com.example.btl_ptud_android:dimen/abc_text_size_large_material = 0x7f060048
+com.example.btl_ptud_android:style/Base.V23.Theme.AppCompat = 0x7f1100b0
+com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Body2 = 0x7f1101fe
+com.example.btl_ptud_android:style/Widget.Material3.Button.IconButton.Filled.Tonal = 0x7f11035c
+=======
 com.example.btl_ptud_android:color/m3_text_button_ripple_color_selector = 0x7f050213
 com.example.btl_ptud_android:id/list_item = 0x7f08012c
 com.example.btl_ptud_android:dimen/mtrl_textinput_end_icon_margin_start = 0x7f060304
@@ -592,6 +1070,7 @@ com.example.btl_ptud_android:dimen/abc_text_size_large_material = 0x7f060048
 com.example.btl_ptud_android:style/Base.V23.Theme.AppCompat = 0x7f1100b0
 com.example.btl_ptud_android:style/TextAppearance.MaterialComponents.Body2 = 0x7f1101ff
 com.example.btl_ptud_android:style/Widget.Material3.Button.IconButton.Filled.Tonal = 0x7f11035f
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.V7.Widget.AppCompat.EditText = 0x7f1100c1
 com.example.btl_ptud_android:macro/m3_comp_top_app_bar_small_on_scroll_container_color = 0x7f0c0173
 com.example.btl_ptud_android:macro/m3_comp_outlined_text_field_disabled_label_text_color = 0x7f0c00b3
@@ -608,6 +1087,45 @@ com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents.Dialog.Brid
 com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.Dialog = 0x7f11026f
 com.example.btl_ptud_android:style/TextAppearance.Compat.Notification.Line2 = 0x7f1101cb
 com.example.btl_ptud_android:dimen/design_snackbar_extra_spacing_horizontal = 0x7f060084
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/transition_transform = 0x7f080226
+com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents = 0x7f110092
+com.example.btl_ptud_android:layout/abc_activity_chooser_view = 0x7f0b0006
+com.example.btl_ptud_android:layout/activity_add_library = 0x7f0b001c
+com.example.btl_ptud_android:color/m3_sys_color_light_surface_container = 0x7f0501f4
+com.example.btl_ptud_android:id/titleDividerNoCustom = 0x7f080215
+com.example.btl_ptud_android:dimen/m3_comp_fab_primary_container_height = 0x7f060118
+com.example.btl_ptud_android:dimen/mtrl_navigation_rail_margin = 0x7f0602d3
+com.example.btl_ptud_android:drawable/m3_tabs_rounded_line_indicator = 0x7f0700d4
+com.example.btl_ptud_android:id/txtCorrectAnswer = 0x7f080244
+com.example.btl_ptud_android:styleable/SignInButton = 0x7f120080
+com.example.btl_ptud_android:id/cradle = 0x7f0800aa
+com.example.btl_ptud_android:id/btn_signup = 0x7f080081
+com.example.btl_ptud_android:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window.Fullscreen = 0x7f110195
+com.example.btl_ptud_android:id/wrap = 0x7f08023d
+com.example.btl_ptud_android:string/abc_menu_delete_shortcut_label = 0x7f10000a
+com.example.btl_ptud_android:id/radio_correct_answer_1 = 0x7f0801a0
+com.example.btl_ptud_android:drawable/abc_switch_thumb_material = 0x7f07006a
+com.example.btl_ptud_android:styleable/KeyTrigger = 0x7f120048
+com.example.btl_ptud_android:macro/m3_comp_switch_selected_hover_icon_color = 0x7f0c0126
+com.example.btl_ptud_android:style/Theme.AppCompat.NoActionBar = 0x7f110225
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.Toolbar.Surface = 0x7f1102c4
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.NavigationView = 0x7f1102b9
+com.example.btl_ptud_android:id/navigation_bar_item_labels_group = 0x7f080167
+com.example.btl_ptud_android:dimen/m3_comp_search_bar_container_height = 0x7f060172
+com.example.btl_ptud_android:drawable/abc_list_divider_material = 0x7f07004d
+com.example.btl_ptud_android:integer/m3_sys_motion_duration_long2 = 0x7f090015
+com.example.btl_ptud_android:style/Widget.MaterialComponents.ShapeableImageView = 0x7f110449
+com.example.btl_ptud_android:id/accessibility_custom_action_0 = 0x7f080011
+com.example.btl_ptud_android:id/action_bar_activity_content = 0x7f080035
+com.example.btl_ptud_android:styleable/CoordinatorLayout_Layout = 0x7f12002e
+com.example.btl_ptud_android:style/Widget.AppCompat.Spinner = 0x7f11032f
+com.example.btl_ptud_android:string/mtrl_checkbox_button_icon_path_indeterminate = 0x7f10007d
+com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f11009a
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Dialog = 0x7f110260
+com.example.btl_ptud_android:id/clip_horizontal = 0x7f080099
+com.example.btl_ptud_android:style/TextAppearance.Design.Error = 0x7f1101d0
+=======
 com.example.btl_ptud_android:id/transition_transform = 0x7f080232
 com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents = 0x7f110092
 com.example.btl_ptud_android:layout/abc_activity_chooser_view = 0x7f0b0006
@@ -644,6 +1162,7 @@ com.example.btl_ptud_android:id/accessibility_custom_action_0 = 0x7f080011
 com.example.btl_ptud_android:style/Theme.AppCompat.NoActionBar = 0x7f110226
 com.example.btl_ptud_android:style/ThemeOverlay.Material3.Toolbar.Surface = 0x7f1102c5
 com.example.btl_ptud_android:style/TextAppearance.Design.Error = 0x7f1101d1
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_switch_selected_track_color = 0x7f0c012e
 com.example.btl_ptud_android:drawable/abc_btn_check_to_on_mtrl_015 = 0x7f07002f
 com.example.btl_ptud_android:style/ThemeOverlay.Material3.Button.IconButton.Filled.Tonal = 0x7f110296
@@ -659,6 +1178,12 @@ com.example.btl_ptud_android:color/design_default_color_surface = 0x7f05005a
 com.example.btl_ptud_android:dimen/mtrl_btn_elevation = 0x7f06025f
 com.example.btl_ptud_android:styleable/ConstraintLayout_Layout = 0x7f120028
 com.example.btl_ptud_android:macro/m3_comp_time_picker_time_selector_separator_color = 0x7f0c0165
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/CTRL = 0x7f080003
+com.example.btl_ptud_android:id/view_transition = 0x7f080231
+com.example.btl_ptud_android:string/m3_sys_motion_easing_standard = 0x7f100061
+=======
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f110072
 com.example.btl_ptud_android:id/selected = 0x7f0801d1
 com.example.btl_ptud_android:dimen/mtrl_calendar_title_baseline_to_top_fullscreen = 0x7f060297
@@ -685,12 +1210,41 @@ com.example.btl_ptud_android:style/Widget.Material3.Chip.Input.Icon = 0x7f110376
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f110038
 com.example.btl_ptud_android:style/Widget.Material3.Chip.Suggestion.Elevated = 0x7f110379
 com.example.btl_ptud_android:macro/m3_comp_time_picker_period_selector_unselected_label_text_color = 0x7f0c015c
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/spnCorrectAnswer = 0x7f080256
+com.example.btl_ptud_android:style/Theme.Material3.DynamicColors.Dark = 0x7f11023e
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator.Shape = 0x7f110161
+com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Medium = 0x7f110025
+com.example.btl_ptud_android:id/forever = 0x7f0800f2
+com.example.btl_ptud_android:style/Base.TextAppearance.MaterialComponents.Headline6 = 0x7f110046
+com.example.btl_ptud_android:style/Base.Theme.Material3.Light = 0x7f110060
+=======
 com.example.btl_ptud_android:style/Theme.Material3.DynamicColors.Dark = 0x7f11023f
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.NavigationDrawer.ActiveIndicator.Shape = 0x7f110162
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Medium = 0x7f110025
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.V14.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f110098
 com.example.btl_ptud_android:style/Theme.MaterialComponents.DialogWhenLarge = 0x7f110269
 com.example.btl_ptud_android:style/Base.Theme.AppCompat.Dialog.FixedSize = 0x7f11004f
+<<<<<<< HEAD
+com.example.btl_ptud_android:string/mtrl_picker_announce_current_range_selection = 0x7f10008b
+com.example.btl_ptud_android:string/mtrl_switch_thumb_path_unchecked = 0x7f1000b3
+com.example.btl_ptud_android:dimen/mtrl_progress_indicator_full_rounded_corner_radius = 0x7f0602e2
+com.example.btl_ptud_android:dimen/m3_comp_navigation_drawer_modal_container_elevation = 0x7f060144
+com.example.btl_ptud_android:attr/radioButtonStyle = 0x7f0303a3
+com.example.btl_ptud_android:style/Theme.AppCompat.DialogWhenLarge = 0x7f11021c
+com.example.btl_ptud_android:macro/m3_comp_elevated_button_container_color = 0x7f0c0029
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Sys.Shape.Corner.Full = 0x7f11016e
+com.example.btl_ptud_android:style/Platform.V25.AppCompat = 0x7f110146
+com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.DatePicker.Modal.Date.Container.Shape = 0x7f11015d
+com.example.btl_ptud_android:id/confirm_button = 0x7f08009f
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.BottomAppBar.Surface = 0x7f1102d0
+com.example.btl_ptud_android:style/Base.Widget.MaterialComponents.Chip = 0x7f110114
+com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f110023
+com.example.btl_ptud_android:styleable/AppCompatEmojiHelper = 0x7f12000d
+com.example.btl_ptud_android:color/material_dynamic_secondary70 = 0x7f050260
+com.example.btl_ptud_android:style/ThemeOverlay.AppCompat = 0x7f11027c
+=======
 com.example.btl_ptud_android:id/forever = 0x7f0800f8
 com.example.btl_ptud_android:style/Base.TextAppearance.MaterialComponents.Headline6 = 0x7f110046
 com.example.btl_ptud_android:style/Base.Theme.Material3.Light = 0x7f110060
@@ -701,6 +1255,7 @@ com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Light.Widget.Po
 com.example.btl_ptud_android:styleable/AppCompatEmojiHelper = 0x7f12000d
 com.example.btl_ptud_android:color/material_dynamic_secondary70 = 0x7f050262
 com.example.btl_ptud_android:style/ThemeOverlay.AppCompat = 0x7f11027d
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:string/material_motion_easing_decelerated = 0x7f10006c
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Large = 0x7f110021
 com.example.btl_ptud_android:integer/m3_sys_motion_duration_medium4 = 0x7f09001b
@@ -726,13 +1281,23 @@ com.example.btl_ptud_android:macro/m3_comp_time_picker_time_selector_separator_t
 com.example.btl_ptud_android:drawable/common_google_signin_btn_text_light_focused = 0x7f07009e
 com.example.btl_ptud_android:macro/m3_comp_checkbox_selected_error_icon_color = 0x7f0c000a
 com.example.btl_ptud_android:style/Animation.AppCompat.Dialog = 0x7f110002
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Widget.Material3.SideSheet.Detached = 0x7f1103d2
+com.example.btl_ptud_android:id/up = 0x7f08022c
+=======
 com.example.btl_ptud_android:style/Widget.Material3.SideSheet.Detached = 0x7f1103d5
 com.example.btl_ptud_android:id/up = 0x7f080240
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/abc_edit_text_inset_top_material = 0x7f06002e
 com.example.btl_ptud_android:drawable/ic_search_black_24 = 0x7f0700c5
 com.example.btl_ptud_android:styleable/ChipGroup = 0x7f12001e
 com.example.btl_ptud_android:string/project_id = 0x7f1000bd
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/txtCategoryTitle = 0x7f080245
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f1102ea
+=======
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f1102eb
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:string/path_password_eye = 0x7f1000b9
 com.example.btl_ptud_android:string/mtrl_timepicker_cancel = 0x7f1000b6
 com.example.btl_ptud_android:layout/notification_template_part_time = 0x7f0b0077
@@ -766,6 +1331,13 @@ com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Widget.ActionMo
 com.example.btl_ptud_android:style/ThemeOverlay.Material3.BottomAppBar = 0x7f11028e
 com.example.btl_ptud_android:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Tertiary = 0x7f11038e
 com.example.btl_ptud_android:dimen/abc_control_corner_material = 0x7f060018
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/MaterialAlertDialog.Material3 = 0x7f110127
+com.example.btl_ptud_android:id/icon_group = 0x7f080107
+com.example.btl_ptud_android:style/Widget.Material3.FloatingActionButton.Surface = 0x7f11039a
+com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.HeaderDivider = 0x7f11042f
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Bridge = 0x7f11024e
+=======
 com.example.btl_ptud_android:style/MaterialAlertDialog.Material3 = 0x7f110128
 com.example.btl_ptud_android:id/icon_group = 0x7f08010d
 com.example.btl_ptud_android:style/MaterialAlertDialog.MaterialComponents = 0x7f110132
@@ -783,21 +1355,45 @@ com.example.btl_ptud_android:id/open_search_view_content_container = 0x7f080184
 com.example.btl_ptud_android:style/Widget.Material3.FloatingActionButton.Surface = 0x7f11039d
 com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.HeaderDivider = 0x7f110432
 com.example.btl_ptud_android:style/Theme.MaterialComponents.Bridge = 0x7f11024f
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:styleable/KeyAttribute = 0x7f120041
+com.example.btl_ptud_android:id/open_search_view_content_container = 0x7f08017d
+com.example.btl_ptud_android:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f11007c
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Display1 = 0x7f11019d
+com.example.btl_ptud_android:drawable/abc_menu_hardkey_panel_mtrl_mult = 0x7f070059
+com.example.btl_ptud_android:dimen/m3_comp_filled_button_container_elevation = 0x7f060124
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.Toolbar.Primary = 0x7f1102ec
+com.example.btl_ptud_android:styleable/Fragment = 0x7f12003a
+com.example.btl_ptud_android:style/TextAppearance.Compat.Notification = 0x7f1101c8
+com.example.btl_ptud_android:id/material_hour_text_input = 0x7f080134
+com.example.btl_ptud_android:style/Theme.Material3.Light = 0x7f110244
+com.example.btl_ptud_android:string/material_motion_easing_emphasized = 0x7f10006d
+com.example.btl_ptud_android:style/MaterialAlertDialog.MaterialComponents = 0x7f110131
 com.example.btl_ptud_android:drawable/abc_list_pressed_holo_dark = 0x7f070051
 com.example.btl_ptud_android:string/mtrl_picker_text_input_date_range_start_hint = 0x7f1000a5
 com.example.btl_ptud_android:style/Theme.Material3.Light.SideSheetDialog = 0x7f11024c
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat = 0x7f110016
 com.example.btl_ptud_android:string/mtrl_picker_range_header_selected = 0x7f10009e
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Widget.Material3.AutoCompleteTextView.FilledBox = 0x7f110347
+com.example.btl_ptud_android:id/wrap_content_constrained = 0x7f08023f
+=======
 com.example.btl_ptud_android:style/Widget.Material3.AutoCompleteTextView.FilledBox = 0x7f11034a
 com.example.btl_ptud_android:id/wrap_content_constrained = 0x7f080253
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_primary_navigation_tab_with_icon_active_icon_color = 0x7f0c00cf
 com.example.btl_ptud_android:string/mtrl_picker_navigate_to_year_description = 0x7f10009a
 com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f11045b
 com.example.btl_ptud_android:style/Base.V23.Theme.AppCompat.Light = 0x7f1100b1
 com.example.btl_ptud_android:id/dragDown = 0x7f0800cd
 com.example.btl_ptud_android:string/mtrl_picker_confirm = 0x7f10008f
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/textinput_counter = 0x7f08020d
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f110458
+com.example.btl_ptud_android:color/material_dynamic_color_dark_on_error = 0x7f05022b
+=======
 com.example.btl_ptud_android:id/textinput_counter = 0x7f080219
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.ThemeOverlay.Material3.TextInputEditText = 0x7f110084
 com.example.btl_ptud_android:color/material_dynamic_color_dark_on_error = 0x7f05022d
 com.example.btl_ptud_android:string/mtrl_picker_cancel = 0x7f10008e
@@ -813,12 +1409,21 @@ com.example.btl_ptud_android:string/mtrl_checkbox_button_icon_path_name = 0x7f10
 com.example.btl_ptud_android:id/tag_accessibility_clickable_spans = 0x7f0801fc
 com.example.btl_ptud_android:id/search_voice_btn = 0x7f0801cf
 com.example.btl_ptud_android:string/material_timepicker_text_input_mode_description = 0x7f100079
+<<<<<<< HEAD
+com.example.btl_ptud_android:drawable/mtrl_tabs_default_indicator = 0x7f070104
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f110454
+com.example.btl_ptud_android:integer/mtrl_view_visible = 0x7f090042
+com.example.btl_ptud_android:style/Widget.Design.TextInputEditText = 0x7f110342
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.Fullscreen = 0x7f1103a7
+com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f110153
+=======
 com.example.btl_ptud_android:drawable/mtrl_tabs_default_indicator = 0x7f070106
 com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f110457
 com.example.btl_ptud_android:integer/mtrl_view_visible = 0x7f090042
 com.example.btl_ptud_android:style/Widget.Design.TextInputEditText = 0x7f110345
 com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.Fullscreen = 0x7f1103aa
 com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f110154
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:string/material_timepicker_select_time = 0x7f100078
 com.example.btl_ptud_android:string/path_password_eye_mask_strike_through = 0x7f1000ba
 com.example.btl_ptud_android:style/Platform.Widget.AppCompat.Spinner = 0x7f110149
@@ -838,8 +1443,13 @@ com.example.btl_ptud_android:string/abc_menu_function_shortcut_label = 0x7f10000
 com.example.btl_ptud_android:style/Base.V24.Theme.Material3.Light = 0x7f1100b4
 com.example.btl_ptud_android:integer/m3_sys_motion_path = 0x7f090020
 com.example.btl_ptud_android:string/m3_ref_typeface_plain_regular = 0x7f100058
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/ShapeAppearance.MaterialComponents.LargeComponent = 0x7f110181
+com.example.btl_ptud_android:id/text_input_error_icon = 0x7f08020b
+=======
 com.example.btl_ptud_android:style/ShapeAppearance.MaterialComponents.LargeComponent = 0x7f110182
 com.example.btl_ptud_android:id/text_input_error_icon = 0x7f080217
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:integer/mtrl_chip_anim_duration = 0x7f090036
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_legacy_accelerate_control_y2 = 0x7f060203
 com.example.btl_ptud_android:dimen/m3_comp_top_app_bar_small_container_height = 0x7f0601ad
@@ -859,8 +1469,15 @@ com.example.btl_ptud_android:macro/m3_comp_navigation_rail_inactive_focus_state_
 com.example.btl_ptud_android:attr/barrierDirection = 0x7f030065
 com.example.btl_ptud_android:color/material_dynamic_primary95 = 0x7f050258
 com.example.btl_ptud_android:layout/abc_screen_toolbar = 0x7f0b0017
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Theme.Btl_ptud_android = 0x7f110226
+com.example.btl_ptud_android:style/Theme.Material3.Dark.NoActionBar = 0x7f110234
+com.example.btl_ptud_android:id/main = 0x7f080255
+com.example.btl_ptud_android:id/cut = 0x7f0800ae
+=======
 com.example.btl_ptud_android:style/Theme.Btl_ptud_android = 0x7f110227
 com.example.btl_ptud_android:style/Theme.Material3.Dark.NoActionBar = 0x7f110235
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:string/google_storage_bucket = 0x7f100050
 com.example.btl_ptud_android:style/Animation.MaterialComponents.BottomSheetDialog = 0x7f11000a
 com.example.btl_ptud_android:dimen/mtrl_fab_translation_z_hovered_focused = 0x7f0602ba
@@ -994,6 +1611,15 @@ com.example.btl_ptud_android:macro/m3_comp_slider_disabled_inactive_track_color 
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_active_focus_icon_color = 0x7f0c005f
 com.example.btl_ptud_android:color/m3_sys_color_light_outline = 0x7f0501ee
 com.example.btl_ptud_android:macro/m3_comp_slider_disabled_active_track_color = 0x7f0c010c
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1102cb
+com.example.btl_ptud_android:macro/m3_comp_progress_indicator_active_indicator_color = 0x7f0c00d4
+com.example.btl_ptud_android:style/Base.Widget.Material3.FloatingActionButton.Large = 0x7f11010a
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f1101a7
+com.example.btl_ptud_android:color/material_on_background_emphasis_high_type = 0x7f05027e
+com.example.btl_ptud_android:style/Base.CardView = 0x7f110010
+com.example.btl_ptud_android:style/Widget.AppCompat.ImageButton = 0x7f110307
+=======
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1102cc
 com.example.btl_ptud_android:macro/m3_comp_progress_indicator_active_indicator_color = 0x7f0c00d4
 com.example.btl_ptud_android:style/Base.Widget.Material3.FloatingActionButton.Large = 0x7f11010a
@@ -1004,6 +1630,7 @@ com.example.btl_ptud_android:style/Widget.AppCompat.ImageButton = 0x7f11030a
 com.example.btl_ptud_android:string/mtrl_switch_thumb_path_pressed = 0x7f1000b2
 com.example.btl_ptud_android:id/fitStart = 0x7f0800f2
 com.example.btl_ptud_android:drawable/notification_icon_background = 0x7f07010f
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_sheet_side_docked_modal_container_shape = 0x7f0c0109
 com.example.btl_ptud_android:style/RtlOverlay.DialogWindowTitle.AppCompat = 0x7f11014a
 com.example.btl_ptud_android:macro/m3_comp_sheet_bottom_docked_container_color = 0x7f0c0104
@@ -1011,8 +1638,12 @@ com.example.btl_ptud_android:macro/m3_comp_outlined_text_field_hover_outline_col
 com.example.btl_ptud_android:id/accessibility_custom_action_7 = 0x7f08002e
 com.example.btl_ptud_android:id/accessibility_custom_action_8 = 0x7f08002f
 com.example.btl_ptud_android:macro/m3_comp_search_view_header_trailing_icon_color = 0x7f0c00f9
+<<<<<<< HEAD
+com.example.btl_ptud_android:layout/select_dialog_singlechoice_material = 0x7f0b0078
+=======
 com.example.btl_ptud_android:layout/select_dialog_singlechoice_material = 0x7f0b007c
 com.example.btl_ptud_android:macro/m3_comp_search_view_header_leading_icon_color = 0x7f0c00f6
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_search_view_docked_container_shape = 0x7f0c00f3
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f110032
 com.example.btl_ptud_android:dimen/m3_navigation_rail_elevation = 0x7f0601cc
@@ -1021,9 +1652,15 @@ com.example.btl_ptud_android:style/Widget.Material3.CircularProgressIndicator.Le
 com.example.btl_ptud_android:macro/m3_comp_elevated_card_container_shape = 0x7f0c002b
 com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.HeaderSelection = 0x7f1103af
 com.example.btl_ptud_android:macro/m3_comp_switch_unselected_focus_track_outline_color = 0x7f0c0133
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/snapMargins = 0x7f0801d4
+com.example.btl_ptud_android:id/triangle = 0x7f080227
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.TextInputEditText.FilledBox.Dense = 0x7f1102c1
+=======
 com.example.btl_ptud_android:id/snapMargins = 0x7f0801e0
 com.example.btl_ptud_android:id/triangle = 0x7f080233
 com.example.btl_ptud_android:style/ThemeOverlay.Material3.TextInputEditText.FilledBox.Dense = 0x7f1102c2
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/def_drawer_elevation = 0x7f06005f
 com.example.btl_ptud_android:macro/m3_comp_search_bar_pressed_state_layer_color = 0x7f0c00ec
 com.example.btl_ptud_android:dimen/m3_card_elevated_hovered_z = 0x7f0600eb
@@ -1049,7 +1686,11 @@ com.example.btl_ptud_android:macro/m3_comp_radio_button_unselected_focus_state_l
 com.example.btl_ptud_android:style/Platform.AppCompat.Light = 0x7f11013d
 com.example.btl_ptud_android:dimen/m3_badge_with_text_vertical_offset = 0x7f0600bc
 com.example.btl_ptud_android:attr/triggerId = 0x7f0304d1
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Menu = 0x7f1101ab
+=======
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Menu = 0x7f1101ac
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:drawable/abc_list_focused_holo = 0x7f07004f
 com.example.btl_ptud_android:drawable/abc_btn_radio_to_on_mtrl_015 = 0x7f070035
 com.example.btl_ptud_android:macro/m3_comp_radio_button_selected_focus_icon_color = 0x7f0c00d8
@@ -1075,7 +1716,11 @@ com.example.btl_ptud_android:color/m3_sys_color_light_surface_bright = 0x7f0501f
 com.example.btl_ptud_android:style/Base.Theme.AppCompat = 0x7f11004b
 com.example.btl_ptud_android:style/Base.MaterialAlertDialog.MaterialComponents.Title.Icon = 0x7f110013
 com.example.btl_ptud_android:macro/m3_comp_navigation_rail_label_text_type = 0x7f0c009f
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/title_question = 0x7f080217
+=======
 com.example.btl_ptud_android:id/title_question = 0x7f080223
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:styleable/MaterialButtonToggleGroup = 0x7f120053
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.Dark = 0x7f1102d3
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.Switch.Handle.Shape = 0x7f110169
@@ -1086,8 +1731,15 @@ com.example.btl_ptud_android:id/browser_actions_menu_view = 0x7f080070
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.Switch.StateLayer.Shape = 0x7f11016a
 com.example.btl_ptud_android:macro/m3_comp_navigation_rail_active_hover_state_layer_color = 0x7f0c0094
 com.example.btl_ptud_android:macro/m3_comp_secondary_navigation_tab_hover_state_layer_color = 0x7f0c00fe
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/ShapeAppearance.MaterialComponents.MediumComponent = 0x7f110182
+com.example.btl_ptud_android:id/titleTextView = 0x7f080248
+=======
 com.example.btl_ptud_android:style/ShapeAppearance.MaterialComponents.MediumComponent = 0x7f110183
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_inactive_pressed_state_layer_color = 0x7f0c0090
+com.example.btl_ptud_android:id/design_menu_item_action_area = 0x7f0800b9
+com.example.btl_ptud_android:color/m3_ref_palette_secondary60 = 0x7f05014a
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_inactive_icon_color = 0x7f0c008c
 com.example.btl_ptud_android:style/Widget.Material3.FloatingActionButton.Large.Tertiary = 0x7f110396
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_inactive_hover_label_text_color = 0x7f0c008a
@@ -1105,9 +1757,13 @@ com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_icon_color = 
 com.example.btl_ptud_android:styleable/SearchBar = 0x7f12007b
 com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox = 0x7f11045c
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_hover_icon_color = 0x7f0c006f
+<<<<<<< HEAD
+com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_focus_icon_color = 0x7f0c006c
+=======
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_focus_label_text_color = 0x7f0c006d
 com.example.btl_ptud_android:macro/m3_comp_extended_fab_primary_icon_color = 0x7f0c002e
 com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.HeaderDivider = 0x7f1103ac
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:string/m3_sys_motion_easing_linear = 0x7f100060
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_container_color = 0x7f0c006b
 com.example.btl_ptud_android:macro/m3_comp_outlined_text_field_disabled_input_text_color = 0x7f0c00b2
@@ -1181,6 +1837,7 @@ com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_tertiary = 0x7f0501
 com.example.btl_ptud_android:id/category_count_question_text = 0x7f080090
 com.example.btl_ptud_android:dimen/highlight_alpha_material_colored = 0x7f060095
 com.example.btl_ptud_android:macro/m3_comp_date_picker_modal_date_unselected_label_text_color = 0x7f0c0014
+com.example.btl_ptud_android:id/listViewQuestions = 0x7f080249
 com.example.btl_ptud_android:macro/m3_comp_checkbox_selected_disabled_container_color = 0x7f0c0007
 com.example.btl_ptud_android:layout/abc_select_dialog_material = 0x7f0b001a
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.CompoundButton.RadioButton = 0x7f1100d7
@@ -1259,11 +1916,19 @@ com.example.btl_ptud_android:macro/m3_comp_switch_disabled_selected_icon_color =
 com.example.btl_ptud_android:id/tag_on_receive_content_mime_types = 0x7f080201
 com.example.btl_ptud_android:layout/material_clock_period_toggle = 0x7f0b0047
 com.example.btl_ptud_android:string/mtrl_picker_invalid_format_use = 0x7f100097
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Widget.Material3.CircularProgressIndicator.Medium = 0x7f11037e
+com.example.btl_ptud_android:layout/m3_side_sheet_dialog = 0x7f0b0041
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f1101b5
+com.example.btl_ptud_android:layout/m3_alert_dialog_actions = 0x7f0b003e
+com.example.btl_ptud_android:style/Widget.MaterialComponents.ActionBar.Primary = 0x7f1103ef
+=======
 com.example.btl_ptud_android:style/Widget.Material3.CircularProgressIndicator.Medium = 0x7f110381
 com.example.btl_ptud_android:layout/m3_side_sheet_dialog = 0x7f0b0043
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f1101b6
 com.example.btl_ptud_android:layout/m3_alert_dialog_actions = 0x7f0b0040
 com.example.btl_ptud_android:style/Widget.MaterialComponents.ActionBar.Primary = 0x7f1103f2
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_radio_button_unselected_pressed_state_layer_color = 0x7f0c00e5
 com.example.btl_ptud_android:id/shortcut = 0x7f0801d5
 com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f11042c
@@ -1302,17 +1967,28 @@ com.example.btl_ptud_android:id/tag_window_insets_animation_callback = 0x7f08020
 com.example.btl_ptud_android:macro/m3_comp_extended_fab_secondary_icon_color = 0x7f0c0031
 com.example.btl_ptud_android:layout/activity_add_questions = 0x7f0b001d
 com.example.btl_ptud_android:styleable/AppCompatImageView = 0x7f12000e
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/uniform = 0x7f08022a
+com.example.btl_ptud_android:drawable/mtrl_checkbox_button_icon_indeterminate_unchecked = 0x7f0700e7
+=======
 com.example.btl_ptud_android:id/uniform = 0x7f08023e
 com.example.btl_ptud_android:drawable/mtrl_checkbox_button_icon_indeterminate_unchecked = 0x7f0700e9
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_search_view_header_supporting_text_color = 0x7f0c00f7
 com.example.btl_ptud_android:id/middle = 0x7f080149
 com.example.btl_ptud_android:string/side_sheet_behavior = 0x7f1000c3
 com.example.btl_ptud_android:layout/abc_tooltip = 0x7f0b001b
 com.example.btl_ptud_android:string/mtrl_picker_start_date_description = 0x7f1000a2
 com.example.btl_ptud_android:layout/abc_search_view = 0x7f0b0019
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/unchecked = 0x7f080229
+com.example.btl_ptud_android:id/expand_activities_button = 0x7f0800e3
+com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.Year.Selected = 0x7f11043a
+=======
 com.example.btl_ptud_android:id/unchecked = 0x7f08023d
 com.example.btl_ptud_android:id/expand_activities_button = 0x7f0800e9
 com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.Year.Selected = 0x7f11043d
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:layout/abc_screen_content_include = 0x7f0b0014
 com.example.btl_ptud_android:style/Theme.MaterialComponents.Dialog.Alert = 0x7f110262
 com.example.btl_ptud_android:layout/abc_expanded_menu_layout = 0x7f0b000d
@@ -1407,12 +2083,19 @@ com.example.btl_ptud_android:styleable/MaterialTimePicker = 0x7f12005f
 com.example.btl_ptud_android:string/abc_searchview_description_clear = 0x7f100013
 com.example.btl_ptud_android:dimen/mtrl_textinput_box_stroke_width_focused = 0x7f060302
 com.example.btl_ptud_android:integer/abc_config_activityDefaultDur = 0x7f090000
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/x_right = 0x7f080241
+com.example.btl_ptud_android:id/withinBounds = 0x7f08023c
+com.example.btl_ptud_android:id/withText = 0x7f08023a
+com.example.btl_ptud_android:id/view_tree_view_model_store_owner = 0x7f080235
+=======
 com.example.btl_ptud_android:id/x_right = 0x7f080255
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_active_label_text_color = 0x7f0c0080
 com.example.btl_ptud_android:id/callMeasure = 0x7f08008a
 com.example.btl_ptud_android:id/withinBounds = 0x7f080250
 com.example.btl_ptud_android:id/withText = 0x7f08024e
 com.example.btl_ptud_android:id/view_tree_view_model_store_owner = 0x7f080249
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:styleable/AppCompatTextHelper = 0x7f120010
 com.example.btl_ptud_android:dimen/m3_searchbar_margin_vertical = 0x7f0601df
 com.example.btl_ptud_android:dimen/mtrl_tooltip_arrowSize = 0x7f060308
@@ -1428,6 +2111,30 @@ com.example.btl_ptud_android:integer/m3_sys_motion_duration_extra_long4 = 0x7f09
 com.example.btl_ptud_android:dimen/mtrl_calendar_header_divider_thickness = 0x7f060282
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f110024
 com.example.btl_ptud_android:macro/m3_comp_outlined_text_field_supporting_text_color = 0x7f0c00c4
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/view_tree_saved_state_registry_owner = 0x7f080234
+com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox = 0x7f110453
+com.example.btl_ptud_android:id/view_offset_helper = 0x7f080230
+com.example.btl_ptud_android:dimen/m3_comp_radio_button_unselected_focus_state_layer_opacity = 0x7f06016c
+com.example.btl_ptud_android:attr/animateMenuItems = 0x7f030032
+com.example.btl_ptud_android:style/ButtonLogin = 0x7f110121
+com.example.btl_ptud_android:id/unlabeled = 0x7f08022b
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_on_tertiary_fixed_variant = 0x7f0501d4
+com.example.btl_ptud_android:dimen/m3_sys_motion_easing_legacy_control_x1 = 0x7f060204
+com.example.btl_ptud_android:dimen/m3_comp_navigation_bar_active_indicator_height = 0x7f060138
+com.example.btl_ptud_android:id/transition_position = 0x7f080224
+com.example.btl_ptud_android:dimen/mtrl_textinput_box_stroke_width_default = 0x7f060301
+com.example.btl_ptud_android:macro/m3_comp_time_picker_time_selector_unselected_focus_state_layer_color = 0x7f0c0168
+com.example.btl_ptud_android:id/transition_layout_save = 0x7f080222
+com.example.btl_ptud_android:id/transition_current_scene = 0x7f080220
+com.example.btl_ptud_android:dimen/m3_comp_snackbar_container_elevation = 0x7f06018b
+com.example.btl_ptud_android:id/touch_outside = 0x7f08021c
+com.example.btl_ptud_android:style/ThemeOverlay.Material3.BottomNavigationView = 0x7f11028f
+com.example.btl_ptud_android:style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu = 0x7f1103ea
+com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.Dialog.FixedSize.Bridge = 0x7f110273
+com.example.btl_ptud_android:color/mtrl_tabs_icon_color_selector = 0x7f0502f3
+com.example.btl_ptud_android:style/Base.Theme.AppCompat.DialogWhenLarge = 0x7f110051
+=======
 com.example.btl_ptud_android:id/view_tree_saved_state_registry_owner = 0x7f080248
 com.example.btl_ptud_android:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox = 0x7f110456
 com.example.btl_ptud_android:id/view_offset_helper = 0x7f080244
@@ -1448,8 +2155,16 @@ com.example.btl_ptud_android:dimen/m3_comp_snackbar_container_elevation = 0x7f06
 com.example.btl_ptud_android:id/touch_outside = 0x7f080228
 com.example.btl_ptud_android:style/ThemeOverlay.Material3.BottomNavigationView = 0x7f110290
 com.example.btl_ptud_android:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow = 0x7f110150
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_btn_translation_z_base = 0x7f0600e4
 com.example.btl_ptud_android:dimen/material_helper_text_font_1_3_padding_horizontal = 0x7f060240
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/titleLibrary = 0x7f080216
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_light_primary_container = 0x7f0501c1
+com.example.btl_ptud_android:macro/m3_comp_navigation_bar_active_hover_state_layer_color = 0x7f0c0064
+com.example.btl_ptud_android:id/title = 0x7f080214
+com.example.btl_ptud_android:id/east = 0x7f0800d1
+=======
 com.example.btl_ptud_android:id/titleLibrary = 0x7f080222
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_light_primary_container = 0x7f0501c3
 com.example.btl_ptud_android:color/mtrl_tabs_icon_color_selector = 0x7f0502f5
@@ -1459,22 +2174,46 @@ com.example.btl_ptud_android:style/Theme.MaterialComponents.Light.Dialog.FixedSi
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_active_hover_state_layer_color = 0x7f0c0064
 com.example.btl_ptud_android:id/title = 0x7f080220
 com.example.btl_ptud_android:id/east = 0x7f0800d7
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:styleable/Snackbar = 0x7f120082
+com.example.btl_ptud_android:id/edtTitle = 0x7f080254
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_inactive_label_text_color = 0x7f0c008d
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/time = 0x7f080213
+com.example.btl_ptud_android:color/m3_button_foreground_color_selector = 0x7f050074
+com.example.btl_ptud_android:drawable/$avd_hide_password__1 = 0x7f070001
+com.example.btl_ptud_android:id/textinput_placeholder = 0x7f080210
+=======
 com.example.btl_ptud_android:id/time = 0x7f08021f
 com.example.btl_ptud_android:color/m3_button_foreground_color_selector = 0x7f050076
 com.example.btl_ptud_android:drawable/$avd_hide_password__1 = 0x7f070001
 com.example.btl_ptud_android:id/textinput_placeholder = 0x7f08021c
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_active_focus_state_layer_color = 0x7f0c007a
 com.example.btl_ptud_android:string/app_name = 0x7f10001e
 com.example.btl_ptud_android:string/common_signin_button_text = 0x7f100041
 com.example.btl_ptud_android:macro/m3_comp_switch_unselected_hover_track_outline_color = 0x7f0c0139
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/textinput_error = 0x7f08020e
+=======
 com.example.btl_ptud_android:id/textinput_error = 0x7f08021a
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.Theme.MaterialComponents.Bridge = 0x7f110067
 com.example.btl_ptud_android:layout/activity_user_profile = 0x7f0b0028
 com.example.btl_ptud_android:drawable/mtrl_dialog_background = 0x7f0700ed
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f1101c6
 com.example.btl_ptud_android:macro/m3_comp_sheet_side_docked_standard_container_color = 0x7f0c010a
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox = 0x7f1102e4
+com.example.btl_ptud_android:id/text_input_end_icon = 0x7f08020a
+com.example.btl_ptud_android:id/textView7 = 0x7f080209
+com.example.btl_ptud_android:style/Widget.MaterialComponents.MaterialCalendar.MonthNavigationButton = 0x7f110437
+com.example.btl_ptud_android:layout/material_chip_input_combo = 0x7f0b0042
+com.example.btl_ptud_android:id/textView6 = 0x7f080208
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse = 0x7f1101b7
+com.example.btl_ptud_android:drawable/mtrl_checkbox_button_icon_unchecked_checked = 0x7f0700e8
+com.example.btl_ptud_android:id/textView5 = 0x7f080207
+=======
 com.example.btl_ptud_android:macro/m3_comp_fab_primary_icon_color = 0x7f0c0038
 com.example.btl_ptud_android:string/abc_action_bar_home_description = 0x7f100000
 com.example.btl_ptud_android:color/material_on_background_emphasis_medium = 0x7f050281
@@ -1488,6 +2227,7 @@ com.example.btl_ptud_android:id/textView6 = 0x7f080214
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse = 0x7f1101b8
 com.example.btl_ptud_android:drawable/mtrl_checkbox_button_icon_unchecked_checked = 0x7f0700ea
 com.example.btl_ptud_android:id/textView5 = 0x7f080213
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:id/alertTitle = 0x7f08004b
 com.example.btl_ptud_android:id/textTop = 0x7f08020e
 com.example.btl_ptud_android:drawable/add = 0x7f070078
@@ -1498,12 +2238,21 @@ com.example.btl_ptud_android:id/textSpacerNoTitle = 0x7f08020c
 com.example.btl_ptud_android:id/textSpacerNoButtons = 0x7f08020b
 com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.Item = 0x7f1103b3
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f11003e
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/transition_image_transform = 0x7f080221
+com.example.btl_ptud_android:id/tag_unhandled_key_event_manager = 0x7f0801f9
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1102d4
+com.example.btl_ptud_android:id/pathRelative = 0x7f080193
+com.example.btl_ptud_android:id/edt_password_signup1 = 0x7f0800d6
+com.example.btl_ptud_android:id/tag_state_description = 0x7f0801f7
+=======
 com.example.btl_ptud_android:id/transition_image_transform = 0x7f08022d
 com.example.btl_ptud_android:id/tag_unhandled_key_event_manager = 0x7f080205
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1102d5
 com.example.btl_ptud_android:id/pathRelative = 0x7f08019a
 com.example.btl_ptud_android:id/edt_password_signup1 = 0x7f0800dc
 com.example.btl_ptud_android:id/tag_state_description = 0x7f080203
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:styleable/TabItem = 0x7f12008b
 com.example.btl_ptud_android:id/tag_accessibility_pane_title = 0x7f0801fe
 com.example.btl_ptud_android:interpolator/m3_sys_motion_easing_emphasized_decelerate = 0x7f0a0009
@@ -1513,10 +2262,20 @@ com.example.btl_ptud_android:style/TextAppearance.Material3.TitleMedium = 0x7f11
 com.example.btl_ptud_android:id/start = 0x7f0801ee
 com.example.btl_ptud_android:style/Widget.MaterialComponents.FloatingActionButton = 0x7f110424
 com.example.btl_ptud_android:id/accessibility_custom_action_18 = 0x7f08001b
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/src_in = 0x7f0801df
+com.example.btl_ptud_android:id/search_edit_frame = 0x7f0801be
+com.example.btl_ptud_android:id/split_action_bar = 0x7f0801d9
+com.example.btl_ptud_android:style/Widget.MaterialComponents.ExtendedFloatingActionButton = 0x7f11041f
+com.example.btl_ptud_android:style/Base.Widget.Material3.CompoundButton.Switch = 0x7f110106
+com.example.btl_ptud_android:id/spline = 0x7f0801d8
+com.example.btl_ptud_android:style/Base.Widget.AppCompat.TextView = 0x7f1100f9
+=======
 com.example.btl_ptud_android:id/src_in = 0x7f0801eb
 com.example.btl_ptud_android:id/search_edit_frame = 0x7f0801ca
 com.example.btl_ptud_android:id/split_action_bar = 0x7f0801e5
 com.example.btl_ptud_android:style/Widget.MaterialComponents.ExtendedFloatingActionButton = 0x7f110422
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:id/below = 0x7f080064
 com.example.btl_ptud_android:style/Base.Theme.MaterialComponents.Light.Bridge = 0x7f110070
 com.example.btl_ptud_android:macro/m3_comp_outlined_card_pressed_outline_color = 0x7f0c00af
@@ -1590,6 +2349,7 @@ com.example.btl_ptud_android:layout/layout_list_library = 0x7f0b003e
 com.example.btl_ptud_android:id/mtrl_anchor_parent = 0x7f080152
 com.example.btl_ptud_android:id/txtQuestionTitle = 0x7f080239
 com.example.btl_ptud_android:integer/design_tab_indicator_anim_duration_ms = 0x7f090007
+com.example.btl_ptud_android:id/txtQuestionTitle = 0x7f080242
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.EditText = 0x7f1100dc
 com.example.btl_ptud_android:id/open_search_view_toolbar_container = 0x7f08018e
 com.example.btl_ptud_android:id/navigation_header_container = 0x7f080171
@@ -1598,18 +2358,32 @@ com.example.btl_ptud_android:id/horizontal = 0x7f08010a
 com.example.btl_ptud_android:id/parent = 0x7f080194
 com.example.btl_ptud_android:macro/m3_comp_primary_navigation_tab_active_indicator_color = 0x7f0c00c9
 com.example.btl_ptud_android:dimen/m3_comp_filled_autocomplete_menu_container_elevation = 0x7f060123
+<<<<<<< HEAD
+com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_active_label_text_color = 0x7f0c0080
+com.example.btl_ptud_android:id/callMeasure = 0x7f080084
+com.example.btl_ptud_android:id/special_effects_controller_view_tag = 0x7f0801d7
+com.example.btl_ptud_android:id/nameQuestion = 0x7f080163
+com.example.btl_ptud_android:id/multiply = 0x7f080162
+com.example.btl_ptud_android:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1103f7
+=======
 com.example.btl_ptud_android:id/nameQuestion = 0x7f08016a
 com.example.btl_ptud_android:id/special_effects_controller_view_tag = 0x7f0801e3
 com.example.btl_ptud_android:id/multiply = 0x7f080169
 com.example.btl_ptud_android:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1103fa
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:integer/google_play_services_version = 0x7f090008
 com.example.btl_ptud_android:id/btnLibrary = 0x7f080076
 com.example.btl_ptud_android:style/MaterialAlertDialog.Material3.Title.Text.CenterStacked = 0x7f110131
 com.example.btl_ptud_android:id/group_divider = 0x7f080101
 com.example.btl_ptud_android:macro/m3_comp_primary_navigation_tab_inactive_hover_state_layer_color = 0x7f0c00cd
 com.example.btl_ptud_android:macro/m3_comp_navigation_bar_inactive_focus_state_layer_color = 0x7f0c006e
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/transition_scene_layoutid_cache = 0x7f080225
+com.example.btl_ptud_android:id/west = 0x7f080238
+=======
 com.example.btl_ptud_android:id/transition_scene_layoutid_cache = 0x7f080231
 com.example.btl_ptud_android:id/west = 0x7f08024c
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:style/Base.Theme.AppCompat.Light.Dialog.MinWidth = 0x7f110057
 com.example.btl_ptud_android:attr/boxCornerRadiusBottomEnd = 0x7f030081
 com.example.btl_ptud_android:dimen/mtrl_calendar_header_toggle_margin_top = 0x7f060288
@@ -1658,9 +2432,15 @@ com.example.btl_ptud_android:string/material_minute_selection = 0x7f100069
 com.example.btl_ptud_android:id/legacy = 0x7f080125
 com.example.btl_ptud_android:id/italic = 0x7f08011d
 com.example.btl_ptud_android:dimen/material_emphasis_high_type = 0x7f060237
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/left = 0x7f08011d
+com.example.btl_ptud_android:id/escape = 0x7f0800e1
+com.example.btl_ptud_android:id/text_input_start_icon = 0x7f08020c
+=======
 com.example.btl_ptud_android:id/left = 0x7f080123
 com.example.btl_ptud_android:id/escape = 0x7f0800e7
 com.example.btl_ptud_android:id/text_input_start_icon = 0x7f080218
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/chipIconEnabled = 0x7f0300c4
 com.example.btl_ptud_android:drawable/$avd_hide_password__2 = 0x7f070002
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents = 0x7f1102c7
@@ -1876,6 +2656,30 @@ com.example.btl_ptud_android:id/spacer = 0x7f0801e2
 com.example.btl_ptud_android:id/META = 0x7f080005
 com.example.btl_ptud_android:id/ALT = 0x7f080000
 com.example.btl_ptud_android:style/Base.Widget.MaterialComponents.TextInputEditText = 0x7f11011d
+<<<<<<< HEAD
+com.example.btl_ptud_android:drawable/tooltip_frame_light = 0x7f070116
+com.example.btl_ptud_android:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f11034a
+com.example.btl_ptud_android:drawable/setting_app = 0x7f070113
+com.example.btl_ptud_android:drawable/notification_icon_background = 0x7f07010d
+com.example.btl_ptud_android:string/mtrl_switch_thumb_path_pressed = 0x7f1000b2
+com.example.btl_ptud_android:id/fitStart = 0x7f0800ec
+com.example.btl_ptud_android:drawable/notification_bg_normal = 0x7f07010b
+com.example.btl_ptud_android:id/edt_username_login = 0x7f0800d9
+com.example.btl_ptud_android:id/view_tree_lifecycle_owner = 0x7f080232
+com.example.btl_ptud_android:style/Theme.MaterialComponents.DayNight.DarkActionBar.Bridge = 0x7f110254
+com.example.btl_ptud_android:style/Base.Widget.AppCompat.ActionBar.Solid = 0x7f1100c4
+com.example.btl_ptud_android:string/call_notification_ongoing_text = 0x7f10002b
+com.example.btl_ptud_android:drawable/notification_bg = 0x7f070107
+com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.Dialog = 0x7f1102d5
+com.example.btl_ptud_android:id/textinput_suffix_text = 0x7f080212
+com.example.btl_ptud_android:style/ThemeOverlay.AppCompat.Dialog = 0x7f110282
+com.example.btl_ptud_android:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f1100b8
+com.example.btl_ptud_android:drawable/navigation_empty_icon = 0x7f070105
+com.example.btl_ptud_android:drawable/mtrl_switch_track_decoration = 0x7f070103
+com.example.btl_ptud_android:layout/abc_dialog_title_material = 0x7f0b000c
+com.example.btl_ptud_android:attr/badgeStyle = 0x7f030057
+com.example.btl_ptud_android:drawable/mtrl_switch_thumb_pressed_unchecked = 0x7f0700fe
+=======
 com.example.btl_ptud_android:drawable/tooltip_frame_light = 0x7f070118
 com.example.btl_ptud_android:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f11034d
 com.example.btl_ptud_android:drawable/setting_app = 0x7f070115
@@ -1890,6 +2694,7 @@ com.example.btl_ptud_android:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f1100b
 com.example.btl_ptud_android:drawable/navigation_empty_icon = 0x7f070107
 com.example.btl_ptud_android:drawable/mtrl_switch_track_decoration = 0x7f070105
 com.example.btl_ptud_android:drawable/mtrl_switch_thumb_checked_unchecked = 0x7f0700fd
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/materialCalendarStyle = 0x7f0302fc
 com.example.btl_ptud_android:drawable/mtrl_ic_check_mark = 0x7f0700f2
 com.example.btl_ptud_android:macro/m3_comp_filled_text_field_error_supporting_text_color = 0x7f0c004e
@@ -1909,8 +2714,13 @@ com.example.btl_ptud_android:style/Base.Widget.AppCompat.RatingBar.Small = 0x7f1
 com.example.btl_ptud_android:drawable/mtrl_checkbox_button = 0x7f0700e3
 com.example.btl_ptud_android:id/navigation_bar_item_icon_view = 0x7f08016d
 com.example.btl_ptud_android:dimen/m3_comp_extended_fab_primary_focus_state_layer_opacity = 0x7f060111
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/transitionToEnd = 0x7f08021d
+com.example.btl_ptud_android:drawable/material_ic_keyboard_arrow_previous_black_24dp = 0x7f0700dc
+=======
 com.example.btl_ptud_android:id/transitionToEnd = 0x7f080229
 com.example.btl_ptud_android:drawable/material_ic_keyboard_arrow_previous_black_24dp = 0x7f0700de
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/cardCornerRadius = 0x7f03009c
 com.example.btl_ptud_android:color/material_personalized_color_secondary_text = 0x7f0502a6
 com.example.btl_ptud_android:dimen/m3_comp_slider_disabled_handle_opacity = 0x7f060187
@@ -1943,6 +2753,19 @@ com.example.btl_ptud_android:style/Widget.Material3.CollapsingToolbar = 0x7f1103
 com.example.btl_ptud_android:dimen/design_tab_text_size_2line = 0x7f06008e
 com.example.btl_ptud_android:drawable/ic_passkey = 0x7f0700c3
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_legacy_control_y1 = 0x7f060206
+<<<<<<< HEAD
+com.example.btl_ptud_android:drawable/ic_launcher_foreground = 0x7f0700b8
+com.example.btl_ptud_android:drawable/ic_keyboard_black_24dp = 0x7f0700b6
+com.example.btl_ptud_android:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f11020d
+com.example.btl_ptud_android:attr/actionModeFindDrawable = 0x7f030018
+com.example.btl_ptud_android:drawable/ic_clock_black_24dp = 0x7f0700b5
+com.example.btl_ptud_android:macro/m3_comp_navigation_bar_active_pressed_icon_color = 0x7f0c0068
+com.example.btl_ptud_android:drawable/ic_call_answer_low = 0x7f0700af
+com.example.btl_ptud_android:drawable/facebook = 0x7f0700a8
+com.example.btl_ptud_android:drawable/f_password = 0x7f0700a7
+com.example.btl_ptud_android:color/material_grey_850 = 0x7f050277
+com.example.btl_ptud_android:drawable/design_ic_visibility_off = 0x7f0700a3
+=======
 com.example.btl_ptud_android:drawable/ic_launcher_foreground = 0x7f0700ba
 com.example.btl_ptud_android:drawable/ic_keyboard_black_24dp = 0x7f0700b8
 com.example.btl_ptud_android:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f11020e
@@ -1954,6 +2777,7 @@ com.example.btl_ptud_android:drawable/facebook = 0x7f0700aa
 com.example.btl_ptud_android:drawable/f_password = 0x7f0700a9
 com.example.btl_ptud_android:color/material_grey_850 = 0x7f050279
 com.example.btl_ptud_android:drawable/design_ic_visibility_off = 0x7f0700a5
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:drawable/abc_ic_commit_search_api_mtrl_alpha = 0x7f070041
 com.example.btl_ptud_android:drawable/design_fab_background = 0x7f0700a3
 com.example.btl_ptud_android:color/m3_sys_color_dark_outline_variant = 0x7f05017d
@@ -2005,7 +2829,11 @@ com.example.btl_ptud_android:styleable/Slider = 0x7f120081
 com.example.btl_ptud_android:drawable/abc_spinner_mtrl_am_alpha = 0x7f070066
 com.example.btl_ptud_android:drawable/abc_scrubber_primary_mtrl_alpha = 0x7f070061
 com.example.btl_ptud_android:drawable/abc_scrubber_control_to_pressed_mtrl_005 = 0x7f070060
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Widget.MaterialComponents.Light.ActionBar.Solid = 0x7f110422
+=======
 com.example.btl_ptud_android:style/Widget.MaterialComponents.Light.ActionBar.Solid = 0x7f110425
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:drawable/abc_scrubber_control_to_pressed_mtrl_000 = 0x7f07005f
 com.example.btl_ptud_android:drawable/abc_ratingbar_indicator_material = 0x7f07005b
 com.example.btl_ptud_android:style/Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1102ff
@@ -2243,7 +3071,12 @@ com.example.btl_ptud_android:dimen/material_textinput_max_width = 0x7f060244
 com.example.btl_ptud_android:dimen/material_helper_text_font_1_3_padding_top = 0x7f060241
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.DrawerArrowToggle.Common = 0x7f1100da
 com.example.btl_ptud_android:dimen/material_clock_display_height = 0x7f060224
+<<<<<<< HEAD
+com.example.btl_ptud_android:style/Base.Widget.AppCompat.DrawerArrowToggle.Common = 0x7f1100da
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_light_on_surface_variant = 0x7f0501bb
+=======
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_light_on_surface_variant = 0x7f0501bd
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_legacy_control_y2 = 0x7f060207
 com.example.btl_ptud_android:layout/activity_profile = 0x7f0b0025
 com.example.btl_ptud_android:dimen/material_font_2_0_box_collapsed_padding_top = 0x7f06023e
@@ -2413,8 +3246,12 @@ com.example.btl_ptud_android:dimen/m3_nav_badge_with_text_vertical_offset = 0x7f
 com.example.btl_ptud_android:styleable/MenuItem = 0x7f120062
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_emphasized_decelerate_control_y2 = 0x7f0601ff
 com.example.btl_ptud_android:dimen/m3_comp_radio_button_disabled_selected_icon_opacity = 0x7f060167
+<<<<<<< HEAD
+com.example.btl_ptud_android:drawable/btn_checkbox_unchecked_to_checked_mtrl_animation = 0x7f070087
+=======
 com.example.btl_ptud_android:dimen/m3_comp_primary_navigation_tab_with_icon_icon_size = 0x7f060163
 com.example.btl_ptud_android:drawable/btn_checkbox_unchecked_to_checked_mtrl_animation = 0x7f070088
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_standard_decelerate_control_x1 = 0x7f060218
 com.example.btl_ptud_android:style/Base.Widget.AppCompat.PopupMenu.Overflow = 0x7f1100ec
 com.example.btl_ptud_android:dimen/m3_comp_primary_navigation_tab_inactive_focus_state_layer_opacity = 0x7f060160
@@ -2577,6 +3414,7 @@ com.example.btl_ptud_android:style/Widget.Material3.LinearProgressIndicator = 0x
 com.example.btl_ptud_android:dimen/mtrl_calendar_day_horizontal_padding = 0x7f06027a
 com.example.btl_ptud_android:drawable/abc_spinner_textfield_background_material = 0x7f070067
 com.example.btl_ptud_android:anim/m3_bottom_sheet_slide_out = 0x7f010022
+com.example.btl_ptud_android:id/btnUpdate = 0x7f08024f
 com.example.btl_ptud_android:dimen/m3_bottomappbar_fab_cradle_vertical_offset = 0x7f0600c9
 com.example.btl_ptud_android:attr/boxCornerRadiusTopEnd = 0x7f030083
 com.example.btl_ptud_android:attr/isMaterial3Theme = 0x7f030256
@@ -2597,16 +3435,27 @@ com.example.btl_ptud_android:dimen/m3_bottom_nav_item_padding_bottom = 0x7f0600c
 com.example.btl_ptud_android:integer/m3_chip_anim_duration = 0x7f09000f
 com.example.btl_ptud_android:dimen/m3_badge_with_text_size = 0x7f0600bb
 com.example.btl_ptud_android:string/mtrl_timepicker_confirm = 0x7f1000b7
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/transition_clip = 0x7f08021f
+=======
 com.example.btl_ptud_android:id/transition_clip = 0x7f08022b
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_badge_with_text_offset = 0x7f0600ba
 com.example.btl_ptud_android:style/Base.Widget.Material3.ActionBar.Solid = 0x7f1100fe
 com.example.btl_ptud_android:dimen/m3_badge_with_text_horizontal_offset = 0x7f0600b9
 com.example.btl_ptud_android:color/switch_thumb_material_light = 0x7f050313
 com.example.btl_ptud_android:dimen/m3_badge_vertical_offset = 0x7f0600b8
 com.example.btl_ptud_android:style/Base.V7.Theme.AppCompat = 0x7f1100bb
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/btnDeleteQuestion = 0x7f080257
+com.example.btl_ptud_android:drawable/m3_avd_show_password = 0x7f0700cc
+com.example.btl_ptud_android:color/material_timepicker_button_stroke = 0x7f0502c2
+com.example.btl_ptud_android:style/Widget.Material3.TabLayout.OnSurface = 0x7f1103dd
+=======
 com.example.btl_ptud_android:drawable/m3_avd_show_password = 0x7f0700ce
 com.example.btl_ptud_android:color/material_timepicker_button_stroke = 0x7f0502c4
 com.example.btl_ptud_android:style/Widget.Material3.TabLayout.OnSurface = 0x7f1103e0
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_comp_outlined_text_field_disabled_supporting_text_opacity = 0x7f060159
 com.example.btl_ptud_android:dimen/m3_badge_horizontal_offset = 0x7f0600b5
 com.example.btl_ptud_android:drawable/common_full_open_on_phone = 0x7f07008e
@@ -2614,10 +3463,17 @@ com.example.btl_ptud_android:dimen/m3_back_progress_side_container_max_scale_x_d
 com.example.btl_ptud_android:color/m3_ref_palette_neutral_variant40 = 0x7f050130
 com.example.btl_ptud_android:attr/snackbarStyle = 0x7f0303ea
 com.example.btl_ptud_android:drawable/abc_list_pressed_holo_light = 0x7f070052
+<<<<<<< HEAD
+com.example.btl_ptud_android:dimen/m3_back_progress_main_container_min_edge_gap = 0x7f0600b1
+com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.Button.Inverse = 0x7f1101c1
+com.example.btl_ptud_android:id/mtrl_picker_text_input_range_end = 0x7f08015e
+com.example.btl_ptud_android:id/textView2 = 0x7f080204
+=======
 com.example.btl_ptud_android:id/textView2 = 0x7f080210
 com.example.btl_ptud_android:dimen/m3_back_progress_main_container_min_edge_gap = 0x7f0600b1
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Widget.Button.Inverse = 0x7f1101c2
 com.example.btl_ptud_android:id/mtrl_picker_text_input_range_end = 0x7f080165
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_back_progress_main_container_max_translation_y = 0x7f0600b0
 com.example.btl_ptud_android:dimen/m3_back_progress_bottom_container_max_scale_y_distance = 0x7f0600af
 com.example.btl_ptud_android:attr/layout_constraintEnd_toStartOf = 0x7f030297
@@ -2766,7 +3622,11 @@ com.example.btl_ptud_android:dimen/m3_searchbar_padding_start = 0x7f0601e1
 com.example.btl_ptud_android:attr/layout_constraintBottom_toTopOf = 0x7f030291
 com.example.btl_ptud_android:dimen/abc_dialog_corner_radius_material = 0x7f06001b
 com.example.btl_ptud_android:dimen/abc_control_padding_material = 0x7f06001a
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/mtrl_calendar_day_selector_frame = 0x7f08014c
+=======
 com.example.btl_ptud_android:id/mtrl_calendar_day_selector_frame = 0x7f080153
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_alert_dialog_action_top_padding = 0x7f0600a0
 com.example.btl_ptud_android:macro/m3_comp_time_picker_period_selector_selected_label_text_color = 0x7f0c0158
 com.example.btl_ptud_android:dimen/abc_cascading_menus_min_smallest_width = 0x7f060016
@@ -2821,12 +3681,20 @@ com.example.btl_ptud_android:attr/onTouchUp = 0x7f030371
 com.example.btl_ptud_android:color/mtrl_popupmenu_overlay_color = 0x7f0502ee
 com.example.btl_ptud_android:dimen/mtrl_btn_inset = 0x7f060264
 com.example.btl_ptud_android:dimen/m3_sys_elevation_level4 = 0x7f0601f6
-com.example.btl_ptud_android:attr/buttonIconTint = 0x7f030093
 com.example.btl_ptud_android:layout/abc_alert_dialog_material = 0x7f0b0009
+<<<<<<< HEAD
+com.example.btl_ptud_android:attr/buttonIconTint = 0x7f030093
+com.example.btl_ptud_android:color/mtrl_navigation_item_text_color = 0x7f0502e7
+com.example.btl_ptud_android:id/btn_login = 0x7f08007b
+com.example.btl_ptud_android:color/mtrl_navigation_bar_item_tint = 0x7f0502e3
+com.example.btl_ptud_android:color/mtrl_indicator_text_color = 0x7f0502e0
+com.example.btl_ptud_android:id/btnUpdateQuestion = 0x7f080258
+=======
 com.example.btl_ptud_android:color/mtrl_navigation_item_text_color = 0x7f0502e9
 com.example.btl_ptud_android:id/btn_login = 0x7f080081
 com.example.btl_ptud_android:color/mtrl_navigation_bar_item_tint = 0x7f0502e5
 com.example.btl_ptud_android:color/mtrl_indicator_text_color = 0x7f0502e2
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:macro/m3_comp_primary_navigation_tab_inactive_pressed_state_layer_color = 0x7f0c00ce
 com.example.btl_ptud_android:color/mtrl_filled_icon_tint = 0x7f0502e0
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.TimePicker = 0x7f1102e9
@@ -3042,10 +3910,17 @@ com.example.btl_ptud_android:color/m3_sys_color_on_tertiary_fixed = 0x7f050203
 com.example.btl_ptud_android:id/score_progress = 0x7f0801bf
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Body1 = 0x7f11019a
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Headline = 0x7f11001f
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_sys_color_on_primary_fixed_variant = 0x7f0501fe
+com.example.btl_ptud_android:color/m3_sys_color_on_primary_fixed = 0x7f0501fd
+com.example.btl_ptud_android:drawable/btn_radio_on_to_off_mtrl_animation = 0x7f07008b
+com.example.btl_ptud_android:styleable/MaterialSwitch = 0x7f12005c
+=======
 com.example.btl_ptud_android:color/m3_sys_color_on_primary_fixed_variant = 0x7f050200
 com.example.btl_ptud_android:color/m3_sys_color_on_primary_fixed = 0x7f0501ff
 com.example.btl_ptud_android:styleable/MaterialSwitch = 0x7f12005c
 com.example.btl_ptud_android:drawable/btn_radio_on_to_off_mtrl_animation = 0x7f07008d
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/mtrl_navigation_bar_item_default_icon_size = 0x7f0602c5
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_primary10 = 0x7f0500e0
 com.example.btl_ptud_android:color/m3_sys_color_light_surface_dim = 0x7f0501fb
@@ -3146,10 +4021,19 @@ com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_secondary_container
 com.example.btl_ptud_android:attr/boxCollapsedPaddingTop = 0x7f030080
 com.example.btl_ptud_android:dimen/mtrl_fab_elevation = 0x7f0602b8
 com.example.btl_ptud_android:style/Base.TextAppearance.AppCompat.Widget.DropDownItem = 0x7f11003d
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_secondary = 0x7f0501a0
+com.example.btl_ptud_android:id/vertical_only = 0x7f08022f
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_primary = 0x7f05019e
+com.example.btl_ptud_android:style/Widget.Material3.MaterialCalendar.MonthTextView = 0x7f1103b2
+com.example.btl_ptud_android:color/m3_ref_palette_secondary99 = 0x7f05014f
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_on_surface = 0x7f050198
+=======
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_secondary = 0x7f0501a2
 com.example.btl_ptud_android:id/vertical_only = 0x7f080243
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_primary = 0x7f0501a0
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_on_surface = 0x7f05019a
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/tickRadiusInactive = 0x7f03049c
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_on_secondary_container = 0x7f050199
 com.example.btl_ptud_android:color/abc_tint_spinner = 0x7f050017
@@ -3216,12 +4100,19 @@ com.example.btl_ptud_android:style/Widget.Material3.CircularProgressIndicator.Sm
 com.example.btl_ptud_android:macro/m3_comp_slider_disabled_handle_color = 0x7f0c010d
 com.example.btl_ptud_android:color/m3_sys_color_light_surface = 0x7f0501f4
 com.example.btl_ptud_android:id/action_menu_presenter = 0x7f080040
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_ref_palette_secondary70 = 0x7f05014b
+com.example.btl_ptud_android:color/m3_sys_color_dynamic_tertiary_fixed_dim = 0x7f0501da
+com.example.btl_ptud_android:color/m3_ref_palette_secondary20 = 0x7f050146
+com.example.btl_ptud_android:color/m3_ref_palette_secondary100 = 0x7f050145
+=======
 com.example.btl_ptud_android:color/m3_ref_palette_secondary70 = 0x7f05014d
 com.example.btl_ptud_android:id/design_menu_item_action_area = 0x7f0800bf
 com.example.btl_ptud_android:color/m3_ref_palette_secondary60 = 0x7f05014c
 com.example.btl_ptud_android:color/m3_sys_color_dynamic_tertiary_fixed_dim = 0x7f0501dc
 com.example.btl_ptud_android:color/m3_ref_palette_secondary20 = 0x7f050148
 com.example.btl_ptud_android:color/m3_ref_palette_secondary100 = 0x7f050147
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_searchview_height = 0x7f0601e6
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.NavigationRail.Container.Shape = 0x7f110164
 com.example.btl_ptud_android:layout/mtrl_picker_header_fullscreen = 0x7f0b006a
@@ -3282,10 +4173,17 @@ com.example.btl_ptud_android:color/m3_ref_palette_neutral50 = 0x7f05011e
 com.example.btl_ptud_android:attr/percentHeight = 0x7f030387
 com.example.btl_ptud_android:color/m3_ref_palette_neutral4 = 0x7f05011c
 com.example.btl_ptud_android:attr/scrimVisibleHeightTrigger = 0x7f0303bc
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_sys_color_light_tertiary = 0x7f0501fb
+com.example.btl_ptud_android:id/wrap_content = 0x7f08023e
+com.example.btl_ptud_android:color/m3_ref_palette_neutral22 = 0x7f050117
+com.example.btl_ptud_android:color/m3_timepicker_secondary_text_button_text_color = 0x7f05021f
+=======
 com.example.btl_ptud_android:color/m3_sys_color_light_tertiary = 0x7f0501fd
 com.example.btl_ptud_android:id/wrap_content = 0x7f080252
 com.example.btl_ptud_android:color/m3_ref_palette_neutral22 = 0x7f050119
 com.example.btl_ptud_android:color/m3_timepicker_secondary_text_button_text_color = 0x7f050221
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/mtrl_calendar_day_today_stroke = 0x7f06027b
 com.example.btl_ptud_android:macro/m3_comp_bottom_app_bar_container_color = 0x7f0c0005
 com.example.btl_ptud_android:attr/curveFit = 0x7f030168
@@ -3293,9 +4191,16 @@ com.example.btl_ptud_android:color/m3_ref_palette_neutral12 = 0x7f050116
 com.example.btl_ptud_android:layout/abc_popup_menu_item_layout = 0x7f0b0013
 com.example.btl_ptud_android:dimen/m3_comp_switch_track_width = 0x7f06019a
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_emphasized_accelerate_control_x1 = 0x7f0601f8
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/edtOption2 = 0x7f080251
+com.example.btl_ptud_android:color/m3_sys_color_dark_on_primary = 0x7f050172
+com.example.btl_ptud_android:color/m3_ref_palette_neutral100 = 0x7f050113
+com.example.btl_ptud_android:color/m3_ref_palette_neutral0 = 0x7f050111
+=======
 com.example.btl_ptud_android:color/m3_sys_color_dark_on_primary = 0x7f050174
 com.example.btl_ptud_android:color/m3_ref_palette_neutral100 = 0x7f050115
 com.example.btl_ptud_android:color/m3_ref_palette_neutral0 = 0x7f050113
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/closeIconEndPadding = 0x7f0300e7
 com.example.btl_ptud_android:color/m3_ref_palette_error80 = 0x7f05010f
 com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.Dark.ActionBar = 0x7f1102d4
@@ -3359,12 +4264,22 @@ com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant90 = 0x
 com.example.btl_ptud_android:style/ShapeAppearance.M3.Comp.NavigationBar.Container.Shape = 0x7f110161
 com.example.btl_ptud_android:macro/m3_comp_search_view_divider_color = 0x7f0c00f2
 com.example.btl_ptud_android:macro/m3_comp_outlined_text_field_input_text_type = 0x7f0c00c1
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant70 = 0x7f0500d3
+com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant50 = 0x7f0500d0
+com.example.btl_ptud_android:id/editTextText = 0x7f08024d
+com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant4 = 0x7f0500ce
+com.example.btl_ptud_android:id/endToStart = 0x7f0800de
+com.example.btl_ptud_android:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f0700dd
+com.example.btl_ptud_android:style/ShapeAppearance.Material3.Corner.Medium = 0x7f110177
+=======
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant70 = 0x7f0500d5
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant50 = 0x7f0500d2
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant4 = 0x7f0500d0
 com.example.btl_ptud_android:id/endToStart = 0x7f0800e4
 com.example.btl_ptud_android:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f0700df
 com.example.btl_ptud_android:style/ShapeAppearance.Material3.Corner.Medium = 0x7f110178
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/design_navigation_separator_vertical_padding = 0x7f06007f
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant22 = 0x7f0500cd
 com.example.btl_ptud_android:macro/m3_comp_switch_unselected_hover_icon_color = 0x7f0c0136
@@ -3409,12 +4324,21 @@ com.example.btl_ptud_android:color/m3_navigation_bar_item_with_indicator_icon_ti
 com.example.btl_ptud_android:attr/preserveIconSpacing = 0x7f030399
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral_variant96 = 0x7f0500dc
 com.example.btl_ptud_android:attr/materialAlertDialogTitleTextStyle = 0x7f0302ec
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/btn_profile_setting1 = 0x7f08007f
+com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral24 = 0x7f0500b4
+com.example.btl_ptud_android:layout/design_navigation_menu_item = 0x7f0b0036
+com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral22 = 0x7f0500b3
+com.example.btl_ptud_android:id/transitionToStart = 0x7f08021e
+com.example.btl_ptud_android:id/material_textinput_timepicker = 0x7f080139
+=======
 com.example.btl_ptud_android:id/btn_profile_setting1 = 0x7f080085
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral24 = 0x7f0500b6
 com.example.btl_ptud_android:layout/design_navigation_menu_item = 0x7f0b0038
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral22 = 0x7f0500b5
 com.example.btl_ptud_android:id/transitionToStart = 0x7f08022a
 com.example.btl_ptud_android:id/material_textinput_timepicker = 0x7f080140
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_btn_padding_bottom = 0x7f0600db
 com.example.btl_ptud_android:attr/setsTag = 0x7f0303c6
 com.example.btl_ptud_android:attr/layout_constraintBottom_creator = 0x7f03028f
@@ -3592,7 +4516,11 @@ com.example.btl_ptud_android:color/bright_foreground_disabled_material_light = 0
 com.example.btl_ptud_android:drawable/ic_other_sign_in = 0x7f0700c2
 com.example.btl_ptud_android:color/background_floating_material_light = 0x7f05001e
 com.example.btl_ptud_android:style/Base.Theme.Material3.Light.SideSheetDialog = 0x7f110065
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/wide = 0x7f080239
+=======
 com.example.btl_ptud_android:id/wide = 0x7f08024d
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/sideSheetModalStyle = 0x7f0303df
 com.example.btl_ptud_android:color/m3_ref_palette_dynamic_neutral70 = 0x7f0500bd
 com.example.btl_ptud_android:color/m3_fab_efab_background_color_selector = 0x7f050099
@@ -3627,8 +4555,13 @@ com.example.btl_ptud_android:id/btnAnswerD = 0x7f080074
 com.example.btl_ptud_android:attr/chipCornerRadius = 0x7f0300c0
 com.example.btl_ptud_android:attr/actionModePasteDrawable = 0x7f030019
 com.example.btl_ptud_android:attr/srcCompat = 0x7f0303f6
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_card_foreground_color = 0x7f05007a
+com.example.btl_ptud_android:id/vertical = 0x7f08022e
+=======
 com.example.btl_ptud_android:color/m3_card_foreground_color = 0x7f05007c
 com.example.btl_ptud_android:id/vertical = 0x7f080242
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:color/abc_btn_colored_borderless_text_material = 0x7f050002
 com.example.btl_ptud_android:attr/statusBarScrim = 0x7f03040c
 com.example.btl_ptud_android:color/abc_background_cache_hint_selector_material_light = 0x7f050001
@@ -3637,7 +4570,11 @@ com.example.btl_ptud_android:bool/mtrl_btn_textappearance_all_caps = 0x7f040002
 com.example.btl_ptud_android:attr/drawableSize = 0x7f030193
 com.example.btl_ptud_android:attr/yearStyle = 0x7f0304f5
 com.example.btl_ptud_android:attr/windowNoTitle = 0x7f0304f3
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/textinput_prefix_text = 0x7f080211
+=======
 com.example.btl_ptud_android:id/textinput_prefix_text = 0x7f08021d
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/m3_appbar_scrim_height_trigger = 0x7f0600a8
 com.example.btl_ptud_android:attr/windowMinWidthMinor = 0x7f0304f2
 com.example.btl_ptud_android:attr/flow_maxElementsWrap = 0x7f0301fb
@@ -3777,7 +4714,11 @@ com.example.btl_ptud_android:attr/thumbTextPadding = 0x7f030490
 com.example.btl_ptud_android:attr/motionDurationShort1 = 0x7f03033d
 com.example.btl_ptud_android:attr/tabUnboundedRipple = 0x7f03043e
 com.example.btl_ptud_android:attr/thumbIconTintMode = 0x7f03048c
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/visible = 0x7f080236
+=======
 com.example.btl_ptud_android:id/visible = 0x7f08024a
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/selectionRequired = 0x7f0303c4
 com.example.btl_ptud_android:attr/thumbIconTint = 0x7f03048b
 com.example.btl_ptud_android:style/Theme.Material3.Light.Dialog.MinWidth = 0x7f110249
@@ -4265,8 +5206,14 @@ com.example.btl_ptud_android:drawable/common_google_signin_btn_icon_light = 0x7f
 com.example.btl_ptud_android:attr/hoveredFocusedTranslationZ = 0x7f030237
 com.example.btl_ptud_android:attr/cornerRadius = 0x7f030158
 com.example.btl_ptud_android:attr/pathMotionArc = 0x7f030385
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/edtOption1 = 0x7f080250
+com.example.btl_ptud_android:color/m3_elevated_chip_background_color = 0x7f050096
+com.example.btl_ptud_android:style/Platform.MaterialComponents.Light.Dialog = 0x7f110140
+=======
 com.example.btl_ptud_android:color/m3_elevated_chip_background_color = 0x7f050098
 com.example.btl_ptud_android:style/Platform.MaterialComponents.Light.Dialog = 0x7f110141
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/defaultQueryHint = 0x7f030179
 com.example.btl_ptud_android:attr/colorErrorContainer = 0x7f030101
 com.example.btl_ptud_android:attr/navigationViewStyle = 0x7f030364
@@ -4615,9 +5562,15 @@ com.example.btl_ptud_android:drawable/background_menu = 0x7f070080
 com.example.btl_ptud_android:attr/badgeTextAppearance = 0x7f030059
 com.example.btl_ptud_android:color/material_personalized_color_error = 0x7f05028f
 com.example.btl_ptud_android:dimen/mtrl_extended_fab_translation_z_hovered_focused = 0x7f0602b6
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/visible_removing_fragment_view_tag = 0x7f080237
+com.example.btl_ptud_android:id/chains = 0x7f080093
+com.example.btl_ptud_android:color/m3_ref_palette_error0 = 0x7f050104
+=======
 com.example.btl_ptud_android:id/visible_removing_fragment_view_tag = 0x7f08024b
 com.example.btl_ptud_android:id/chains = 0x7f080099
 com.example.btl_ptud_android:color/m3_ref_palette_error0 = 0x7f050106
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/subtitleTextColor = 0x7f030418
 com.example.btl_ptud_android:drawable/material_ic_calendar_black_24dp = 0x7f0700d9
 com.example.btl_ptud_android:attr/layout_constraintGuide_percent = 0x7f03029a
@@ -4660,7 +5613,11 @@ com.example.btl_ptud_android:style/Base.Theme.MaterialComponents = 0x7f110066
 com.example.btl_ptud_android:color/abc_secondary_text_material_light = 0x7f050012
 com.example.btl_ptud_android:drawable/notification_bg_low_normal = 0x7f07010b
 com.example.btl_ptud_android:dimen/mtrl_progress_circular_size = 0x7f0602db
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/top = 0x7f08021a
+=======
 com.example.btl_ptud_android:id/top = 0x7f080226
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/layoutDescription = 0x7f030281
 com.example.btl_ptud_android:anim/abc_shrink_fade_out_from_bottom = 0x7f010005
 com.example.btl_ptud_android:attr/errorAccessibilityLiveRegion = 0x7f0301b5
@@ -4674,8 +5631,13 @@ com.example.btl_ptud_android:attr/textEndPadding = 0x7f030470
 com.example.btl_ptud_android:attr/layout_constraintWidth_default = 0x7f0302b3
 com.example.btl_ptud_android:style/ShapeAppearance.Material3.Corner.Large = 0x7f110177
 com.example.btl_ptud_android:attr/lastBaselineToBottomHeight = 0x7f03027e
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/with_icon = 0x7f08023b
+com.example.btl_ptud_android:id/useLogo = 0x7f08022d
+=======
 com.example.btl_ptud_android:id/with_icon = 0x7f08024f
 com.example.btl_ptud_android:id/useLogo = 0x7f080241
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:dimen/mtrl_exposed_dropdown_menu_popup_elevation = 0x7f0602a5
 com.example.btl_ptud_android:macro/m3_comp_switch_selected_hover_handle_color = 0x7f0c0125
 com.example.btl_ptud_android:attr/drawableTint = 0x7f030195
@@ -4700,6 +5662,7 @@ com.example.btl_ptud_android:color/m3_tabs_ripple_color_secondary = 0x7f05020e
 com.example.btl_ptud_android:style/TextAppearance.AppCompat.Tooltip = 0x7f1101b5
 com.example.btl_ptud_android:attr/itemTextAppearanceInactive = 0x7f030273
 com.example.btl_ptud_android:attr/passwordToggleDrawable = 0x7f030381
+com.example.btl_ptud_android:id/edtOption3 = 0x7f080252
 com.example.btl_ptud_android:macro/m3_comp_date_picker_modal_year_selection_year_selected_label_text_color = 0x7f0c0020
 com.example.btl_ptud_android:color/abc_primary_text_material_dark = 0x7f05000b
 com.example.btl_ptud_android:attr/itemSpacing = 0x7f03026d
@@ -4752,6 +5715,7 @@ com.example.btl_ptud_android:attr/fontProviderAuthority = 0x7f030204
 com.example.btl_ptud_android:attr/isLightTheme = 0x7f030254
 com.example.btl_ptud_android:animator/mtrl_extended_fab_hide_motion_spec = 0x7f02001b
 com.example.btl_ptud_android:dimen/m3_comp_switch_selected_focus_state_layer_opacity = 0x7f060196
+com.example.btl_ptud_android:layout/item_question = 0x7f0b007a
 com.example.btl_ptud_android:attr/indicatorDirectionLinear = 0x7f03024e
 com.example.btl_ptud_android:attr/contentInsetRight = 0x7f030144
 com.example.btl_ptud_android:macro/m3_comp_radio_button_selected_focus_state_layer_color = 0x7f0c00d9
@@ -4771,6 +5735,7 @@ com.example.btl_ptud_android:style/ThemeOverlay.MaterialComponents.MaterialAlert
 com.example.btl_ptud_android:color/foreground_material_light = 0x7f05006c
 com.example.btl_ptud_android:attr/showDelay = 0x7f0303d6
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_legacy_accelerate_control_x1 = 0x7f060200
+com.example.btl_ptud_android:id/btnDelete = 0x7f08024e
 com.example.btl_ptud_android:style/Base.DialogWindowTitle.AppCompat = 0x7f110011
 com.example.btl_ptud_android:attr/iconPadding = 0x7f03023b
 com.example.btl_ptud_android:dimen/mtrl_progress_circular_track_thickness_extra_small = 0x7f0602df
@@ -5244,7 +6209,11 @@ com.example.btl_ptud_android:color/m3_sys_color_dynamic_dark_surface_container_l
 com.example.btl_ptud_android:attr/onHide = 0x7f03036c
 com.example.btl_ptud_android:dimen/mtrl_card_spacing = 0x7f0602a2
 com.example.btl_ptud_android:string/mtrl_picker_text_input_month_abbr = 0x7f1000a7
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/view_tree_on_back_pressed_dispatcher_owner = 0x7f080233
+=======
 com.example.btl_ptud_android:id/view_tree_on_back_pressed_dispatcher_owner = 0x7f080247
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/colorPrimaryDark = 0x7f03011b
 com.example.btl_ptud_android:attr/fontProviderFetchStrategy = 0x7f030207
 com.example.btl_ptud_android:macro/m3_comp_navigation_drawer_active_pressed_icon_color = 0x7f0c0081
@@ -5267,10 +6236,17 @@ com.example.btl_ptud_android:attr/springMass = 0x7f0303f3
 com.example.btl_ptud_android:color/m3_dark_default_color_primary_text = 0x7f050086
 com.example.btl_ptud_android:style/Widget.AppCompat.SearchView = 0x7f11032e
 com.example.btl_ptud_android:dimen/abc_action_bar_default_padding_start_material = 0x7f060004
+<<<<<<< HEAD
+com.example.btl_ptud_android:drawable/notify_panel_notification_icon_bg = 0x7f070112
+com.example.btl_ptud_android:color/m3_sys_color_light_secondary_container = 0x7f0501f1
+com.example.btl_ptud_android:id/x_left = 0x7f080240
+com.example.btl_ptud_android:id/matrix = 0x7f080140
+=======
 com.example.btl_ptud_android:drawable/notify_panel_notification_icon_bg = 0x7f070114
 com.example.btl_ptud_android:color/m3_sys_color_light_secondary_container = 0x7f0501f3
 com.example.btl_ptud_android:id/x_left = 0x7f080254
 com.example.btl_ptud_android:id/matrix = 0x7f080147
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:anim/btn_radio_to_on_mtrl_ring_outer_path_animation = 0x7f010017
 com.example.btl_ptud_android:string/copy_toast_msg = 0x7f100043
 com.example.btl_ptud_android:attr/buttonGravity = 0x7f030090
@@ -5568,7 +6544,12 @@ com.example.btl_ptud_android:color/secondary_text_default_material_dark = 0x7f05
 com.example.btl_ptud_android:color/m3_checkbox_button_icon_tint = 0x7f05007f
 com.example.btl_ptud_android:drawable/abc_list_longpressed_holo = 0x7f070050
 com.example.btl_ptud_android:style/Base.V14.Theme.Material3.Dark = 0x7f11008a
+<<<<<<< HEAD
+com.example.btl_ptud_android:color/m3_sys_color_dark_on_surface = 0x7f050176
+com.example.btl_ptud_android:id/btnDeleteCategory = 0x7f08024a
+=======
 com.example.btl_ptud_android:color/m3_sys_color_dark_on_surface = 0x7f050178
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/collapsingToolbarLayoutLargeSize = 0x7f0300f3
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_standard_accelerate_control_y1 = 0x7f060212
 com.example.btl_ptud_android:dimen/m3_sys_motion_easing_legacy_control_x2 = 0x7f060205
@@ -5684,7 +6665,11 @@ com.example.btl_ptud_android:attr/counterEnabled = 0x7f03015e
 com.example.btl_ptud_android:attr/layout_collapseMode = 0x7f030287
 com.example.btl_ptud_android:drawable/abc_text_select_handle_left_mtrl = 0x7f07006f
 com.example.btl_ptud_android:attr/autoShowKeyboard = 0x7f03003f
+<<<<<<< HEAD
+com.example.btl_ptud_android:id/transition_pause_alpha = 0x7f080223
+=======
 com.example.btl_ptud_android:id/transition_pause_alpha = 0x7f08022f
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 com.example.btl_ptud_android:attr/attributeName = 0x7f03003b
 com.example.btl_ptud_android:attr/arrowShaftLength = 0x7f03003a
 com.example.btl_ptud_android:style/Theme.AppCompat.DayNight.DialogWhenLarge = 0x7f110218

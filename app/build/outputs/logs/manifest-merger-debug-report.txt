@@ -193,6 +193,11 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Admin\.gradle\c
 	android:theme
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:13:9-54
 	android:dataExtractionRules
+<<<<<<< HEAD
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.example.btl_ptud_android.activities.QuestionDetailActivity
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:15:9-17:40
+=======
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:7:9-65
 activity#com.example.btl_ptud_android.activities.ChangePasswordActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:15:9-17:40
@@ -220,22 +225,45 @@ ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:25:13-56
 activity#com.example.btl_ptud_android.activities.QuestionActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:27:9-29:40
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
+<<<<<<< HEAD
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:16:13-62
+activity#com.example.btl_ptud_android.activities.QuestionActivity
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:18:9-20:40
+=======
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:28:13-56
 activity#com.example.btl_ptud_android.activities.ForgotPasswordActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:30:9-32:40
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
+<<<<<<< HEAD
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:19:13-56
+activity#com.example.btl_ptud_android.activities.ForgotPasswordActivity
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:21:9-23:40
+=======
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:31:13-62
 activity#com.example.btl_ptud_android.activities.AddLibraryActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:33:9-35:40
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 	android:exported
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
+<<<<<<< HEAD
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:22:13-62
+activity#com.example.btl_ptud_android.activities.AddLibraryActivity
+ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:24:10-26:37
+	android:exported
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:26:10-34
+	android:name
+		ADDED from C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:25:10-55
+=======
 		ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:34:13-58
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 activity#com.example.btl_ptud_android.activities.HomeLoginActivity
 ADDED from C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:36:9-44:20
 	android:exported

@@ -32,6 +32,70 @@
 19-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Admin\.gradle\caches\transforms-4\20d1713288e9027fa23114310572d29b\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:5-98
 19-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Admin\.gradle\caches\transforms-4\20d1713288e9027fa23114310572d29b\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:22-95
 20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+<<<<<<< HEAD
+20-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\ADMIN\.gradle\caches\transforms-4\a1c28b64197cb371ddfc1c377bf98608\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\ADMIN\.gradle\caches\transforms-4\a1c28b64197cb371ddfc1c377bf98608\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+21
+22    <permission
+22-->[androidx.core:core:1.15.0] C:\Users\ADMIN\.gradle\caches\transforms-4\c1ac7f259364f7b2905ea5d4182da74c\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.btl_ptud_android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.15.0] C:\Users\ADMIN\.gradle\caches\transforms-4\c1ac7f259364f7b2905ea5d4182da74c\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.15.0] C:\Users\ADMIN\.gradle\caches\transforms-4\c1ac7f259364f7b2905ea5d4182da74c\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.btl_ptud_android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.15.0] C:\Users\ADMIN\.gradle\caches\transforms-4\c1ac7f259364f7b2905ea5d4182da74c\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.15.0] C:\Users\ADMIN\.gradle\caches\transforms-4\c1ac7f259364f7b2905ea5d4182da74c\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:5:5-52:19
+29        android:allowBackup="true"
+29-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:6:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.15.0] C:\Users\ADMIN\.gradle\caches\transforms-4\c1ac7f259364f7b2905ea5d4182da74c\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:7:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:8:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:9:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:10:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:11:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:12:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.Btl_ptud_android" >
+40-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:13:9-54
+41        <activity
+41-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:15:9-17:40
+42            android:name="com.example.btl_ptud_android.activities.QuestionDetailActivity"
+42-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:16:13-62
+43            android:exported="false" />
+43-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:17:13-37
+44        <activity
+44-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:18:9-20:40
+45            android:name="com.example.btl_ptud_android.activities.QuestionActivity"
+45-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:19:13-56
+46            android:exported="false" />
+46-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:20:13-37
+47        <activity
+47-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:21:9-23:40
+48            android:name="com.example.btl_ptud_android.activities.ForgotPasswordActivity"
+48-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:22:13-62
+49            android:exported="false" />
+49-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:23:13-37
+50        <activity
+50-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:24:10-26:37
+51            android:name="com.example.btl_ptud_android.activities.AddLibraryActivity"
+51-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:25:10-55
+52            android:exported="false" />
+52-->C:\Users\ADMIN\AndroidStudioProjects\btl_ptud_android\app\src\main\AndroidManifest.xml:26:10-34
+53        <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
+=======
 20-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Admin\.gradle\caches\transforms-4\f560ba6d7352d5152de665334876d624\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
 20-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Admin\.gradle\caches\transforms-4\f560ba6d7352d5152de665334876d624\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
 21    <uses-permission android:name="android.permission.REORDER_TASKS" />
@@ -96,6 +160,7 @@
 52-->C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:25:13-56
 53            android:exported="false" />
 53-->C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:26:13-37
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
 54        <activity
 54-->C:\Users\Admin\Desktop\AndroidStu\btl_ptud_android-feature-login_user_admin_reup\app\src\main\AndroidManifest.xml:27:9-29:40
 55            android:name="com.example.btl_ptud_android.activities.QuestionActivity"

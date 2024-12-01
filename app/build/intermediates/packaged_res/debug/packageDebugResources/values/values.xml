@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="correct_answers">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="green">#4CAF50</color>
     <color name="light_green">#78AF3C</color>

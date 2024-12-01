@@ -40,6 +40,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Btl_ptud_android" >
         <activity
+<<<<<<< HEAD
+            android:name="com.example.btl_ptud_android.activities.QuestionDetailActivity"
+=======
             android:name="com.example.btl_ptud_android.activities.ChangePasswordActivity"
             android:exported="false" />
         <activity
@@ -50,6 +53,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.HomeUserActivity"
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.QuestionActivity"
@@ -59,7 +63,12 @@
             android:exported="false" />
         <activity
             android:name="com.example.btl_ptud_android.activities.AddLibraryActivity"
+<<<<<<< HEAD
+            android:exported="false" />
+        <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
+=======
             android:exported="false" /> <!-- sửa tạm để thi công màn hình danh sách bộ câu hỏi -->
+>>>>>>> ce7f564f6dc04cd19c25b88d2d07cf902ee084e1
         <activity
             android:name="com.example.btl_ptud_android.activities.HomeLoginActivity"
             android:exported="true" >
