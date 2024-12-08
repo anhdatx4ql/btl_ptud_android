@@ -50,7 +50,14 @@ class PlayQuizActivity : AppCompatActivity() {
         // Kiểm tra câu trả lời của người dùng
         binding.txtIsCorrect.visibility = View.GONE
         binding.txtIsNotCorrect.visibility = View.GONE
-        val isCorrect = true; //question.answerTrue.name == selectedAnswer
+
+
+        var isCorrect = true; //question.answerTrue.name == selectedAnswer
+
+        if (question.answerTrue != selectedAnswer){
+            isCorrect = false
+        }
+
 
         // Cập nhật giao diện theo kết quả
         if (isCorrect) {
@@ -233,23 +240,24 @@ class PlayQuizActivity : AppCompatActivity() {
 
                         // Lấy và chuyển đổi answerTrue
                         val answerTrueString = snapData.child("answerTrue").value.toString()
-                        val answerTrue = when (answerTrueString) {
-                            "A" -> 1
-                            "B" -> 2
-                            "C" -> 3
-                            "D" -> 4
-                            else -> {
-                                Log.e("LoadQuestion", "Invalid answerTrue value: $answerTrueString")
-                                -1
-                            }
-                        }
+//                        val answerTrue = when (answerTrueString) {
+//                            "A" -> 1
+//                            "B" -> 2
+//                            "C" -> 3
+//                            "D" -> 4
+//                            else -> {
+//                                Log.e("LoadQuestion", "Invalid answerTrue value: $answerTrueString")
+//                                -1
+//                            }
+//                        }
 
                         //add question vao list
                         if (category_ID == categoryId) {
                             val model = Questions(
                                 category_ID, id, title, answerA,
-                                answerB, answerC, answerD, "A", sort_order
+                                answerB, answerC, answerD, answerTrueString, sort_order
                             )
+                            Log.d("answer",answerTrueString)
                             questionsList.add(model)
                         }
                     }
